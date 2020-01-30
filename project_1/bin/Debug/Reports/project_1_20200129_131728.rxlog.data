@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.51s"
+		durationms="6508"
+		type="root"
+		rid="7bc26db82865f62"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vagrant"
+		rxversion="9.2.1.0"
+		host="VAGRANT-10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x950"
+		timestamp="1/29/2020 1:17:28 PM"
+		timestampiso="2020-01-29T21:17:28"
+		endtime="1/29/2020 1:17:35 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="492ms"
+			durationms="492"
+			type="test-suite"
+			rid="1ea270c255798c8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="project_1"
+			headertext="project_1"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="341ms"
+				durationms="341"
+				type="test-case"
+				rid="150d96b3e63a34c0"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="d7f231ea-f599-42ed-8baf-6ff5efc61dfb"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="307ms"
+					durationms="307"
+					type="test-module"
+					rid="41d0d38179b5448"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Rec_project_1"
+					displayName="Rec_project_1"
+					moduleid="57c7e15f-7e93-483c-aba1-487eee10d1a7"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Object reference not set to an instance of an object.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.199"
+						timeRelativeToTestModuleStartTime="00:00.024"
+						timeWallClock="13:17:34"
+						time="00:00.199"
+						level="Error"
+						category="Module"
+						errimg="images_project__957abf1a\project__957abf1a_689460e7_trace.jpg"
+						errthumb="images_project__957abf1a\project__957abf1a_689460e7_trace_thumb.jpg">
+						<message>
+							Object reference not set to an instance of an object.
+						</message>
+						<metainfo
+							stacktrace="   at project_1.Rec_project_1.show_app_config() in c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.UserCode.cs:line 40
+   at project_1.Rec_project_1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.UserCode.cs"
+							codeline="40"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

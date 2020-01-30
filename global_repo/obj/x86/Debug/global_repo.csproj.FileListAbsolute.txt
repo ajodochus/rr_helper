@@ -1,0 +1,7 @@
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\bin\Debug\global_repo.xml
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\bin\Debug\global_repo.dll
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\bin\Debug\global_repo.pdb
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\obj\x86\Debug\global_repo.csprojResolveAssemblyReference.cache
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\obj\x86\Debug\global_repo.dll
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\obj\x86\Debug\global_repo.pdb

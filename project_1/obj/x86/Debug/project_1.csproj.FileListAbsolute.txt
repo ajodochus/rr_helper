@@ -1,0 +1,10 @@
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\obj\x86\Debug\project_1.csprojResolveAssemblyReference.cache
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\bin\Debug\project_1.rxtmg
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\bin\Debug\project_1.rxtst
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\bin\Debug\project_1.exe.config
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\bin\Debug\project_1.xml
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\bin\Debug\project_1.exe
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\bin\Debug\project_1.pdb
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\obj\x86\Debug\project_1.exe
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\obj\x86\Debug\project_1.pdb

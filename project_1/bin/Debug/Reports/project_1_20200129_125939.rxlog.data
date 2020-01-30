@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="73678"
+		type="root"
+		rid="18aa8df9adde5928"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vagrant"
+		rxversion="9.2.1.0"
+		host="VAGRANT-10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x950"
+		timestamp="1/29/2020 12:59:39 PM"
+		timestampiso="2020-01-29T20:59:39"
+		endtime="1/29/2020 1:00:53 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1m"
+			durationms="62041"
+			type="test-suite"
+			rid="26ec5d2b9d51d8f1"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="project_1"
+			headertext="project_1"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="1m"
+				durationms="61767"
+				type="test-case"
+				rid="1f0836c04bf4260"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="d7f231ea-f599-42ed-8baf-6ff5efc61dfb"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="1m"
+					durationms="61665"
+					type="test-module"
+					rid="9728b06a8d4cda6"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Rec_project_1"
+					displayName="Rec_project_1"
+					moduleid="57c7e15f-7e93-483c-aba1-487eee10d1a7"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to find item 'global_repo.Explorer.FileExplorer'.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.408"
+						timeRelativeToTestModuleStartTime="00:00.041"
+						timeWallClock="12:59:51"
+						time="00:00.408"
+						level="Info"
+						category="Mouse"
+						errimg="images_project__25715e3e\project__25715e3e_c3b5e269_trace.jpg"
+						errthumb="images_project__25715e3e\project__25715e3e_c3b5e269_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'Explorer.FileExplorer' at 25;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/menubar[@processname='explorer']/form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']"
+							itempath="form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']"
+							fullname="global_repo.Explorer.FileExplorer"
+							id="f180434a15fb4fc680b82611763d08d3"
+							timeout="60000"
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:01.706"
+						timeRelativeToTestModuleStartTime="01:01.340"
+						timeWallClock="13:00:53"
+						time="01:01.706"
+						level="Error"
+						category="Module"
+						errimg="images_project__25715e3e\project__25715e3e_99b0c9d4_trace.jpg"
+						errthumb="images_project__25715e3e\project__25715e3e_99b0c9d4_trace_thumb.jpg">
+						<message>
+							Failed to find item 'global_repo.Explorer.FileExplorer'.<br/>No element found for path '/menubar[@processname='explorer']/form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']' at step 'button[@accessiblename='File Explorer']' after 148 attempts within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at global_repo.global_repoFolders.ExplorerAppFolder.get_FileExplorer() in c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\global_repo.cs:line 157&#13;&#10;   at project_1.Rec_project_1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.cs"
+							codeline="83"
+							type="repoitem"
+							path="/menubar[@processname='explorer']/form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']"
+							itempath="form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']"
+							fullname="global_repo.Explorer.FileExplorer"
+							id="f180434a15fb4fc680b82611763d08d3"
+							timeout="60000"
+							failedStep="button[@accessiblename='File Explorer']"
+							bestPathPrefix="/menubar[@processname='explorer']/form[@controlid='40965']/descendant-or-self::toolbar[@accessiblename='Running applications']"
+							loglvl="Error"
+							itemindex="0">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

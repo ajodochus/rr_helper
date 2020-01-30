@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="db6df1f9-ca19-45bd-8e50-e21e32940804"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Rec_project_2"
+	namespace="project_2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="700ms"
+		enabled="True"
+		loc="Center"
+		movetime="500ms"
+		optional="False"
+		searchpropertyid="f04c7fb0-b73b-4baa-ab2e-e24326ae305b"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e0d5b68a-ce5f-4921-b7c2-507f1a0e5fa9"
+			sourcename="RepositoryEditor">
+				<path>
+					/menubar[@processname='explorer']/form[@controlid='40965']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="937bfc73-dcfc-42f3-880a-3c60a32ce20a"
+	name="global_repo"
+	relativepath="..\global_repo\global_repo.rxrep">
+		<codegen
+		classname="global_repo"
+		namespace="global_repo">
+		</codegen>
+		<rootfolder
+		id="e8abadf6-fac5-414e-bd6b-9fe377c28278"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		rec_project_2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

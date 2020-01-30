@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>global_repo</name>
+    </assembly>
+    <members>
+        <member name="T:global_repo.global_repo">
+            <summary>
+            The class representing the global_repo element repository.
+            </summary>
+        </member>
+        <member name="M:global_repo.global_repo.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repo.Instance">
+            <summary>
+            Gets the singleton class instance representing the global_repo element repository.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repo.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repo.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="T:global_repo.global_repoFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:global_repo.global_repoFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:global_repo.global_repoFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.MicrosoftEdge">
+            <summary>
+            The MicrosoftEdge item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.MicrosoftEdgeInfo">
+            <summary>
+            The MicrosoftEdge item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.FileExplorer">
+            <summary>
+            The FileExplorer item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.FileExplorerInfo">
+            <summary>
+            The FileExplorer item info.
+            </summary>
+        </member>
+        <member name="T:global_repo.MyClass">
+            <summary>
+            Description of MyClass.
+            </summary>
+        </member>
+    </members>
+</doc>
