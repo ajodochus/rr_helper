@@ -15,6 +15,7 @@ name="global_repo">
 		<appfolder
 		addcaps="menubar,nativewindow"
 		capname="menubar"
+		comment="git"
 		id="f57b2f6f-4012-450d-9660-de353ba14274"
 		isrooted="True"
 		name="Explorer"
