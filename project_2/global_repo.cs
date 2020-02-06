@@ -88,27 +88,29 @@ namespace global_repo
             RepoItemInfo _microsoftedgeInfo;
             RepoItemInfo _fileexplorerInfo;
             RepoItemInfo _testInfo;
+            RepoItemInfo _explorer1aktivesfensterInfo;
 
             /// <summary>
             /// Creates a new Explorer  folder.
             /// </summary>
             public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Explorer", "/menubar[@processname='explorer']/test", parentFolder, 30000, null, true, "f57b2f6f-4012-450d-9660-de353ba14274", "")
+                    base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "f57b2f6f-4012-450d-9660-de353ba14274", "")
             {
                 _microsoftedgeInfo = new RepoItemInfo(this, "MicrosoftEdge", "form[@controlid='40965']", 30000, null, "e0d5b68a-ce5f-4921-b7c2-507f1a0e5fa9");
                 _fileexplorerInfo = new RepoItemInfo(this, "FileExplorer", "form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']", 30000, null, "f180434a-15fb-4fc6-80b8-2611763d08d3");
-                _testInfo = new RepoItemInfo(this, "test", "element", 30000, null, "56354453-49a3-46a6-8996-5941bf201e4b");
+                _testInfo = new RepoItemInfo(this, "test", "element/element", 30000, null, "56354453-49a3-46a6-8996-5941bf201e4b");
+                _explorer1aktivesfensterInfo = new RepoItemInfo(this, "Explorer1AktivesFenster", "form[@controlid='40965']//toolbar[@accessiblename='Ausgeführte Anwendungen']/button[3]", 30000, null, "0b9fde6c-fbb9-4b33-b8b7-e7179c5a177d");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
             [RepositoryItem("f57b2f6f-4012-450d-9660-de353ba14274")]
-            public virtual Ranorex.Unknown Self
+            public virtual Ranorex.MenuBar Self
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.Unknown>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
                 }
             }
 
@@ -193,6 +195,30 @@ namespace global_repo
                 get
                 {
                     return _testInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Explorer1AktivesFenster item.
+            /// </summary>
+            [RepositoryItem("0b9fde6c-fbb9-4b33-b8b7-e7179c5a177d")]
+            public virtual Ranorex.Button Explorer1AktivesFenster
+            {
+                get
+                {
+                    return _explorer1aktivesfensterInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Explorer1AktivesFenster item info.
+            /// </summary>
+            [RepositoryItemInfo("0b9fde6c-fbb9-4b33-b8b7-e7179c5a177d")]
+            public virtual RepoItemInfo Explorer1AktivesFensterInfo
+            {
+                get
+                {
+                    return _explorer1aktivesfensterInfo;
                 }
             }
         }

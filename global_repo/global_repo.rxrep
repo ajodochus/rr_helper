@@ -14,7 +14,7 @@ name="global_repo">
 	usecache="True">
 		<appfolder
 		addcaps="menubar,nativewindow"
-		capname="unknown"
+		capname="menubar"
 		comment="git"
 		id="f57b2f6f-4012-450d-9660-de353ba14274"
 		isrooted="True"
@@ -28,7 +28,7 @@ name="global_repo">
 			name="MicrosoftEdge"
 			refimgid="61c3a5b3-1edc-4d93-9601-e5d0527c93b4"
 			searchtimeout="30000ms">
-				/menubar[@processname='explorer']/test/form[@controlid='40965']
+				/menubar[@processname='explorer']/form[@controlid='40965']
 			</item>
 			<item
 			addcaps="button,accessible"
@@ -37,10 +37,27 @@ name="global_repo">
 			name="FileExplorer"
 			refimgid="3b93605d-9f77-4b67-aff9-0688392ff8b4"
 			searchtimeout="30000ms">
-				/menubar[@processname='explorer']/test/form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']
+				/menubar[@processname='explorer']/form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']
+			</item>
+			<item
+			capname="unknown"
+			id="56354453-49a3-46a6-8996-5941bf201e4b"
+			name="test"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/element/element
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="0b9fde6c-fbb9-4b33-b8b7-e7179c5a177d"
+			name="Explorer1AktivesFenster"
+			refimgid="034e3f55-574c-438e-a17e-4fa16dc5529a"
+			refpath="/menubar[@processname='explorer']/form/container/element/toolbar/button[3]"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/form[@controlid='40965']//toolbar[@accessiblename='Ausgef&#252;hrte Anwendungen']/button[3]
 			</item>
 			<basepath>
-				/menubar[@processname='explorer']/test
+				/menubar[@processname='explorer']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN

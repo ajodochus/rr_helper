@@ -79,8 +79,12 @@ namespace project_1
 
             Init();
 
-            show_app_config();
-            Delay.Milliseconds(0);
+            //show_app_config();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.FileExplorer' at Center.", repo.Explorer.FileExplorerInfo, new RecordItemIndex(1));
+            repo.Explorer.FileExplorer.Click();
+            Delay.Milliseconds(200);
             
         }
 

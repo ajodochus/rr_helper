@@ -27,7 +27,7 @@ mode="Global">
 	<recorditems>
 		<userrecorditem
 		classname="Rec_project_1"
-		enabled="True"
+		enabled="False"
 		isexternaltestmethod="False"
 		methodname="show_app_config"
 		namespace="project_1"
@@ -40,6 +40,30 @@ mode="Global">
 			id="69c9094b-cc56-4e03-a27d-d6ec7d379aab">
 			</arguments>
 		</userrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="700ms"
+		enabled="True"
+		loc="Center"
+		movetime="500ms"
+		optional="False"
+		searchpropertyid="82870c53-be30-4bbe-b651-69bbe85a0542"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f180434a-15fb-4fc6-80b8-2611763d08d3"
+			sourcename="RepositoryEditor">
+				<path>
+					/menubar[@processname='explorer']/form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']
+				</path>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="937bfc73-dcfc-42f3-880a-3c60a32ce20a"

@@ -1,11 +1,7 @@
 ﻿<Properties>
   <Array name="active" />
   <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="codemodules\Powershell_handler.cs" />
-    <Element value="Powershell_start_explorer_on_machine.rxrec" />
-    <Element value="project_2.rxtst" />
-  </Array>
+  <Array name="files" />
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />

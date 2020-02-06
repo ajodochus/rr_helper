@@ -88,6 +88,10 @@ namespace project_2
             //start_explorer();
             //Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.Explorer1AktivesFenster' at 20;26.", repo.Explorer.Explorer1AktivesFensterInfo, new RecordItemIndex(3));
+            repo.Explorer.Explorer1AktivesFenster.Click("20;26");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data
