@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project_1", "project_1\proj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project_2", "project_2\project_2.csproj", "{124FA085-09FE-4788-8C54-CDCE778FB107}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common_recordings", "common_recordings", "{50783921-844E-4FF1-AF71-818DC0331B22}"
+	ProjectSection(SolutionItems) = postProject
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -38,5 +42,6 @@ Global
 		{4CAAAB3E-16B3-4D4D-9D41-65BA728105F6} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
 		{B79DA9B0-0E52-48A2-9A2B-951C0B496917} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
 		{124FA085-09FE-4788-8C54-CDCE778FB107} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
+		{50783921-844E-4FF1-AF71-818DC0331B22} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
 	EndGlobalSection
 EndGlobal

@@ -79,9 +79,14 @@ namespace project_2
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.MicrosoftEdge' at Center.", repo.Explorer.MicrosoftEdgeInfo, new RecordItemIndex(0));
-            repo.Explorer.MicrosoftEdge.Click();
-            Delay.Milliseconds(200);
+            //powershell();
+            //Delay.Milliseconds(0);
+            
+            //get_process_command_line();
+            //Delay.Milliseconds(0);
+            
+            //start_explorer();
+            //Delay.Milliseconds(0);
             
         }
 

@@ -14,6 +14,8 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using System.Collections.ObjectModel;
+using System.Management.Automation;
 
 using Ranorex;
 using Ranorex.Core;
@@ -22,7 +24,7 @@ using Ranorex.Core.Testing;
 
 namespace project_2
 {
-    public partial class Rec_project_2
+	public partial class Rec_project_2:codemodules.Powershell_handler
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -31,6 +33,112 @@ namespace project_2
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        private void powershell()
+        {
+           using (PowerShell PowerShellInstance = PowerShell.Create())
+    {
+        // this script has a sleep in it to simulate a long running script
+        //PowerShellInstance.AddScript("start-sleep -s 7; get-service");
+        PowerShellInstance.AddScript(@"c:\windows\explorer.exe; start-sleep -s 7");
+        
+
+        // begin invoke execution on the pipeline
+        IAsyncResult result = PowerShellInstance.BeginInvoke();
+
+        // do something else until execution has completed.
+        // this could be sleep/wait, or perhaps some other work
+        while (result.IsCompleted == false)
+        {
+            Console.WriteLine("Waiting for pipeline to finish...");
+            Thread.Sleep(1000);
+
+            // might want to place a timeout here...
+        }
+
+        Console.WriteLine("Finished!");
+    }
+        }
+
+        
+        /// <summary>
+        /// This method get's an commandline argument from a specific process on a local or remote machine
+        /// /https://www.howtogeek.com/117192/how-to-run-powershell-commands-on-remote-computers/
+		/// Do this steps to enable remote powershell actions between VMs
+		/// Enable-PSRemoting -Force
+		/// Set-Item wsman:\localhost\client\trustedhosts *
+		/// Restart-Service WinRM
+        /// </summary>
+        private void get_process_command_line()
+        {
+           using (PowerShell powerShell = PowerShell.Create()){
+
+		
+	        		powerShell.AddScript("$Username = 'vagrant';" +
+	        		                     "$Password = 'vagrant';" +
+	        		                     "$pass = ConvertTo-SecureString -AsPlainText $Password -Force;" +
+	        		                     "$Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass;" +
+	        		                     "Invoke-Command -ComputerName vagrant-1 -ScriptBlock { Get-CimInstance Win32_Process -Filter \"name = 'explorer.exe'\" | select CommandLine} -credential $Cred");
+			
+			  // invoke execution on the pipeline (collecting output)
+			  Collection<PSObject> PSOutput = powerShell.Invoke();                
+			  Ranorex.Report.Info("count objects; " + PSOutput.Count);
+			  // loop through each output object item
+			  foreach (PSObject outputItem in PSOutput)
+			  {
+			     // if null object was dumped to the pipeline during the script then a null object may be present here
+			     if (outputItem != null)
+			     {       
+			     	string val = outputItem.Properties["CommandLine"].Value.ToString();
+			     	Ranorex.Report.Info("ps out: " + val);
+			     	
+			
+			        //Console.WriteLine($"Output line: [{outputItem}]");
+			     }
+			   }     
+			
+			   // check the other output streams (for example, the error stream)
+			   if (powerShell.Streams.Error.Count > 0)
+			   {
+			      // error records were written to the error stream.
+			      // Do something with the error
+			   }
+			} 
+        }
+
+        public void start_explorer()
+        {
+             using (PowerShell powerShell = PowerShell.Create()){
+
+		
+	        		powerShell.AddScript("$Username = 'vagrant';" +
+	        		                     "$Password = 'vagrant';" +
+	        		                     "$pass = ConvertTo-SecureString -AsPlainText $Password -Force;" +
+	        		                     "$Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass;" +
+	        		                     "Invoke-Command -ComputerName vagrant-1 -ScriptBlock { C:\\windows\\explorer.exe} -credential $Cred");
+			
+			  // invoke execution on the pipeline (collecting output)
+			  Collection<PSObject> PSOutput = powerShell.Invoke();                
+			  Ranorex.Report.Info("count objects; " + PSOutput.Count);
+			  // loop through each output object item
+			  foreach (PSObject outputItem in PSOutput)
+			  {
+			     // if null object was dumped to the pipeline during the script then a null object may be present here
+			     if (outputItem != null)
+			     {       
+			     	Ranorex.Report.Info("ps out: " + outputItem);
+			        //Console.WriteLine($"Output line: [{outputItem}]");
+			     }
+			   }     
+			
+			   // check the other output streams (for example, the error stream)
+			   if (powerShell.Streams.Error.Count > 0)
+			   {
+			      // error records were written to the error stream.
+			      // Do something with the error
+			   }
+			} 
         }
 
     }

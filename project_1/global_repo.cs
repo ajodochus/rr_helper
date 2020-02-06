@@ -87,26 +87,28 @@ namespace global_repo
         {
             RepoItemInfo _microsoftedgeInfo;
             RepoItemInfo _fileexplorerInfo;
+            RepoItemInfo _testInfo;
 
             /// <summary>
             /// Creates a new Explorer  folder.
             /// </summary>
             public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "f57b2f6f-4012-450d-9660-de353ba14274", "")
+                    base("Explorer", "/menubar[@processname='explorer']/test", parentFolder, 30000, null, true, "f57b2f6f-4012-450d-9660-de353ba14274", "")
             {
                 _microsoftedgeInfo = new RepoItemInfo(this, "MicrosoftEdge", "form[@controlid='40965']", 30000, null, "e0d5b68a-ce5f-4921-b7c2-507f1a0e5fa9");
                 _fileexplorerInfo = new RepoItemInfo(this, "FileExplorer", "form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']", 30000, null, "f180434a-15fb-4fc6-80b8-2611763d08d3");
+                _testInfo = new RepoItemInfo(this, "test", "element", 30000, null, "56354453-49a3-46a6-8996-5941bf201e4b");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
             [RepositoryItem("f57b2f6f-4012-450d-9660-de353ba14274")]
-            public virtual Ranorex.MenuBar Self
+            public virtual Ranorex.Unknown Self
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.Unknown>(true);
                 }
             }
 
@@ -167,6 +169,30 @@ namespace global_repo
                 get
                 {
                     return _fileexplorerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The test item.
+            /// </summary>
+            [RepositoryItem("56354453-49a3-46a6-8996-5941bf201e4b")]
+            public virtual Ranorex.Unknown test
+            {
+                get
+                {
+                    return _testInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The test item info.
+            /// </summary>
+            [RepositoryItemInfo("56354453-49a3-46a6-8996-5941bf201e4b")]
+            public virtual RepoItemInfo testInfo
+            {
+                get
+                {
+                    return _testInfo;
                 }
             }
         }

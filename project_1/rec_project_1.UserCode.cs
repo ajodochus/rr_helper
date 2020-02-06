@@ -35,8 +35,8 @@ namespace project_1
 
         public void show_app_config()
         {
-        	string value = ConfigurationManager.AppSettings.GetKey("DirectoryPath");
-Ranorex.Report.Info("key: " + value);
+        	// string value = ConfigurationManager.AppSettings.GetKey("DirectoryPath");
+			// Ranorex.Report.Info("key: " + value);
            // AppSettingsReader asr = new AppSettingsReader();
 
         }

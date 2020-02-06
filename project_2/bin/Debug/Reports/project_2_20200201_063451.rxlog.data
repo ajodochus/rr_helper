@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="10.11s"
+		durationms="10109"
+		type="root"
+		rid="2261ba8ea85f62b4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vagrant"
+		rxversion="9.2.1.0"
+		host="VAGRANT-10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x950"
+		timestamp="2/1/2020 6:34:51 AM"
+		timestampiso="2020-02-01T14:34:51"
+		endtime="2/1/2020 6:35:01 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.71s"
+			durationms="1709"
+			type="test-suite"
+			rid="2b4e99fc74b2311"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="project_2"
+			headertext="project_2"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.63s"
+				durationms="1629"
+				type="test-case"
+				rid="daccf6f84c7bc17"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="9ca79aa6-fe50-4c82-a53d-98a948502c75"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="1.55s"
+					durationms="1550"
+					type="test-module"
+					rid="9bc03163b4930f0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Rec_project_2"
+					displayName="Rec_project_2"
+					moduleid="db6df1f9-ca19-45bd-8e50-e21e32940804"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						The term 'Invoke-Command -ComputerName vagrant-10 -Credential vagrant -ScriptBlock { Get-Culture }' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.488"
+						timeRelativeToTestModuleStartTime="00:01.337"
+						timeWallClock="06:35:01"
+						time="00:01.488"
+						level="Error"
+						category="Module"
+						errimg="images_project__72d21fe4\project__72d21fe4_f1e5a59f_trace.jpg"
+						errthumb="images_project__72d21fe4\project__72d21fe4_f1e5a59f_trace_thumb.jpg">
+						<message>
+							The term 'Invoke-Command -ComputerName vagrant-10 -Credential vagrant -ScriptBlock { Get-Culture }' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+						</message>
+						<metainfo
+							stacktrace="   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.PowerShell.Worker.ConstructPipelineAndDoWork(Runspace rs, Boolean performSyncInvoke)
+   at System.Management.Automation.PowerShell.Worker.CreateRunspaceIfNeededAndDoWork(Runspace rsToUse, Boolean isSync)
+   at System.Management.Automation.PowerShell.CoreInvokeHelper[TInput,TOutput](PSDataCollection`1 input, PSDataCollection`1 output, PSInvocationSettings settings)
+   at System.Management.Automation.PowerShell.CoreInvoke[TInput,TOutput](PSDataCollection`1 input, PSDataCollection`1 output, PSInvocationSettings settings)
+   at System.Management.Automation.PowerShell.CoreInvoke[TOutput](IEnumerable input, PSDataCollection`1 output, PSInvocationSettings settings)
+   at System.Management.Automation.PowerShell.Invoke(IEnumerable input, PSInvocationSettings settings)
+   at System.Management.Automation.PowerShell.Invoke()
+   at project_2.Rec_project_2.powershell_2() in c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\rec_project_2.UserCode.cs:line 70
+   at project_2.Rec_project_2.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\rec_project_2.cs:line 85
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\rec_project_2.UserCode.cs"
+							codeline="70"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -2,17 +2,23 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="03c929cb-e012-4971-9d7e-c6ffb7fc0a7a"
+			name="get_vdog_scheduler_checkin_cmd"
+			ref="ab98337f-8b78-4c47-aea4-4489a55b8d9a"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="2a4c8300-f8f6-41ab-9f67-ad126eaf9cfd"
+			name="Powershell_start_explorer_on_machine"
+			ref="752d3b07-a4b6-48b7-ab71-fb2ced04c524"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="7816a2d7-8500-4434-bcce-f5b4ff08397b"
 			name="project_2"
 			reportlevel="Info;20">
 			</testcase>
-			<testmodule
-			id="78fbf579-7e08-49fd-9c23-af03c64cb2da"
-			name="Rec_project_2"
-			ref="db6df1f9-ca19-45bd-8e50-e21e32940804"
-			type="Recording">
-			</testmodule>
 			<testcase
 			id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
 			name="TestCase">
@@ -48,8 +54,12 @@
 					id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
 					name="TestCase">
 						<testmodule
-						id="78fbf579-7e08-49fd-9c23-af03c64cb2da"
-						name="Rec_project_2">
+						id="03c929cb-e012-4971-9d7e-c6ffb7fc0a7a"
+						name="get_vdog_scheduler_checkin_cmd">
+						</testmodule>
+						<testmodule
+						id="2a4c8300-f8f6-41ab-9f67-ad126eaf9cfd"
+						name="Powershell_start_explorer_on_machine">
 						</testmodule>
 					</testcase>
 				</testcase>

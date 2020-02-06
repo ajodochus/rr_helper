@@ -14,12 +14,11 @@ name="global_repo">
 	usecache="True">
 		<appfolder
 		addcaps="menubar,nativewindow"
-		capname="menubar"
+		capname="unknown"
 		comment="git"
 		id="f57b2f6f-4012-450d-9660-de353ba14274"
 		isrooted="True"
 		name="Explorer"
-		refpath="/menubar[@processname='explorer']"
 		searchtimeout="30000ms"
 		usecache="True">
 			<item
@@ -29,7 +28,7 @@ name="global_repo">
 			name="MicrosoftEdge"
 			refimgid="61c3a5b3-1edc-4d93-9601-e5d0527c93b4"
 			searchtimeout="30000ms">
-				/menubar[@processname='explorer']/form[@controlid='40965']
+				/menubar[@processname='explorer']/test/form[@controlid='40965']
 			</item>
 			<item
 			addcaps="button,accessible"
@@ -37,12 +36,11 @@ name="global_repo">
 			id="f180434a-15fb-4fc6-80b8-2611763d08d3"
 			name="FileExplorer"
 			refimgid="3b93605d-9f77-4b67-aff9-0688392ff8b4"
-			refpath="/menubar[@processname='explorer']/form/container/element/toolbar/button[@accessiblename='File Explorer']"
 			searchtimeout="30000ms">
-				/menubar[@processname='explorer']/form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']
+				/menubar[@processname='explorer']/test/form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='File Explorer']
 			</item>
 			<basepath>
-				/menubar[@processname='explorer']
+				/menubar[@processname='explorer']/test
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN

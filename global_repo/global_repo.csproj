@@ -4,7 +4,7 @@
     <ProjectGuid>{4CAAAB3E-16B3-4D4D-9D41-65BA728105F6}</ProjectGuid>
     <TargetFrameworkProfile />
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
     <RootNamespace>global_repo</RootNamespace>
     <AssemblyName>global_repo</AssemblyName>

@@ -7,3 +7,4 @@ C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\Ranorex.Core.Resolver.dll
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\obj\x86\Debug\project_2.exe
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\obj\x86\Debug\project_2.pdb
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\obj\x86\Debug\project_2.csprojResolveAssemblyReference.cache

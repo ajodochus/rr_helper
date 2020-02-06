@@ -25,30 +25,51 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="700ms"
-		enabled="True"
-		loc="Center"
-		movetime="500ms"
-		optional="False"
-		searchpropertyid="f04c7fb0-b73b-4baa-ab2e-e24326ae305b"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
+		<userrecorditem
+		classname="Rec_project_2"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="powershell"
+		namespace="project_2"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="e0d5b68a-ce5f-4921-b7c2-507f1a0e5fa9"
-			sourcename="RepositoryEditor">
-				<path>
-					/menubar[@processname='explorer']/form[@controlid='40965']
-				</path>
-			</info>
-		</mouseitem>
+			<arguments
+			id="367d45a5-56f4-456c-8fe3-8bab631c98e1">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="Rec_project_2"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="get_process_command_line"
+		namespace="project_2"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="47c6ff98-e2fd-472f-85cd-ed6115d3f69b">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="Rec_project_2"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="start_explorer"
+		namespace="project_2"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="447c3c2b-f22a-4222-9724-7a033d72f240">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="937bfc73-dcfc-42f3-880a-3c60a32ce20a"

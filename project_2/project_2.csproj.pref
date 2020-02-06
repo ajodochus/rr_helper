@@ -1,0 +1,22 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="codemodules\Powershell_handler.cs" />
+    <Element value="Powershell_start_explorer_on_machine.rxrec" />
+    <Element value="project_2.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="project_2.codemodules.Powershell_handler.powershell_exec_local_or_remote(String action, String var_machine_user, String var_machine_password, String var_machine_name_or_ip)" />
+      <Element value="project_2.codemodules.Powershell_handler.powershell_exec_local_or_remote(String action, String var_machine_user, String var_machine_password, String var_machine_name_or_ip)" />
+      <Element value="project_2.ps_actions.get_cmd()" />
+      <Element value="project_2.Rec_project_2.get_process_command_line()" />
+      <Element value="project_2.Rec_project_2.powershell_2()" />
+      <Element value="project_2.Rec_project_2.start_explorer()" />
+    </Array>
+  </Properties>
+</Properties>
