@@ -134,9 +134,6 @@
       <RepositoryCode>true</RepositoryCode>
       <id>73df4ec2-957d-43d0-a9bf-3437dded646e</id>
     </Compile>
-    <Compile Include="MyClass.cs">
-      <id>05b21266-7a2d-4ebb-a6f8-e6ebf36df278</id>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="global_repo.rximg">
