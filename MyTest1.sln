@@ -4,20 +4,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 9.2.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B138986-26AC-4A82-8DB1-E82935879CDF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kkkkk", "kkkkk", "{3B138986-26AC-4A82-8DB1-E82935879CDF}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "global_repo", "global_repo\global_repo.csproj", "{4CAAAB3E-16B3-4D4D-9D41-65BA728105F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project_1", "project_1\project_1.csproj", "{B79DA9B0-0E52-48A2-9A2B-951C0B496917}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common_recordings", "project_1\common_recordings.csproj", "{B79DA9B0-0E52-48A2-9A2B-951C0B496917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project_2", "project_2\project_2.csproj", "{124FA085-09FE-4788-8C54-CDCE778FB107}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_powershell_functions", "project_2\test_powershell_functions.csproj", "{124FA085-09FE-4788-8C54-CDCE778FB107}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common_recordings", "common_recordings", "{50783921-844E-4FF1-AF71-818DC0331B22}"
-	ProjectSection(SolutionItems) = postProject
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Systemtests", "Systemtests\Systemtests.csproj", "{178D4E90-912A-47BE-A6D9-954126292CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{E3D4A29D-4AC6-40CC-B28F-275CCD000436}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,11 +37,20 @@ Global
 		{124FA085-09FE-4788-8C54-CDCE778FB107}.Debug|x86.ActiveCfg = Debug|x86
 		{124FA085-09FE-4788-8C54-CDCE778FB107}.Release|x86.Build.0 = Release|x86
 		{124FA085-09FE-4788-8C54-CDCE778FB107}.Release|x86.ActiveCfg = Release|x86
+		{178D4E90-912A-47BE-A6D9-954126292CF3}.Debug|x86.Build.0 = Debug|x86
+		{178D4E90-912A-47BE-A6D9-954126292CF3}.Debug|x86.ActiveCfg = Debug|x86
+		{178D4E90-912A-47BE-A6D9-954126292CF3}.Release|x86.Build.0 = Release|x86
+		{178D4E90-912A-47BE-A6D9-954126292CF3}.Release|x86.ActiveCfg = Release|x86
+		{E3D4A29D-4AC6-40CC-B28F-275CCD000436}.Debug|x86.Build.0 = Debug|x86
+		{E3D4A29D-4AC6-40CC-B28F-275CCD000436}.Debug|x86.ActiveCfg = Debug|x86
+		{E3D4A29D-4AC6-40CC-B28F-275CCD000436}.Release|x86.Build.0 = Release|x86
+		{E3D4A29D-4AC6-40CC-B28F-275CCD000436}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4CAAAB3E-16B3-4D4D-9D41-65BA728105F6} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
 		{B79DA9B0-0E52-48A2-9A2B-951C0B496917} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
 		{124FA085-09FE-4788-8C54-CDCE778FB107} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
-		{50783921-844E-4FF1-AF71-818DC0331B22} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
+		{178D4E90-912A-47BE-A6D9-954126292CF3} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
+		{E3D4A29D-4AC6-40CC-B28F-275CCD000436} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
 	EndGlobalSection
 EndGlobal

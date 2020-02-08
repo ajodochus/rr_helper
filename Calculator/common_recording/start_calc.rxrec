@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9da9257e-2f43-4f9b-b7e9-915f342fd711"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Start_calc"
+	namespace="Calculator.common_recording">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		autogenmethod="True"
+		classname="start_calc"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="rec_project_1_Run_application"
+		namespace="project_1"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="a3a93cab-65f3-4d2b-b456-bab4b5565583">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="923fcdb6-fb8a-463e-a4a9-0f02dd8a9553"
+	name="CalculatorRepository"
+	relativepath="..\CalculatorRepository.rxrep">
+		<codegen
+		classname="CalculatorRepository"
+		namespace="Calculator">
+		</codegen>
+		<rootfolder
+		id="abad8696-c8e5-4f44-ad5c-fb89e3d58021"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		start_calc.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

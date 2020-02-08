@@ -78,7 +78,7 @@ namespace project_2.codemodules
 					                     "$Password = '"+var_machine_password+"';" +
 					                     "$pass = ConvertTo-SecureString -AsPlainText $Password -Force;" +
 					                     "$Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass;" +
-					                     "Invoke-Command -ComputerName "+var_machine_name_or_ip+" -ScriptBlock { Get-CimInstance Win32_Process -Filter \"name = 'explorer.exe'\" | select CommandLine} -credential $Cred");
+					                     "Invoke-Command -ComputerName "+var_machine_name_or_ip+" -ScriptBlock { Get-CimInstance Win32_Process -Filter \"name = 'calc.exe'\" | select CommandLine} -credential $Cred");
 					Collection<PSObject> PSOutput = powerShell.Invoke();
 					Ranorex.Report.Info("count objects; " + PSOutput.Count);
 					foreach (PSObject outputItem in PSOutput)

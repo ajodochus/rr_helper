@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.74s"
+		durationms="12743"
+		type="root"
+		rid="163a53bcf830afb2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vagrant"
+		rxversion="9.2.1.0"
+		host="VAGRANT-10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-DE"
+		screenresolution="1920x950"
+		timestamp="08.02.2020 15:08:47"
+		timestampiso="2020-02-08T23:08:47"
+		endtime="08.02.2020 15:09:00"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="3s"
+			durationms="3001"
+			type="test-suite"
+			rid="299b24f587dc53a"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Systemtests"
+			headertext="Systemtests"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="2.87s"
+				durationms="2867"
+				type="test-case"
+				rid="433e8009c80dbe"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="7c2fb90e-f4a9-4a93-8115-36f2dc049ae7"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="2.82s"
+					durationms="2820"
+					type="test-module"
+					rid="3fda9afd747bcc0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="d1e8a0f1-66df-4360-861d-e8b160d67b88"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.837"
+						timeRelativeToTestModuleStartTime="00:00.673"
+						timeWallClock="15:08:57"
+						time="00:00.837"
+						level="Info"
+						category="User">
+						<message>
+							WI-V3.0.5.33220 Firebird 3.0/tcp (vagrant-10)/P13
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="69"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.525"
+						timeRelativeToTestModuleStartTime="00:01.362"
+						timeWallClock="15:08:58"
+						time="00:01.525"
+						level="Info"
+						category="User">
+						<message>
+							Country: USA Currency: Dollar
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.577"
+						timeRelativeToTestModuleStartTime="00:01.414"
+						timeWallClock="15:08:58"
+						time="00:01.577"
+						level="Info"
+						category="User">
+						<message>
+							Country: England Currency: Pound
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.665"
+						timeRelativeToTestModuleStartTime="00:01.501"
+						timeWallClock="15:08:58"
+						time="00:01.665"
+						level="Info"
+						category="User">
+						<message>
+							Country: Canada Currency: CdnDlr
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.703"
+						timeRelativeToTestModuleStartTime="00:01.539"
+						timeWallClock="15:08:58"
+						time="00:01.703"
+						level="Info"
+						category="User">
+						<message>
+							Country: Switzerland Currency: SFranc
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.797"
+						timeRelativeToTestModuleStartTime="00:01.633"
+						timeWallClock="15:08:58"
+						time="00:01.797"
+						level="Info"
+						category="User">
+						<message>
+							Country: Japan Currency: Yen
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.876"
+						timeRelativeToTestModuleStartTime="00:01.712"
+						timeWallClock="15:08:58"
+						time="00:01.876"
+						level="Info"
+						category="User">
+						<message>
+							Country: Italy Currency: Euro
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.961"
+						timeRelativeToTestModuleStartTime="00:01.797"
+						timeWallClock="15:08:59"
+						time="00:01.961"
+						level="Info"
+						category="User">
+						<message>
+							Country: France Currency: Euro
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.015"
+						timeRelativeToTestModuleStartTime="00:01.851"
+						timeWallClock="15:08:59"
+						time="00:02.015"
+						level="Info"
+						category="User">
+						<message>
+							Country: Germany Currency: Euro
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.076"
+						timeRelativeToTestModuleStartTime="00:01.912"
+						timeWallClock="15:08:59"
+						time="00:02.076"
+						level="Info"
+						category="User">
+						<message>
+							Country: Australia Currency: ADollar
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.123"
+						timeRelativeToTestModuleStartTime="00:01.959"
+						timeWallClock="15:08:59"
+						time="00:02.123"
+						level="Info"
+						category="User">
+						<message>
+							Country: Hong Kong Currency: HKDollar
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.182"
+						timeRelativeToTestModuleStartTime="00:02.019"
+						timeWallClock="15:08:59"
+						time="00:02.182"
+						level="Info"
+						category="User">
+						<message>
+							Country: Netherlands Currency: Euro
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.278"
+						timeRelativeToTestModuleStartTime="00:02.114"
+						timeWallClock="15:08:59"
+						time="00:02.278"
+						level="Info"
+						category="User">
+						<message>
+							Country: Belgium Currency: Euro
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.358"
+						timeRelativeToTestModuleStartTime="00:02.194"
+						timeWallClock="15:08:59"
+						time="00:02.358"
+						level="Info"
+						category="User">
+						<message>
+							Country: Austria Currency: Euro
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.420"
+						timeRelativeToTestModuleStartTime="00:02.256"
+						timeWallClock="15:08:59"
+						time="00:02.420"
+						level="Info"
+						category="User">
+						<message>
+							Country: Fiji Currency: FDollar
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.481"
+						timeRelativeToTestModuleStartTime="00:02.318"
+						timeWallClock="15:08:59"
+						time="00:02.481"
+						level="Info"
+						category="User">
+						<message>
+							Country: Russia Currency: Ruble
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.600"
+						timeRelativeToTestModuleStartTime="00:02.436"
+						timeWallClock="15:08:59"
+						time="00:02.600"
+						level="Info"
+						category="User">
+						<message>
+							Country: Romania Currency: RLeu
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.680"
+						timeRelativeToTestModuleStartTime="00:02.516"
+						timeWallClock="15:08:59"
+						time="00:02.680"
+						level="Info"
+						category="User">
+						<message>
+							Country: test Currency: testc
+						</message>
+						<metainfo
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\Recording1.UserCode.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

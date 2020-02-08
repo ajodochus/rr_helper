@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="SystemtestsRepository"
+id="b740dc85-bb8e-4326-a1d3-2a96e2fd6262">
+  <codegen
+  classname="SystemtestsRepository"
+  namespace="Systemtests"/>
+  <rootfolder
+  name="Root"
+  id="0b58e130-767e-44e0-a063-14868ccfd3e0"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Systemtests</name>
+    </assembly>
+    <members>
+        <member name="T:Systemtests.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Systemtests.Recording1.repo">
+            <summary>
+            Holds an instance of the SystemtestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:Systemtests.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Systemtests.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Systemtests.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Systemtests.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Systemtests.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Systemtests.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Systemtests.SystemtestsRepository">
+            <summary>
+            The class representing the SystemtestsRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Systemtests.SystemtestsRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Systemtests.SystemtestsRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the SystemtestsRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Systemtests.SystemtestsRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Systemtests.SystemtestsRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

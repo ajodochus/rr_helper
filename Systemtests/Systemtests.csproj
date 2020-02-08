@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{178D4E90-912A-47BE-A6D9-954126292CF3}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Systemtests</RootNamespace>
+    <AssemblyName>Systemtests</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>ef73d9f8-d8a1-4bd2-a22f-2937c1fc67e0</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FirebirdSql.Data.FirebirdClient" />
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>e21ef2b2-f091-4e01-8f09-3b76a7e4694a</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>e0487903-eea3-4060-a287-b72678d22f8c</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>2893bbde-001f-4655-b191-0ea9e2aeb888</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>62ff45ce-d9db-48e3-81e8-e95fa88a3aba</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>2893bbde-001f-4655-b191-0ea9e2aeb888</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f58936e0-e46c-49f2-a6e0-ac87a50ef4c8</id>
+    </Compile>
+    <Compile Include="SystemtestsRepository.cs">
+      <BoundTo>ef73d9f8-d8a1-4bd2-a22f-2937c1fc67e0</BoundTo>
+      <DependentUpon>SystemtestsRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>bf8b132c-8bca-4784-b416-926d3fe9c89d</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Powerstell_tests.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7a24bcb1-4692-4368-ab3c-14e060f660a0</id>
+    </Content>
+    <None Include="app.config">
+      <id>ffa4b4f2-aeea-422d-90c9-77ea27138bc2</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>ef73d9f8-d8a1-4bd2-a22f-2937c1fc67e0</BoundTo>
+      <id>2893bbde-001f-4655-b191-0ea9e2aeb888</id>
+      <recordtableid>d1e8a0f1-66df-4360-861d-e8b160d67b88</recordtableid>
+    </None>
+    <Content Include="Systemtests.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>edc3c592-7c8f-4e8e-9b68-19c658914090</id>
+    </Content>
+    <None Include="SystemtestsRepository.rximg">
+      <BoundTo>ef73d9f8-d8a1-4bd2-a22f-2937c1fc67e0</BoundTo>
+      <DependentUpon>SystemtestsRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b7f66273-1cec-45bd-bc96-1a420a63146e</id>
+    </None>
+    <None Include="SystemtestsRepository.rxrep">
+      <id>ef73d9f8-d8a1-4bd2-a22f-2937c1fc67e0</id>
+      <repoid>b740dc85-bb8e-4326-a1d3-2a96e2fd6262</repoid>
+      <reporootid>0b58e130-767e-44e0-a063-14868ccfd3e0</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Systemtests.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c2498c75-81f2-4490-801a-b60e90ef0fd7</id>
+    </Content>
+    <Content Include="Systemtests.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>726e5e75-c694-4f81-989f-bacd90d7ca12</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

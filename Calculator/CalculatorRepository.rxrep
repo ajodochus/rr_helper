@@ -1,0 +1,49 @@
+﻿<repository
+id="923fcdb6-fb8a-463e-a4a9-0f02dd8a9553"
+name="CalculatorRepository">
+	<codegen
+	classname="CalculatorRepository"
+	namespace="Calculator">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="abad8696-c8e5-4f44-ad5c-fb89e3d58021"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="91468a57-2628-4c33-91bb-17e304f46de0"
+		isrooted="True"
+		name="Rechner"
+		refpath="/winapp[@packagename='Microsoft.WindowsCalculator']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="543f7e26-4173-43f7-85dc-180abca582c6"
+			name="Close"
+			refimgid="97702427-8967-4ccb-982c-6153aa53f3d5"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/titlebar[@automationid='TitleBar' and @name='Rechner' and @classname='ApplicationFrameTitleBarWindow']/button[@automationid='Close']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='Close']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.WindowsCalculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABtSURBVDhPY2CouP4fhEkFMH3UNwAugQejqEMW
+BAG4BB6Mog5ZkBRAOwPQ2Q6zHkJ5mHJgDGNgA8ia0QFRBuADOA0AsWE2EyOHYQAuP4MAuhxWA4gF
+tDMAnY3LSzB9eF2ArBkdEGUAPgDRd/0/ADvnVeiB9sbEAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

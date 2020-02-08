@@ -75,7 +75,7 @@ mode="Global">
 						System.String
 					</argvaluetype>
 					<argvalue>
-						vagrant-1
+						vagrant-10
 					</argvalue>
 				</argument>
 			</arguments>

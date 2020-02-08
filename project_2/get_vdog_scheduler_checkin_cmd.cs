@@ -79,7 +79,7 @@ namespace project_2
 
             Init();
 
-            powershell_exec_local_or_remote("get_vdogschedulercheckin_cmd", "vagrant", "vagrant", "vagrant-1");
+            powershell_exec_local_or_remote("get_vdogschedulercheckin_cmd", "vagrant", "vagrant", "vagrant-10");
             Delay.Milliseconds(0);
             
         }

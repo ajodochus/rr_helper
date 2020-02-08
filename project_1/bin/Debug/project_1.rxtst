@@ -28,7 +28,7 @@
 			</testsuite>
 			<testmodule
 			id="b4895eb8-4d24-4139-9323-c78c11654851"
-			name="Rec_project_1"
+			name="Start_calc"
 			ref="57c7e15f-7e93-483c-aba1-487eee10d1a7"
 			type="Recording">
 			</testmodule>
@@ -49,7 +49,7 @@
 					name="TestCase">
 						<testmodule
 						id="b4895eb8-4d24-4139-9323-c78c11654851"
-						name="Rec_project_1">
+						name="Start_calc">
 						</testmodule>
 					</testcase>
 				</testcase>

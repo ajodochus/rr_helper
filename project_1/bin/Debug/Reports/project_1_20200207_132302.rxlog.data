@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.37s"
+		durationms="6373"
+		type="root"
+		rid="287246f0c9b87e62"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vagrant"
+		rxversion="9.2.1.0"
+		host="VAGRANT-10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-DE"
+		screenresolution="1920x950"
+		timestamp="07.02.2020 13:23:02"
+		timestampiso="2020-02-07T21:23:02"
+		endtime="07.02.2020 13:23:09"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="604ms"
+			durationms="604"
+			type="test-suite"
+			rid="7e2359537172f6a"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="project_1"
+			headertext="project_1"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="467ms"
+				durationms="467"
+				type="test-case"
+				rid="1f6fdadaddc23996"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="d7f231ea-f599-42ed-8baf-6ff5efc61dfb"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="403ms"
+					durationms="403"
+					type="test-module"
+					rid="2052b2e88e33caa0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Rec_project_1"
+					displayName="Rec_project_1"
+					moduleid="57c7e15f-7e93-483c-aba1-487eee10d1a7"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Das System kann die angegebene Datei nicht finden
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.223"
+						timeRelativeToTestModuleStartTime="00:00.064"
+						timeWallClock="13:23:08"
+						time="00:00.223"
+						level="Error"
+						category="Module"
+						errimg="images_project__6210e4aa\project__6210e4aa_8c6533cf_trace.jpg"
+						errthumb="images_project__6210e4aa\project__6210e4aa_8c6533cf_trace_thumb.jpg">
+						<message>
+							Das System kann die angegebene Datei nicht finden
+						</message>
+						<metainfo
+							stacktrace="   bei System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   bei System.Diagnostics.Process.Start()
+   bei System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   bei System.Diagnostics.Process.Start(String fileName)
+   bei project_1.Rec_project_1.rec_project_1_Run_application() in c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.UserCode.cs:Zeile 48.
+   bei project_1.Rec_project_1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.cs:Zeile 85.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.UserCode.cs"
+							codeline="48"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

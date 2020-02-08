@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="12.19s"
+		durationms="12192"
+		type="root"
+		rid="136d68fab774a38b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="vagrant"
+		rxversion="9.2.1.0"
+		host="VAGRANT-10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-DE"
+		screenresolution="1920x950"
+		timestamp="07.02.2020 12:55:57"
+		timestampiso="2020-02-07T20:55:57"
+		endtime="07.02.2020 12:56:10"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.03s"
+			durationms="2027"
+			type="test-suite"
+			rid="12364d5a3197792c"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="project_1"
+			headertext="project_1"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.77s"
+				durationms="1766"
+				type="test-case"
+				rid="273487c40777d4e6"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="d7f231ea-f599-42ed-8baf-6ff5efc61dfb"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="1.69s"
+					durationms="1685"
+					type="test-module"
+					rid="5f60432c0495238"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Rec_project_1"
+					displayName="Rec_project_1"
+					moduleid="57c7e15f-7e93-483c-aba1-487eee10d1a7"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to run application 'C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1910.0.0_x64__8wekyb3d8bbwe\Calculator.exe'.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.363"
+						timeRelativeToTestModuleStartTime="00:00.026"
+						timeWallClock="12:56:08"
+						time="00:00.363"
+						level="Info"
+						category="Application"
+						errimg="images_project__50fcd7e\project__50fcd7e_1b3f2fe8_trace.jpg"
+						errthumb="images_project__50fcd7e\project__50fcd7e_1b3f2fe8_trace_thumb.jpg">
+						<message>
+							Run application 'C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1910.0.0_x64__8wekyb3d8bbwe\Calculator.exe' in normal mode.
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.cs"
+							codeline="85"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.691"
+						timeRelativeToTestModuleStartTime="00:01.354"
+						timeWallClock="12:56:09"
+						time="00:01.691"
+						level="Error"
+						category="Module"
+						errimg="images_project__50fcd7e\project__50fcd7e_3ccdbb79_trace.jpg"
+						errthumb="images_project__50fcd7e\project__50fcd7e_3ccdbb79_trace_thumb.jpg">
+						<message>
+							Failed to run application 'C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1910.0.0_x64__8wekyb3d8bbwe\Calculator.exe'.<br/>Zugriff verweigert
+						</message>
+						<metainfo
+							stacktrace="   bei Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized, RunAppFlags runFlags)
+   bei Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   bei project_1.Rec_project_1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.cs:Zeile 86.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\rec_project_1.cs"
+							codeline="86"
+							loglvl="Error"
+							itemindex="1">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

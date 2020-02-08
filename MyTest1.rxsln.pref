@@ -6,12 +6,10 @@
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <string>{B79DA9B0-0E52-48A2-9A2B-951C0B496917}</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-      <string>{124FA085-09FE-4788-8C54-CDCE778FB107}</string>
-      <string>375181da-4867-4729-ae74-4777fda0dbf9</string>
+      <string>{178D4E90-912A-47BE-A6D9-954126292CF3}</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyTest1[Solution Items[project_1[]project_2[]]]]&#xD;&#xA;Solution MyTest1\Solution Items\global_repo&#xD;&#xA;Solution MyTest1" />
-  <StartupProject value="{124FA085-09FE-4788-8C54-CDCE778FB107}" />
+  <ProjectBrowserState value="[Solution MyTest1[kkkkk[Systemtests[References[]]]]]&#xD;&#xA;Solution MyTest1\kkkkk\Systemtests\Recording1.rxrec&#xD;&#xA;Solution MyTest1\kkkkk\Systemtests\References\Ranorex.Plugin.Flex" />
+  <StartupProject value="{E3D4A29D-4AC6-40CC-B28F-275CCD000436}" />
 </Properties>

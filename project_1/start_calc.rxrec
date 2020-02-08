@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="57c7e15f-7e93-483c-aba1-487eee10d1a7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Start_calc"
+	namespace="project_1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="Start_calc"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="show_app_config"
+		namespace="project_1"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="69c9094b-cc56-4e03-a27d-d6ec7d379aab">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="937bfc73-dcfc-42f3-880a-3c60a32ce20a"
+	name="global_repo"
+	relativepath="..\global_repo\global_repo.rxrep">
+		<codegen
+		classname="global_repo"
+		namespace="global_repo">
+		</codegen>
+		<rootfolder
+		id="e8abadf6-fac5-414e-bd6b-9fe377c28278"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		start_calc.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

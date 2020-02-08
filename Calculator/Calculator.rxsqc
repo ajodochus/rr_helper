@@ -1,0 +1,17 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "_Standard",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "_Temperatur",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "_Entwickler",
+    "RunConfig": "TestRun"
+  }
+]

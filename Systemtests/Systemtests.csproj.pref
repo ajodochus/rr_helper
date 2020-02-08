@@ -1,0 +1,20 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recording1.UserCode.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Recording1.rxrec" />
+    <Element value="Recording1.UserCode.cs" />
+    <Element value="Systemtests.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Systemtests.Recording1.firebird()" />
+      <Element value="Systemtests.Recording1.firebird()" />
+    </Array>
+  </Properties>
+</Properties>

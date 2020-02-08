@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Systemtests",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Powerstell_tests",
+    "RunConfig": "TestRun"
+  }
+]

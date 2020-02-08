@@ -1,0 +1,12 @@
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bin\Debug\Powerstell_tests.rxtst
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bin\Debug\Systemtests.rxsqc
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bin\Debug\Systemtests.rxtmg
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bin\Debug\Systemtests.rxtst
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bin\Debug\Systemtests.exe.config
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bin\Debug\Systemtests.xml
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bin\Debug\Systemtests.exe
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bin\Debug\Systemtests.pdb
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\obj\x86\Debug\Systemtests.exe
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\obj\x86\Debug\Systemtests.pdb
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\obj\x86\Debug\Systemtests.csprojResolveAssemblyReference.cache

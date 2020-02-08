@@ -74,9 +74,24 @@
             The FileExplorer item info.
             </summary>
         </member>
-        <member name="T:global_repo.MyClass">
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.test">
             <summary>
-            Description of MyClass.
+            The test item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.testInfo">
+            <summary>
+            The test item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Explorer1AktivesFenster">
+            <summary>
+            The Explorer1AktivesFenster item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Explorer1AktivesFensterInfo">
+            <summary>
+            The Explorer1AktivesFenster item info.
             </summary>
         </member>
     </members>

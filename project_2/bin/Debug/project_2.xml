@@ -141,6 +141,26 @@
             The FileExplorer item info.
             </summary>
         </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.test">
+            <summary>
+            The test item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.testInfo">
+            <summary>
+            The test item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Explorer1AktivesFenster">
+            <summary>
+            The Explorer1AktivesFenster item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Explorer1AktivesFensterInfo">
+            <summary>
+            The Explorer1AktivesFenster item info.
+            </summary>
+        </member>
         <member name="T:project_2.Powershell_start_explorer_on_machine">
              <summary>
             The Powershell_start_explorer_on_machine recording.

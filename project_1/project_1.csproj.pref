@@ -1,11 +1,17 @@
 ﻿<Properties>
   <Array name="active" />
   <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="files">
+    <Element value="project_1.rxtst" />
+    <Element value="rec_project_1.rxrec" />
+    <Element value="rec_project_1.UserCode.cs" />
+  </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
-    <Array name="recentusercodeselections" />
+    <Array name="recentusercodeselections">
+      <Element value="project_1.Rec_project_1.rec_project_1_Run_application()" />
+    </Array>
   </Properties>
 </Properties>

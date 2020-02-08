@@ -9,6 +9,7 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="2a4c8300-f8f6-41ab-9f67-ad126eaf9cfd"
 			name="Powershell_start_explorer_on_machine"
 			ref="752d3b07-a4b6-48b7-ab71-fb2ced04c524"
