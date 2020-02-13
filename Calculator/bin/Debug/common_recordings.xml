@@ -94,6 +94,45 @@
             The Explorer1AktivesFenster item info.
             </summary>
         </member>
+        <member name="T:project_1.psexec_handler">
+             <summary>
+            The psexec_handler recording.
+             </summary>
+        </member>
+        <member name="F:project_1.psexec_handler.repo">
+            <summary>
+            Holds an instance of the global::global_repo.global_repo repository.
+            </summary>
+        </member>
+        <member name="M:project_1.psexec_handler.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_1.psexec_handler.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_1.psexec_handler.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_1.psexec_handler.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_1.psexec_handler.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_1.psexec_handler.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:project_1.Start_calc">
              <summary>
             The start_calc recording.

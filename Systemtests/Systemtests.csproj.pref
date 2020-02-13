@@ -1,13 +1,7 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="Recording1.UserCode.cs" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="Recording1.rxrec" />
-    <Element value="Recording1.UserCode.cs" />
-    <Element value="Systemtests.rxtst" />
-  </Array>
+  <Array name="files" />
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />

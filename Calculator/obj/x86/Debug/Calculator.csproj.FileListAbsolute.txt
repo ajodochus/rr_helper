@@ -16,3 +16,4 @@ C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Calculator\obj
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Calculator\bin\Debug\_Temperatur.rxtst
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Calculator\bin\Debug\_Standard.rxtst
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Calculator\bin\Debug\_Entwickler.rxtst
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Calculator\bin\Debug\PsExec.exe

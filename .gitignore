@@ -1,0 +1,5 @@
+*.rxlog
+*.data
+*.jpg
+Calculator/bin/
+Calculator/Reports/

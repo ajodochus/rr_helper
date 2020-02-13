@@ -138,6 +138,18 @@
     <Compile Include="Program.cs">
       <id>98c702e8-4f2a-49e3-ac4a-ac54d913363f</id>
     </Compile>
+    <Compile Include="psexec_handler.cs">
+      <BoundTo>f81173e4-2481-411f-8f75-d757fdc87176</BoundTo>
+      <DependentUpon>psexec_handler.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c04c1470-8059-401a-b8d4-e57cabd4d29d</id>
+    </Compile>
+    <Compile Include="psexec_handler.UserCode.cs">
+      <BoundTo>f81173e4-2481-411f-8f75-d757fdc87176</BoundTo>
+      <DependentUpon>psexec_handler.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eeb9c6f0-874c-4c47-9aac-382e472c6339</id>
+    </Compile>
     <Compile Include="start_calc.cs">
       <BoundTo>f070048f-01bf-4d36-9be2-e111d64ebfc7</BoundTo>
       <DependentUpon>start_calc.rxrec</DependentUpon>
@@ -167,6 +179,11 @@
     </None>
     <None Include="app.config">
       <id>81debf0b-8fd2-47ea-8944-f11b1433ff51</id>
+    </None>
+    <None Include="psexec_handler.rxrec">
+      <BoundTo>08929d51-4285-47e6-a6a4-e75fdb07cea9</BoundTo>
+      <id>f81173e4-2481-411f-8f75-d757fdc87176</id>
+      <recordtableid>8edcec55-c115-4621-a8e8-4525db062880</recordtableid>
     </None>
     <None Include="start_calc.rxrec">
       <id>f070048f-01bf-4d36-9be2-e111d64ebfc7</id>

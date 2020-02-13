@@ -1,13 +1,24 @@
 ﻿<Properties>
   <Array name="active" />
-  <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\psexec_handler.UserCode.cs|114|13|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="psexec_handler.rxrec" />
+    <Element value="psexec_handler.UserCode.cs" />
+    <Element value="psexec_handler.cs" />
+  </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="project_1.Rec_project_1.rec_project_1_Run_application()" />
+      <Element value="project_1.psexec_handler.psexec_3()" />
+      <Element value="project_1.psexec_handler.psexec_3()" />
+      <Element value="project_1.psexec_handler.psexec_2()" />
+      <Element value="project_1.psexec_handler.get_cmd_remote(String serverName, String username, String password, String domain, String command)" />
+      <Element value="project_1.psexec_handler.executeCommand(String serverName, String username, String password, String domain, String command)" />
+      <Element value="project_1.psexec_handler.get_cmd_remote()" />
     </Array>
   </Properties>
 </Properties>

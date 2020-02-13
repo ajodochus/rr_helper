@@ -26,6 +26,16 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="a0bed50b-d468-48f1-be28-e04d490cc7a0"
+			name="psexec_handler"
+			ref="8edcec55-c115-4621-a8e8-4525db062880"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="c74120fa-1373-4d86-8e92-378ca10d8b01"
+			name="TestCase">
+			</testcase>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -34,6 +44,14 @@
 				<testcase
 				id="336bc488-f64c-4771-8509-1e61e9b75387"
 				name="_Temperatur">
+					<testcase
+					id="c74120fa-1373-4d86-8e92-378ca10d8b01"
+					name="TestCase">
+						<testmodule
+						id="a0bed50b-d468-48f1-be28-e04d490cc7a0"
+						name="psexec_handler">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -46,6 +64,9 @@
 		name="TestRun">
 			<testcontainer
 			id="336bc488-f64c-4771-8509-1e61e9b75387">
+			</testcontainer>
+			<testcontainer
+			id="c74120fa-1373-4d86-8e92-378ca10d8b01">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
