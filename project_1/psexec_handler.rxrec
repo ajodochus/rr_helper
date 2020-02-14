@@ -27,7 +27,7 @@ mode="Global">
 	<recorditems>
 		<userrecorditem
 		classname="psexec_handler"
-		enabled="True"
+		enabled="False"
 		isexternaltestmethod="False"
 		methodname="get_cmd_remote"
 		namespace="project_1"
@@ -106,7 +106,7 @@ mode="Global">
 		</userrecorditem>
 		<userrecorditem
 		classname="psexec_handler"
-		enabled="False"
+		enabled="True"
 		isexternaltestmethod="False"
 		methodname="psexec_3"
 		namespace="project_1"

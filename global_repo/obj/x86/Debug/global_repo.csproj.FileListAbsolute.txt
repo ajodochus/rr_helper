@@ -5,3 +5,10 @@ C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\bi
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\obj\x86\Debug\global_repo.csprojResolveAssemblyReference.cache
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\obj\x86\Debug\global_repo.dll
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\global_repo\obj\x86\Debug\global_repo.pdb
+C:\Users\Administrator\Documents\rr_helper\global_repo\bin\Debug\global_repo.xml
+C:\Users\Administrator\Documents\rr_helper\global_repo\bin\Debug\global_repo.dll
+C:\Users\Administrator\Documents\rr_helper\global_repo\bin\Debug\global_repo.pdb
+C:\Users\Administrator\Documents\rr_helper\global_repo\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Administrator\Documents\rr_helper\global_repo\obj\x86\Debug\global_repo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\rr_helper\global_repo\obj\x86\Debug\global_repo.dll
+C:\Users\Administrator\Documents\rr_helper\global_repo\obj\x86\Debug\global_repo.pdb

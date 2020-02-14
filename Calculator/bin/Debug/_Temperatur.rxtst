@@ -7,6 +7,12 @@
 			name="_Temperatur"
 			reportlevel="Info;20">
 			</testcase>
+			<testmodule
+			id="5bb1da4b-4120-44c7-b4d5-24f789e6ecc9"
+			name="CimV2"
+			ref="bdd95241-e94f-4a09-9c48-a33f7580989f"
+			type="Recording">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -27,6 +33,7 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
+			enabled="False"
 			id="a0bed50b-d468-48f1-be28-e04d490cc7a0"
 			name="psexec_handler"
 			ref="8edcec55-c115-4621-a8e8-4525db062880"
@@ -50,6 +57,10 @@
 						<testmodule
 						id="a0bed50b-d468-48f1-be28-e04d490cc7a0"
 						name="psexec_handler">
+						</testmodule>
+						<testmodule
+						id="5bb1da4b-4120-44c7-b4d5-24f789e6ecc9"
+						name="CimV2">
 						</testmodule>
 					</testcase>
 				</testcase>

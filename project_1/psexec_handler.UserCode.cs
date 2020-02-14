@@ -54,17 +54,17 @@ namespace project_1
 					if (domain != "")
 					{
 						Ranorex.Report.Failure("no domain");
-						startInfo.Arguments =  "\\vagrant-1 -u vagrant -p vagrant powershell -command \"Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server\"";
+						startInfo.Arguments =  "";
 					}
 					else
 					{
 						Ranorex.Report.Info("with user");
-						startInfo.Arguments = "\\\\vagrant-1 -u vagrant -p vagrant powershell -command \"Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server\"";
+						startInfo.Arguments = "\\\\BW-SERVER1 -u Administrator -p robert.123 powershell -command \"Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server\"";
 					}
 				}
 				else
 				{
-					startInfo.Arguments = "PsExec.exe \\vagrant-1 -u vagrant -p vagrant powershell -command \"Get-CimInstance Win32_Process -Filter \"name = 'explorer.exe'\" | select CommandLine\"";
+					//startInfo.Arguments = "PsExec.exe \\vagrant-1 -u vagrant -p vagrant powershell -command \"Get-CimInstance Win32_Process -Filter \"name = 'explorer.exe'\" | select CommandLine\"";
 				}
 				process.StartInfo = startInfo;
 				process.Start();
@@ -107,7 +107,8 @@ namespace project_1
             p.StartInfo.RedirectStandardError = true;
             p.StartInfo.RedirectStandardInput = true;
             p.StartInfo.FileName = @"PsExec.exe";
-            p.StartInfo.Arguments = "\\\\vagrant-1 -u vagrant -p vagrant powershell -command \"Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server\"";
+            //p.StartInfo.Arguments = "\\\\vagrant-1 -u vagrant -p vagrant powershell -command \"Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server\"";
+            p.StartInfo.Arguments = @"\\BW_Server1 -accepteula -d c:\windows\system32\notepad.exe";
             p.Start();
 
             string output = p.StandardOutput.ReadToEnd();

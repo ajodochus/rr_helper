@@ -8,3 +8,13 @@ C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\bin\
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\obj\x86\Debug\common_recordings.csprojResolveAssemblyReference.cache
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\obj\x86\Debug\common_recordings.exe
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\obj\x86\Debug\common_recordings.pdb
+C:\Users\Administrator\Documents\rr_helper\project_1\bin\Debug\project_1.rxtmg
+C:\Users\Administrator\Documents\rr_helper\project_1\bin\Debug\project_1.rxtst
+C:\Users\Administrator\Documents\rr_helper\project_1\bin\Debug\common_recordings.exe.config
+C:\Users\Administrator\Documents\rr_helper\project_1\bin\Debug\common_recordings.xml
+C:\Users\Administrator\Documents\rr_helper\project_1\bin\Debug\common_recordings.exe
+C:\Users\Administrator\Documents\rr_helper\project_1\bin\Debug\common_recordings.pdb
+C:\Users\Administrator\Documents\rr_helper\project_1\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Administrator\Documents\rr_helper\project_1\obj\x86\Debug\common_recordings.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\rr_helper\project_1\obj\x86\Debug\common_recordings.exe
+C:\Users\Administrator\Documents\rr_helper\project_1\obj\x86\Debug\common_recordings.pdb

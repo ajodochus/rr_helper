@@ -10,3 +10,15 @@ C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\bi
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\obj\x86\Debug\Systemtests.exe
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\obj\x86\Debug\Systemtests.pdb
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Systemtests\obj\x86\Debug\Systemtests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\rr_helper\Systemtests\bin\Debug\Powerstell_tests.rxtst
+C:\Users\Administrator\Documents\rr_helper\Systemtests\bin\Debug\Systemtests.rxsqc
+C:\Users\Administrator\Documents\rr_helper\Systemtests\bin\Debug\Systemtests.rxtmg
+C:\Users\Administrator\Documents\rr_helper\Systemtests\bin\Debug\Systemtests.rxtst
+C:\Users\Administrator\Documents\rr_helper\Systemtests\bin\Debug\Systemtests.exe.config
+C:\Users\Administrator\Documents\rr_helper\Systemtests\bin\Debug\Systemtests.xml
+C:\Users\Administrator\Documents\rr_helper\Systemtests\bin\Debug\Systemtests.exe
+C:\Users\Administrator\Documents\rr_helper\Systemtests\bin\Debug\Systemtests.pdb
+C:\Users\Administrator\Documents\rr_helper\Systemtests\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Administrator\Documents\rr_helper\Systemtests\obj\x86\Debug\Systemtests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\rr_helper\Systemtests\obj\x86\Debug\Systemtests.exe
+C:\Users\Administrator\Documents\rr_helper\Systemtests\obj\x86\Debug\Systemtests.pdb

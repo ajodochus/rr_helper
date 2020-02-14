@@ -24,29 +24,29 @@ namespace project_1
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The psexec_handler recording.
+    ///The CimV2 recording.
     /// </summary>
-    [TestModule("8edcec55-c115-4621-a8e8-4525db062880", ModuleType.Recording, 1)]
-    public partial class psexec_handler : ITestModule
+    [TestModule("bdd95241-e94f-4a09-9c48-a33f7580989f", ModuleType.Recording, 1)]
+    public partial class CimV2 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::global_repo.global_repo repository.
         /// </summary>
         public static global::global_repo.global_repo repo = global::global_repo.global_repo.Instance;
 
-        static psexec_handler instance = new psexec_handler();
+        static CimV2 instance = new CimV2();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public psexec_handler()
+        public CimV2()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static psexec_handler Instance
+        public static CimV2 Instance
         {
             get { return instance; }
         }
@@ -79,13 +79,7 @@ namespace project_1
 
             Init();
 
-            //get_cmd_remote("vagrant-1", "vagrant", "vagrant", "", "Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server");
-            //Delay.Milliseconds(0);
-            
-            //psexec_2();
-            //Delay.Milliseconds(0);
-            
-            psexec_3();
+            get_process_by_name();
             Delay.Milliseconds(0);
             
         }

@@ -119,6 +119,7 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
@@ -128,6 +129,18 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs">
       <id>effa8a05-82af-4f9b-97d8-06425d1b17bd</id>
+    </Compile>
+    <Compile Include="CimV2.cs">
+      <BoundTo>a99ce2ce-7bee-4c88-abf6-0ac01acaa3ae</BoundTo>
+      <DependentUpon>CimV2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6425648b-4b71-442c-bf30-c4e69419985c</id>
+    </Compile>
+    <Compile Include="CimV2.UserCode.cs">
+      <BoundTo>a99ce2ce-7bee-4c88-abf6-0ac01acaa3ae</BoundTo>
+      <DependentUpon>CimV2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ff2679d2-8544-41e0-b1f0-3aa738d6a83c</id>
     </Compile>
     <Compile Include="global_repo.cs">
       <DependentUpon>global_repo.rxrep</DependentUpon>
@@ -179,6 +192,11 @@
     </None>
     <None Include="app.config">
       <id>81debf0b-8fd2-47ea-8944-f11b1433ff51</id>
+    </None>
+    <None Include="CimV2.rxrec">
+      <BoundTo>08929d51-4285-47e6-a6a4-e75fdb07cea9</BoundTo>
+      <id>a99ce2ce-7bee-4c88-abf6-0ac01acaa3ae</id>
+      <recordtableid>bdd95241-e94f-4a09-9c48-a33f7580989f</recordtableid>
     </None>
     <None Include="psexec_handler.rxrec">
       <BoundTo>08929d51-4285-47e6-a6a4-e75fdb07cea9</BoundTo>

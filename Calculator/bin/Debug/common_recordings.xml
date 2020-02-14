@@ -4,6 +4,45 @@
         <name>common_recordings</name>
     </assembly>
     <members>
+        <member name="T:project_1.CimV2">
+             <summary>
+            The CimV2 recording.
+             </summary>
+        </member>
+        <member name="F:project_1.CimV2.repo">
+            <summary>
+            Holds an instance of the global::global_repo.global_repo repository.
+            </summary>
+        </member>
+        <member name="M:project_1.CimV2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_1.CimV2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_1.CimV2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_1.CimV2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_1.CimV2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_1.CimV2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:global_repo.global_repo">
             <summary>
             The class representing the global_repo element repository.

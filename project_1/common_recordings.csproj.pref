@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <Array name="active" />
-  <Array name="bookmarks">
-    <Element value="Breakpoint|C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_1\psexec_handler.UserCode.cs|114|13|True|Break||" />
+  <Array name="active">
+    <Element value="psexec_handler.UserCode.cs" />
   </Array>
+  <Array name="bookmarks" />
   <Array name="files">
     <Element value="psexec_handler.rxrec" />
     <Element value="psexec_handler.UserCode.cs" />

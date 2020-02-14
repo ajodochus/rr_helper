@@ -1,6 +1,6 @@
 [
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "_Standard",
     "RunConfig": "TestRun"
   },
@@ -10,7 +10,7 @@
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "True",
+    "Enabled": "False",
     "TestSuite": "_Entwickler",
     "RunConfig": "TestRun"
   }

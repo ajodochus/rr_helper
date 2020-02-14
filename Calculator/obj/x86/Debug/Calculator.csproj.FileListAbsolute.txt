@@ -17,3 +17,22 @@ C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Calculator\bin
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Calculator\bin\Debug\_Standard.rxtst
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Calculator\bin\Debug\_Entwickler.rxtst
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\Calculator\bin\Debug\PsExec.exe
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\project_1.rxtmg
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\project_1.rxtst
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\_Temperatur.rxtst
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\_Standard.rxtst
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\Calculator.rxsqc
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\Calculator.rxtmg
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\_Entwickler.rxtst
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\PsExec.exe
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\Calculator.xml
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\Calculator.exe
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\common_recordings.exe
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\common_recordings.pdb
+C:\Users\Administrator\Documents\rr_helper\Calculator\bin\Debug\common_recordings.xml
+C:\Users\Administrator\Documents\rr_helper\Calculator\obj\x86\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\rr_helper\Calculator\obj\x86\Debug\Calculator.exe
+C:\Users\Administrator\Documents\rr_helper\Calculator\obj\x86\Debug\Calculator.pdb

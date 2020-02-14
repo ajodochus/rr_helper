@@ -8,3 +8,13 @@ C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\obj\x86\Debug\test_powershell_functions.csprojResolveAssemblyReference.cache
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\obj\x86\Debug\test_powershell_functions.exe
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\obj\x86\Debug\test_powershell_functions.pdb
+C:\Users\Administrator\Documents\rr_helper\project_2\bin\Debug\project_2.rxtmg
+C:\Users\Administrator\Documents\rr_helper\project_2\bin\Debug\test_powershell_functions.rxtst
+C:\Users\Administrator\Documents\rr_helper\project_2\bin\Debug\test_powershell_functions.exe.config
+C:\Users\Administrator\Documents\rr_helper\project_2\bin\Debug\test_powershell_functions.xml
+C:\Users\Administrator\Documents\rr_helper\project_2\bin\Debug\test_powershell_functions.exe
+C:\Users\Administrator\Documents\rr_helper\project_2\bin\Debug\test_powershell_functions.pdb
+C:\Users\Administrator\Documents\rr_helper\project_2\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Administrator\Documents\rr_helper\project_2\obj\x86\Debug\test_powershell_functions.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\rr_helper\project_2\obj\x86\Debug\test_powershell_functions.exe
+C:\Users\Administrator\Documents\rr_helper\project_2\obj\x86\Debug\test_powershell_functions.pdb
