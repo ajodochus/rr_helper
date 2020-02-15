@@ -1,24 +1,18 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="psexec_handler.UserCode.cs" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="psexec_handler.rxrec" />
-    <Element value="psexec_handler.UserCode.cs" />
-    <Element value="psexec_handler.cs" />
-  </Array>
+  <Array name="files" />
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="project_1.CimV2.cim()" />
+      <Element value="project_1.CimV2.event_watcher(String processName)" />
+      <Element value="project_1.CimV2.event_watcher()" />
+      <Element value="project_1.CimV2.cim()" />
+      <Element value="project_1.CimV2.get_process_by_name()" />
       <Element value="project_1.psexec_handler.psexec_3()" />
-      <Element value="project_1.psexec_handler.psexec_3()" />
-      <Element value="project_1.psexec_handler.psexec_2()" />
-      <Element value="project_1.psexec_handler.get_cmd_remote(String serverName, String username, String password, String domain, String command)" />
-      <Element value="project_1.psexec_handler.executeCommand(String serverName, String username, String password, String domain, String command)" />
-      <Element value="project_1.psexec_handler.get_cmd_remote()" />
     </Array>
   </Properties>
 </Properties>

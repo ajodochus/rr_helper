@@ -1,18 +1,28 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="_powershell_testcase\wait_for_process_and_get_cmd.UserCode.cs" />
+  </Array>
   <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="files">
+    <Element value="test_powershell_functions.rxtst" />
+    <Element value="_powershell_testcase\wait_for_process_and_get_cmd.rxrec" />
+    <Element value="_powershell_testcase\wait_for_process_and_get_cmd.UserCode.cs" />
+    <Element value="wait_for_process.ps1" />
+    <Element value="codemodules\Powershell_handler.cs" />
+    <Element value="powershell.rxrec" />
+    <Element value="powershell.UserCode.cs" />
+  </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="project_2.codemodules.Powershell_handler.powershell_exec_local_or_remote(String action, String var_machine_user, String var_machine_password, String var_machine_name_or_ip)" />
-      <Element value="project_2.codemodules.Powershell_handler.powershell_exec_local_or_remote(String action, String var_machine_user, String var_machine_password, String var_machine_name_or_ip)" />
-      <Element value="project_2.ps_actions.get_cmd()" />
-      <Element value="project_2.Rec_project_2.get_process_command_line()" />
-      <Element value="project_2.Rec_project_2.powershell_2()" />
-      <Element value="project_2.Rec_project_2.start_explorer()" />
+      <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.get_cmd_parameter()" />
+      <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.get_cmd_parameter()" />
+      <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.wait_for_process_async()" />
+      <Element value="project_2.Powershell.powershell()" />
+      <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.wait_for_process()" />
+      <Element value="project_2.Rec_project_2.wait_for_process()" />
     </Array>
   </Properties>
 </Properties>

@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace project_2
+namespace project_2._powershell_testcase
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The rec_project_2 recording.
+    ///The wait_for_process_and_get_cmd recording.
     /// </summary>
-    [TestModule("db6df1f9-ca19-45bd-8e50-e21e32940804", ModuleType.Recording, 1)]
-    public partial class Rec_project_2 : ITestModule
+    [TestModule("d79707e0-fca0-44ab-86cf-db406d853359", ModuleType.Recording, 1)]
+    public partial class wait_for_process_and_get_cmd : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::global_repo.global_repo repository.
         /// </summary>
         public static global::global_repo.global_repo repo = global::global_repo.global_repo.Instance;
 
-        static Rec_project_2 instance = new Rec_project_2();
+        static wait_for_process_and_get_cmd instance = new wait_for_process_and_get_cmd();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Rec_project_2()
+        public wait_for_process_and_get_cmd()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Rec_project_2 Instance
+        public static wait_for_process_and_get_cmd Instance
         {
             get { return instance; }
         }
@@ -79,18 +79,11 @@ namespace project_2
 
             Init();
 
-            //powershell();
-            //Delay.Milliseconds(0);
+            wait_for_process_async();
+            Delay.Milliseconds(0);
             
-            //get_process_command_line();
-            //Delay.Milliseconds(0);
-            
-            //start_explorer();
-            //Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.Explorer1AktivesFenster' at 20;26.", repo.Explorer.Explorer1AktivesFensterInfo, new RecordItemIndex(3));
-            repo.Explorer.Explorer1AktivesFenster.Click("20;26");
-            Delay.Milliseconds(200);
+            get_cmd_parameter();
+            Delay.Milliseconds(0);
             
         }
 

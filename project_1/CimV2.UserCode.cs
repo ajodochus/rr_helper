@@ -28,9 +28,9 @@ namespace project_1
 	public partial class CimV2
 	{
 		
-		string servername = "10.0.50.20";
+		string servername = "vagrant-1";
 		//string processName = "VDogMasterService.exe";
-		string processName = "notepad++.exe";
+		string processName = "notepad.exe";
 		/// <summary>
 		/// This method gets called right after the recording has been started.
 		/// It can be used to execute recording specific initialization code.
@@ -48,6 +48,8 @@ namespace project_1
 			ObjectQuery objectQuery = new ObjectQuery("SELECT commandline FROM Win32_Process Where Name = '"+ processName +"'");
 			ManagementObjectSearcher managementObjectSearcher = new ManagementObjectSearcher(managementScope, objectQuery);
 			ManagementObjectCollection managementObjectCollection = managementObjectSearcher.Get();
+			
+			
 			
 			foreach (ManagementObject mo in managementObjectCollection)
 			{
@@ -68,7 +70,7 @@ namespace project_1
 		public void get_process_by_name()
 		{
 			for (int i = 0; i < 30; i++) {
-				Process[] remoteByName = Process.GetProcessesByName("notepad++", servername);
+				Process[] remoteByName = Process.GetProcessesByName("notepad", "vagrant-1");
 				if (remoteByName.Length>=1) {
 					Ranorex.Report.Info("process found");
 					cim();
@@ -85,20 +87,48 @@ namespace project_1
 		public void comman_to_run(string command)
 		{
 			Process p = new Process();
-            p.StartInfo.UseShellExecute = false;
-            p.StartInfo.RedirectStandardOutput = true;
-            p.StartInfo.RedirectStandardError = true;
-            p.StartInfo.RedirectStandardInput = true;
-            p.StartInfo.FileName = @"PsExec.exe";
-            //p.StartInfo.Arguments = "\\\\vagrant-1 -u vagrant -p vagrant powershell -command \"Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server\"";
-            p.StartInfo.Arguments = @"\\BW_Server1 -accepteula -d -i " + command;
-            p.Start();
+			p.StartInfo.UseShellExecute = false;
+			p.StartInfo.RedirectStandardOutput = true;
+			p.StartInfo.RedirectStandardError = true;
+			p.StartInfo.RedirectStandardInput = true;
+			p.StartInfo.FileName = @"PsExec.exe";
+			//p.StartInfo.Arguments = "\\\\vagrant-1 -u vagrant -p vagrant powershell -command \"Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server\"";
+			p.StartInfo.Arguments = @"\\vagrant-1 -accepteula -d -i " + command;
+			p.Start();
 
-            string output = p.StandardOutput.ReadToEnd();
-            string errormessage = p.StandardError.ReadToEnd();
+			string output = p.StandardOutput.ReadToEnd();
+			string errormessage = p.StandardError.ReadToEnd();
 
-            p.WaitForExit();
+			p.WaitForExit();
 		}
+
+
+		private ManagementEventWatcher event_watcher(string processName)
+		{
+			string queryString =
+				"SELECT TargetInstance" +
+				"  FROM __InstanceCreationEvent " +
+				"WITHIN  10 " +
+				" WHERE TargetInstance ISA 'Win32_Process' " +
+				"   AND TargetInstance.Name = 'notepad.exe'";
+
+			// The dot in the scope means use the current machine
+			string scope = "\\\\"+ servername +"\\root\\cimv2";
+
+			// Create a watcher and listen for events
+			ManagementEventWatcher watcher = new ManagementEventWatcher(scope, queryString);
+			watcher.EventArrived += ProcessStarted;
+			watcher.Start();
+			return watcher;
+		}
+
+		private void ProcessStarted(object sender, EventArrivedEventArgs e)
+		{
+			ManagementBaseObject targetInstance = (ManagementBaseObject)e.NewEvent.Properties["TargetInstance"].Value;
+			string processName = targetInstance.Properties["Name"].Value.ToString();
+			Console.WriteLine(String.Format("{0} process started", processName));
+		}
+		
 
 	}
 }

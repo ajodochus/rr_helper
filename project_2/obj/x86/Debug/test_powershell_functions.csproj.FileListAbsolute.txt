@@ -18,3 +18,5 @@ C:\Users\Administrator\Documents\rr_helper\project_2\bin\Debug\Ranorex.Core.Reso
 C:\Users\Administrator\Documents\rr_helper\project_2\obj\x86\Debug\test_powershell_functions.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\rr_helper\project_2\obj\x86\Debug\test_powershell_functions.exe
 C:\Users\Administrator\Documents\rr_helper\project_2\obj\x86\Debug\test_powershell_functions.pdb
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\invoke_start_explorer.ps1
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\wait_for_process.ps1

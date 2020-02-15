@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="bdd95241-e94f-4a09-9c48-a33f7580989f"
+id="d79707e0-fca0-44ab-86cf-db406d853359"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,71 +19,47 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CimV2"
-	namespace="project_1">
+	classname="wait_for_process_and_get_cmd"
+	namespace="project_2._powershell_testcase">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
 		<userrecorditem
-		classname="CimV2"
-		enabled="False"
-		isexternaltestmethod="False"
-		methodname="get_process_by_name"
-		namespace="project_1"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="16cfbd7d-6e9f-4ea8-b36d-c7ba5ddd39a8">
-			</arguments>
-		</userrecorditem>
-		<userrecorditem
-		classname="CimV2"
-		enabled="False"
-		isexternaltestmethod="False"
-		methodname="cim"
-		namespace="project_1"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="bf290d28-119e-4f85-bcbf-b7362341647e">
-			</arguments>
-		</userrecorditem>
-		<userrecorditem
-		classname="CimV2"
+		classname="wait_for_process_and_get_cmd"
 		enabled="True"
 		isexternaltestmethod="False"
-		methodname="event_watcher"
-		namespace="project_1"
+		methodname="wait_for_process_async"
+		namespace="project_2._powershell_testcase"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<arguments
-			id="cff57cfd-f73a-4725-ac14-53df3907080d">
-				<argument
-				argname="processName"
-				id="e9b467a6-645a-4095-922e-4e002514dd1e">
-					<argvaluetype>
-						System.String
-					</argvaluetype>
-					<argvalue>
-					</argvalue>
-				</argument>
+			id="138d4f5d-ae64-4dde-b029-ef3512364871">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="wait_for_process_and_get_cmd"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="get_cmd_parameter"
+		namespace="project_2._powershell_testcase"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="eb2866dd-62b4-4933-bbf6-4607b3bc313d">
 			</arguments>
 		</userrecorditem>
 	</recorditems>
 	<repository
 	id="937bfc73-dcfc-42f3-880a-3c60a32ce20a"
 	name="global_repo"
-	relativepath="..\global_repo\global_repo.rxrep">
+	relativepath="..\..\global_repo\global_repo.rxrep">
 		<codegen
 		classname="global_repo"
 		namespace="global_repo">
@@ -95,7 +71,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		CimV2.UserCode.cs
+		wait_for_process_and_get_cmd.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

@@ -107,11 +107,12 @@ namespace project_1
             p.StartInfo.RedirectStandardError = true;
             p.StartInfo.RedirectStandardInput = true;
             p.StartInfo.FileName = @"PsExec.exe";
-            //p.StartInfo.Arguments = "\\\\vagrant-1 -u vagrant -p vagrant powershell -command \"Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server\"";
-            p.StartInfo.Arguments = @"\\BW_Server1 -accepteula -d c:\windows\system32\notepad.exe";
+            p.StartInfo.Arguments = "\\\\vagrant-1 -u vagrant -p vagrant -nobanner powershell -command \"Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server\"";
+            //p.StartInfo.Arguments = @"\\vagrant-1 -u vagrant -p vagrant -accepteula -d c:\windows\system32\notepad.exe";
             p.Start();
 
             string output = p.StandardOutput.ReadToEnd();
+            Ranorex.Report.Info(output);
             string errormessage = p.StandardError.ReadToEnd();
 
             p.WaitForExit();

@@ -3,9 +3,17 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			enabled="False"
 			id="03c929cb-e012-4971-9d7e-c6ffb7fc0a7a"
 			name="get_vdog_scheduler_checkin_cmd"
 			ref="ab98337f-8b78-4c47-aea4-4489a55b8d9a"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="1d537dc5-313a-446e-b407-abd47121be5c"
+			name="Powershell"
+			ref="db6df1f9-ca19-45bd-8e50-e21e32940804"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -43,6 +51,12 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="f4846c8d-9b60-4b06-b22b-88f0e28757de"
+			name="wait_for_process_and_get_cmd"
+			ref="d79707e0-fca0-44ab-86cf-db406d853359"
+			type="Recording">
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -55,12 +69,20 @@
 					id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
 					name="TestCase">
 						<testmodule
+						id="1d537dc5-313a-446e-b407-abd47121be5c"
+						name="Powershell">
+						</testmodule>
+						<testmodule
 						id="03c929cb-e012-4971-9d7e-c6ffb7fc0a7a"
 						name="get_vdog_scheduler_checkin_cmd">
 						</testmodule>
 						<testmodule
 						id="2a4c8300-f8f6-41ab-9f67-ad126eaf9cfd"
 						name="Powershell_start_explorer_on_machine">
+						</testmodule>
+						<testmodule
+						id="f4846c8d-9b60-4b06-b22b-88f0e28757de"
+						name="wait_for_process_and_get_cmd">
 						</testmodule>
 					</testcase>
 				</testcase>

@@ -52,15 +52,8 @@ namespace project_2.codemodules
 			Keyboard.DefaultKeyPressTime = 100;
 			Delay.SpeedFactor = 1.0;
 		}
-		
-		/// <summary>
-		/// Powershell Script Runner
-		/// </summary>
-		/// <param name="ps_script">Powershell Script, welches lokal oder remote aufgerufen werden soll</param>
-		/// <param name="Das Ergebnis des PS Scripts wird in der lokalen Variable 'var_ps_return' gespeichert"></param>
-		/// <param name="return_expected">'VDogSchedularCheckIn' ruft den cmd Parameter dieses Prozesses auf dem VDogServer auf </param>
-		/// <param name="'start_cmd_again' führt das cmd Attrbut des Prozesses VDogSchedularCheckIn.exe noch einmal auf dem Server aus"></param>
-		/// <returns></returns>
+
+
 		public static void powershell_exec_local_or_remote(string action, string var_machine_user, string var_machine_password, string var_machine_name_or_ip){
 
 			using (PowerShell powerShell = PowerShell.Create()){
@@ -78,7 +71,7 @@ namespace project_2.codemodules
 					                     "$Password = '"+var_machine_password+"';" +
 					                     "$pass = ConvertTo-SecureString -AsPlainText $Password -Force;" +
 					                     "$Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass;" +
-					                     "Invoke-Command -ComputerName "+var_machine_name_or_ip+" -ScriptBlock { Get-CimInstance Win32_Process -Filter \"name = 'calc.exe'\" | select CommandLine} -credential $Cred");
+					                     "Invoke-Command -ComputerName "+var_machine_name_or_ip+" -ScriptBlock { Get-CimInstance Win32_Process -Filter \"name = 'notepad.exe'\" | select CommandLine} -credential $Cred");
 					Collection<PSObject> PSOutput = powerShell.Invoke();
 					Ranorex.Report.Info("count objects; " + PSOutput.Count);
 					foreach (PSObject outputItem in PSOutput)

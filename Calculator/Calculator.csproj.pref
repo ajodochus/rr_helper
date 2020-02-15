@@ -1,9 +1,7 @@
 ﻿<Properties>
   <Array name="active" />
   <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="_Temperatur.rxtst" />
-  </Array>
+  <Array name="files" />
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />

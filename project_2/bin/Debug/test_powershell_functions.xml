@@ -22,16 +22,6 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:project_2.codemodules.Powershell_handler.powershell_exec_local_or_remote(System.String,System.String,System.String,System.String)">
-            <summary>
-            Powershell Script Runner
-            </summary>
-            <param name="ps_script">Powershell Script, welches lokal oder remote aufgerufen werden soll</param>
-            <param name="Das Ergebnis des PS Scripts wird in der lokalen Variable 'var_ps_return' gespeichert"></param>
-            <param name="return_expected">'VDogSchedularCheckIn' ruft den cmd Parameter dieses Prozesses auf dem VDogServer auf </param>
-            <param name="'start_cmd_again' führt das cmd Attrbut des Prozesses VDogSchedularCheckIn.exe noch einmal auf dem Server aus"></param>
-            <returns></returns>
-        </member>
         <member name="T:project_2.get_vdog_scheduler_checkin_cmd">
              <summary>
             The get_vdog_scheduler_checkin_cmd recording.
@@ -200,27 +190,27 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="T:project_2.Rec_project_2">
+        <member name="T:project_2.Powershell">
              <summary>
-            The rec_project_2 recording.
+            The powershell recording.
              </summary>
         </member>
-        <member name="F:project_2.Rec_project_2.repo">
+        <member name="F:project_2.Powershell.repo">
             <summary>
             Holds an instance of the global::global_repo.global_repo repository.
             </summary>
         </member>
-        <member name="M:project_2.Rec_project_2.#ctor">
+        <member name="M:project_2.Powershell.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:project_2.Rec_project_2.Start">
+        <member name="M:project_2.Powershell.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:project_2.Rec_project_2.Instance"/>.
+            Starts the replay of the static recording <see cref="P:project_2.Powershell.Instance"/>.
             </summary>
         </member>
-        <member name="M:project_2.Rec_project_2.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:project_2.Powershell.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -228,13 +218,13 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:project_2.Rec_project_2.Init">
+        <member name="M:project_2.Powershell.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="M:project_2.Rec_project_2.get_process_command_line">
+        <member name="M:project_2.Powershell.get_process_command_line">
             <summary>
             This method get's an commandline argument from a specific process on a local or remote machine
             /https://www.howtogeek.com/117192/how-to-run-powershell-commands-on-remote-computers/
@@ -244,7 +234,46 @@
             Restart-Service WinRM
             </summary>
         </member>
-        <member name="P:project_2.Rec_project_2.Instance">
+        <member name="P:project_2.Powershell.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:project_2._powershell_testcase.wait_for_process_and_get_cmd">
+             <summary>
+            The wait_for_process_and_get_cmd recording.
+             </summary>
+        </member>
+        <member name="F:project_2._powershell_testcase.wait_for_process_and_get_cmd.repo">
+            <summary>
+            Holds an instance of the global::global_repo.global_repo repository.
+            </summary>
+        </member>
+        <member name="M:project_2._powershell_testcase.wait_for_process_and_get_cmd.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2._powershell_testcase.wait_for_process_and_get_cmd.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2._powershell_testcase.wait_for_process_and_get_cmd.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2._powershell_testcase.wait_for_process_and_get_cmd.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2._powershell_testcase.wait_for_process_and_get_cmd.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2._powershell_testcase.wait_for_process_and_get_cmd.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>

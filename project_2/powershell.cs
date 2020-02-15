@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace project_1
+namespace project_2
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CimV2 recording.
+    ///The powershell recording.
     /// </summary>
-    [TestModule("bdd95241-e94f-4a09-9c48-a33f7580989f", ModuleType.Recording, 1)]
-    public partial class CimV2 : ITestModule
+    [TestModule("db6df1f9-ca19-45bd-8e50-e21e32940804", ModuleType.Recording, 1)]
+    public partial class Powershell : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::global_repo.global_repo repository.
         /// </summary>
         public static global::global_repo.global_repo repo = global::global_repo.global_repo.Instance;
 
-        static CimV2 instance = new CimV2();
+        static Powershell instance = new Powershell();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CimV2()
+        public Powershell()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CimV2 Instance
+        public static Powershell Instance
         {
             get { return instance; }
         }
@@ -79,14 +79,18 @@ namespace project_1
 
             Init();
 
-            //get_process_by_name();
+            //get_process_command_line();
             //Delay.Milliseconds(0);
             
-            //cim();
-            //Delay.Milliseconds(0);
-            
-            event_watcher("");
+            start_explorer();
             Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.Explorer1AktivesFenster' at 20;26.", repo.Explorer.Explorer1AktivesFensterInfo, new RecordItemIndex(2));
+            //repo.Explorer.Explorer1AktivesFenster.Click("20;26");
+            //Delay.Milliseconds(200);
+            
+            //wait_for_process();
+            //Delay.Milliseconds(0);
             
         }
 
