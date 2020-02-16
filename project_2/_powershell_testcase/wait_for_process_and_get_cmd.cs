@@ -82,8 +82,11 @@ namespace project_2._powershell_testcase
             wait_for_process_async();
             Delay.Milliseconds(0);
             
-            get_cmd_parameter();
-            Delay.Milliseconds(0);
+            //get_cmd_parameter();
+            //Delay.Milliseconds(0);
+            
+            //test_with_add_parameter();
+            //Delay.Milliseconds(0);
             
         }
 

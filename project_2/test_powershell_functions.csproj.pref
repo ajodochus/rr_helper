@@ -8,21 +8,20 @@
     <Element value="_powershell_testcase\wait_for_process_and_get_cmd.rxrec" />
     <Element value="_powershell_testcase\wait_for_process_and_get_cmd.UserCode.cs" />
     <Element value="wait_for_process.ps1" />
+    <Element value="Powershell_start_explorer_on_machine.rxrec" />
     <Element value="codemodules\Powershell_handler.cs" />
-    <Element value="powershell.rxrec" />
-    <Element value="powershell.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.get_cmd_parameter()" />
+      <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.test_with_add_parameter()" />
+      <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.test_with_add_parameter()" />
       <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.get_cmd_parameter()" />
       <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.wait_for_process_async()" />
       <Element value="project_2.Powershell.powershell()" />
       <Element value="project_2._powershell_testcase.wait_for_process_and_get_cmd.wait_for_process()" />
-      <Element value="project_2.Rec_project_2.wait_for_process()" />
     </Array>
   </Properties>
 </Properties>

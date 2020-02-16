@@ -42,7 +42,7 @@ mode="Global">
 		</userrecorditem>
 		<userrecorditem
 		classname="wait_for_process_and_get_cmd"
-		enabled="True"
+		enabled="False"
 		isexternaltestmethod="False"
 		methodname="get_cmd_parameter"
 		namespace="project_2._powershell_testcase"
@@ -53,6 +53,21 @@ mode="Global">
 			</bindings>
 			<arguments
 			id="abec6466-98a3-4a86-bf54-84de95815e24">
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="wait_for_process_and_get_cmd"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="test_with_add_parameter"
+		namespace="project_2._powershell_testcase"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="22c2f0ed-4e5d-4fcf-8987-1fde91041dfa">
 			</arguments>
 		</userrecorditem>
 	</recorditems>

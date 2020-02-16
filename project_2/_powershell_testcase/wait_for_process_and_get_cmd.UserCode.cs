@@ -33,18 +33,19 @@ namespace project_2._powershell_testcase
 		static string  var_username = "vagrant";
 		static string var_password = "vagrant";
 		static string var_remote_ip_or_vmname = "vagrant-1";
-		string var_process = "notepad";
+		static string var_process = "notepad";
 		string var_process_cmd = "not available";
 		string login_ps_script = "$Username = '" +var_username+"';" +
 			"$Password = '"+var_password+"';" +
+			"$Process = '"+var_process+"';" +
 			"$pass = ConvertTo-SecureString -AsPlainText $Password -Force;" +
 			"$Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass;";
 		
 
-			/// <summary>
-			/// This method gets called right after the recording has been started.
-			/// It can be used to execute recording specific initialization code.
-			/// </summary>
+		/// <summary>
+		/// This method gets called right after the recording has been started.
+		/// It can be used to execute recording specific initialization code.
+		/// </summary>
 		private void Init()
 		{
 			// Your recording specific initialization code goes here.
@@ -69,7 +70,7 @@ namespace project_2._powershell_testcase
 				}
 			}
 			
-			                     
+			
 		}
 
 		public void wait_for_process_async()
@@ -96,11 +97,11 @@ namespace project_2._powershell_testcase
 			//string script_block = File.ReadAllText(@"invoke_start_explorer.ps1");
 			
 			
-			string script_block = File.ReadAllText(@"wait_for_process.ps1");
+
 			
 			using (PowerShell PowerShellInstance = PowerShell.Create())
 			{
-				PowerShellInstance.AddScript(login_ps_script + "Invoke-Command -ComputerName "+var_remote_ip_or_vmname+" -ScriptBlock {"+script_block+"} -credential $Cred");
+				PowerShellInstance.AddScript(login_ps_script + "Invoke-Command -ArgumentList $Process -ComputerName "+var_remote_ip_or_vmname+" -ScriptBlock {"+File.ReadAllText(@"wait_for_process.ps1")+"} -credential $Cred");
 				IAsyncResult result = PowerShellInstance.BeginInvoke();
 
 				while (result.IsCompleted == false)
@@ -137,6 +138,18 @@ namespace project_2._powershell_testcase
 					Ranorex.Report.Failure("powershell stream error");
 				}
 			}
+		}
+
+		public void test_with_add_parameter()
+		{
+			// https://stackoverflow.com/questions/40013482/set-paramerters-in-scriptblock-when-executing-powershell-commands-with-c-sharp
+			
+			PowerShell ps = PowerShell.Create();
+			ps.AddCommand("Invoke-Command");
+			ps.AddParameter("ComputerName", var_remote_ip_or_vmname);
+			ps.AddParameter("credential", File.ReadAllText(@"credentials.ps1"));
+			
+			
 		}
 		
 		

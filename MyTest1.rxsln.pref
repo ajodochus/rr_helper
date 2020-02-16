@@ -13,6 +13,6 @@
       <string>74091f54-0d4b-4afc-b325-ac18d2308fcf</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyTest1[kkkkk[test_powershell_functions[_powershell_testcase[]]]]]&#xD;&#xA;Solution MyTest1\kkkkk\test_powershell_functions\_powershell_testcase\wait_for_process_and_get_cmd.rxrec&#xD;&#xA;Solution MyTest1\kkkkk\common_recordings" />
+  <ProjectBrowserState value="[Solution MyTest1[kkkkk[test_powershell_functions[codemodules[]Powershell_start_explorer_on_machine.rxrec[]]]]]&#xD;&#xA;Solution MyTest1\kkkkk\test_powershell_functions\_powershell_testcase&#xD;&#xA;Solution MyTest1\kkkkk\test_powershell_functions" />
   <StartupProject value="{124FA085-09FE-4788-8C54-CDCE778FB107}" />
 </Properties>

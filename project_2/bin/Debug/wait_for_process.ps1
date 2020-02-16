@@ -1,28 +1,24 @@
-﻿function Wait-ForProcess
+﻿param
+(
+$Name = 'keiner',
+
+[Switch]
+$IgnoreAlreadyRunningProcesses
+)
+
+if ($IgnoreAlreadyRunningProcesses)
 {
-    param
-    (
-        $Name = 'notepad',
-
-        [Switch]
-        $IgnoreAlreadyRunningProcesses
-    )
-
-    if ($IgnoreAlreadyRunningProcesses)
-    {
-        $NumberOfProcesses = (Get-Process -Name $Name -ErrorAction SilentlyContinue).Count
-    }
-    else
-    {
-        $NumberOfProcesses = 0
-    }
-
-
-    Write-Host "Waiting for $Name" -NoNewline
-    while ( (Get-Process -Name $Name -ErrorAction SilentlyContinue).Count -eq $NumberOfProcesses )
-    {
-        Write-Host '.' -NoNewline
-        Start-Sleep -Milliseconds 400
-    }
+$NumberOfProcesses = (Get-Process -Name $Name -ErrorAction SilentlyContinue).Count
 }
-Wait-ForProcess
+else
+{
+$NumberOfProcesses = 0
+}
+
+
+Write-Host "Waiting for $Name" -NoNewline
+while ( (Get-Process -Name $Name -ErrorAction SilentlyContinue).Count -eq $NumberOfProcesses )
+{
+Write-Host '.' -NoNewline
+Start-Sleep -Milliseconds 400
+}
