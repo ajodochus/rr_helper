@@ -2,7 +2,7 @@
 {
     param
     (
-        $Name = 'VDogSchedularCheckIn',
+        $Name = 'notepad',
 
         [Switch]
         $IgnoreAlreadyRunningProcesses

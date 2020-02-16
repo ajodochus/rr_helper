@@ -30,14 +30,21 @@ namespace project_2._powershell_testcase
 	{
 		
 		int process_found = 0;
-			string var_machine_user = "vagrant";
-			string var_machine_password = "vagrant";
-			string var_machine_name_or_ip = "vagrant-1";
-			string var_process = "explorer";
-		/// <summary>
-		/// This method gets called right after the recording has been started.
-		/// It can be used to execute recording specific initialization code.
-		/// </summary>
+		static string  var_username = "vagrant";
+		static string var_password = "vagrant";
+		static string var_remote_ip_or_vmname = "vagrant-1";
+		string var_process = "notepad";
+		string var_process_cmd = "not available";
+		string login_ps_script = "$Username = '" +var_username+"';" +
+			"$Password = '"+var_password+"';" +
+			"$pass = ConvertTo-SecureString -AsPlainText $Password -Force;" +
+			"$Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass;";
+		
+
+			/// <summary>
+			/// This method gets called right after the recording has been started.
+			/// It can be used to execute recording specific initialization code.
+			/// </summary>
 		private void Init()
 		{
 			// Your recording specific initialization code goes here.
@@ -48,14 +55,9 @@ namespace project_2._powershell_testcase
 			
 			
 			PowerShell powerShell = PowerShell.Create();
-			powerShell.AddScript("$Username = '"+var_machine_user+"';" +
-			                     "$Password = '"+var_machine_password+"';" +
-			                     "$pass = ConvertTo-SecureString -AsPlainText $Password -Force;" +
-			                     "$Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass;" +
-			                     "Invoke-Command -ComputerName "+var_machine_name_or_ip+" -ScriptBlock { Get-CimInstance Win32_Process -Filter \"name = 'notepad.exe'\" | select CommandLine} -credential $Cred");
-			
-			
-			
+			powerShell.AddScript(login_ps_script +
+			                     "Invoke-Command -ComputerName "+var_remote_ip_or_vmname+" -ScriptBlock { Get-CimInstance Win32_Process -Filter \"name = '"+var_process+"'\" | select CommandLine} -credential $Cred");
+
 			for (int i = 0; i < 30; i++) {
 				if (process_found==0) {
 					Collection<PSObject> PSOutput = powerShell.Invoke();
@@ -67,17 +69,16 @@ namespace project_2._powershell_testcase
 				}
 			}
 			
-			
-			
+			                     
 		}
 
 		public void wait_for_process_async()
 		{
 
-			 //HACK Verschiedene Möglichkeiten den Sriptblock einzulesen
+			//HACK Verschiedene Möglichkeiten den Sriptblock einzulesen
 
 
-			 // [1] multiline
+			// [1] multiline
 			/*
 			string _script_block = "Write-Host \"Waiting for $Name\" -NoNewline" +
 				"while ( (Get-Process -Name $Name -ErrorAction SilentlyContinue).Count -eq $NumberOfProcesses )"+
@@ -86,7 +87,7 @@ namespace project_2._powershell_testcase
 				"Start-Sleep -Milliseconds 400"+
 				"}"+
 				"Wait-ForProcess -Name notepad -IgnoreAlreadyRunningProcesses";
-			*/
+			 */
 			
 			// [2] semicolon separated
 			//string script_block = "start-sleep -s 20; get-service";
@@ -97,25 +98,11 @@ namespace project_2._powershell_testcase
 			
 			string script_block = File.ReadAllText(@"wait_for_process.ps1");
 			
-			
-			
 			using (PowerShell PowerShellInstance = PowerShell.Create())
 			{
-				// this script has a sleep in it to simulate a long running script
-				//PowerShellInstance.AddScript("start-sleep -s 20; get-service");
-				
-				PowerShellInstance.AddScript("$Username = '"+var_username+"';" +
-			                     "$Password = 'vagrant';" +
-			                     "$pass = ConvertTo-SecureString -AsPlainText $Password -Force;" +
-			                     "$Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass;" +
-			                     "Invoke-Command -ComputerName vagrant-1 -ScriptBlock {"+script_block+"} -credential $Cred");
-				
-
-				// begin invoke execution on the pipeline
+				PowerShellInstance.AddScript(login_ps_script + "Invoke-Command -ComputerName "+var_remote_ip_or_vmname+" -ScriptBlock {"+script_block+"} -credential $Cred");
 				IAsyncResult result = PowerShellInstance.BeginInvoke();
 
-				// do something else until execution has completed.
-				// this could be sleep/wait, or perhaps some other work
 				while (result.IsCompleted == false)
 				{
 					Ranorex.Report.Info("Waiting for pipeline to finish..." + result.IsCompleted.ToString());
@@ -127,16 +114,12 @@ namespace project_2._powershell_testcase
 
 		}
 
-        public void get_cmd_parameter()
-        {
-            using (PowerShell powerShell = PowerShell.Create()){
+		public void get_cmd_parameter()
+		{
+			using (PowerShell powerShell = PowerShell.Create()){
 
 				
-				powerShell.AddScript("$Username = '"+var_username+"';" +
-				                     "$Password = 'vagrant';" +
-				                     "$pass = ConvertTo-SecureString -AsPlainText $Password -Force;" +
-				                     "$Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass;" +
-				                     "Invoke-Command -ComputerName vagrant-1 -ScriptBlock { Get-CimInstance Win32_Process -Filter \"name = '"+ var_process+".exe'\" | select CommandLine} -credential $Cred");
+				powerShell.AddScript(login_ps_script + "Invoke-Command -ComputerName "+var_remote_ip_or_vmname+" -ScriptBlock { Get-CimInstance Win32_Process -Filter \"name = '"+ var_process+".exe'\" | select CommandLine} -credential $Cred");
 				
 				Collection<PSObject> PSOutput = powerShell.Invoke();
 				Ranorex.Report.Info("count objects; " + PSOutput.Count);
@@ -144,8 +127,8 @@ namespace project_2._powershell_testcase
 				{
 					if (outputItem != null)
 					{
-						string val = outputItem.Properties["CommandLine"].Value.ToString();
-						Ranorex.Report.Info("ps out: " + val);
+						var_process_cmd = outputItem.Properties["CommandLine"].Value.ToString();
+						Ranorex.Report.Info("ps out: " + var_process_cmd);
 					}
 				}
 
@@ -154,7 +137,7 @@ namespace project_2._powershell_testcase
 					Ranorex.Report.Failure("powershell stream error");
 				}
 			}
-        }
+		}
 		
 		
 	}
