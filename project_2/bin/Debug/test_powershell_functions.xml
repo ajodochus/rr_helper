@@ -4,6 +4,24 @@
         <name>test_powershell_functions</name>
     </assembly>
     <members>
+        <member name="T:project_2.codemodules.Delay_">
+            <summary>
+            Description of Delay_.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.Delay_.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.Delay_.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
         <member name="T:project_2.codemodules.http_request">
              <summary>
             The http_request recording.
@@ -42,6 +60,63 @@
             <summary>
             Gets a static instance of this recording.
             </summary>
+        </member>
+        <member name="T:project_2.codemodules.Mailslurper_close">
+             <summary>
+            The Mailslurper_close recording.
+             </summary>
+        </member>
+        <member name="F:project_2.codemodules.Mailslurper_close.repo">
+            <summary>
+            Holds an instance of the global::global_repo.global_repo repository.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.Mailslurper_close.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.Mailslurper_close.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.codemodules.Mailslurper_close.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.Mailslurper_close.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.codemodules.Mailslurper_close.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.codemodules.Mailslurper_close.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:project_2.codemodules.Mailslurper_server">
+            <summary>
+            Description of Mailslurper_server.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.Mailslurper_server.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.Mailslurper_server.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
         </member>
         <member name="T:project_2.codemodules.Powershell_handler">
             <summary>
@@ -128,6 +203,11 @@
         <member name="P:global_repo.global_repo.CUserClient">
             <summary>
             The CUserClient folder.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repo.CUsersVagrantDocumentsMailslurper1">
+            <summary>
+            The CUsersVagrantDocumentsMailslurper1 folder.
             </summary>
         </member>
         <member name="T:global_repo.global_repoFolders">
@@ -253,6 +333,46 @@
         <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStoppenInfo">
             <summary>
             The JobStoppen item info.
+            </summary>
+        </member>
+        <member name="T:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder">
+            <summary>
+            The CUsersVagrantDocumentsMailslurper1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CUsersVagrantDocumentsMailslurper1  folder.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TitleBar">
+            <summary>
+            The TitleBar item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TitleBarInfo">
+            <summary>
+            The TitleBar item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TextArea">
+            <summary>
+            The TextArea item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TextAreaInfo">
+            <summary>
+            The TextArea item info.
             </summary>
         </member>
         <member name="T:project_2.parse_string_to_json">

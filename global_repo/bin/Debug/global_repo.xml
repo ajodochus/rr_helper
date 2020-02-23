@@ -34,6 +34,11 @@
             The CUserClient folder.
             </summary>
         </member>
+        <member name="P:global_repo.global_repo.CUsersVagrantDocumentsMailslurper1">
+            <summary>
+            The CUsersVagrantDocumentsMailslurper1 folder.
+            </summary>
+        </member>
         <member name="T:global_repo.global_repoFolders">
             <summary>
             Inner folder classes.
@@ -157,6 +162,46 @@
         <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStoppenInfo">
             <summary>
             The JobStoppen item info.
+            </summary>
+        </member>
+        <member name="T:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder">
+            <summary>
+            The CUsersVagrantDocumentsMailslurper1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CUsersVagrantDocumentsMailslurper1  folder.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TitleBar">
+            <summary>
+            The TitleBar item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TitleBarInfo">
+            <summary>
+            The TitleBar item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TextArea">
+            <summary>
+            The TextArea item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TextAreaInfo">
+            <summary>
+            The TextArea item info.
             </summary>
         </member>
     </members>

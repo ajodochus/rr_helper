@@ -131,6 +131,9 @@
     <Compile Include="AssemblyInfo.cs">
       <id>e6de7573-785a-4bc8-a602-bc26babab273</id>
     </Compile>
+    <Compile Include="codemodules\Delay_.cs">
+      <id>c682ef78-fae7-4a3c-accf-5a6e9ce21c3e</id>
+    </Compile>
     <Compile Include="codemodules\http_request.cs">
       <BoundTo>b025442d-c8b5-423b-8c81-f2e2b5b4851a</BoundTo>
       <DependentUpon>http_request.rxrec</DependentUpon>
@@ -142,6 +145,21 @@
       <DependentUpon>http_request.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>3e0ec9bd-5981-4e67-92a0-484ac868ef1c</id>
+    </Compile>
+    <Compile Include="codemodules\Mailslurper_close.cs">
+      <BoundTo>a55a41f0-4a72-454c-9c39-fd0eb29ef528</BoundTo>
+      <DependentUpon>Mailslurper_close.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2a8394f5-a511-4162-8fee-fd4f86a8d7ec</id>
+    </Compile>
+    <Compile Include="codemodules\Mailslurper_close.UserCode.cs">
+      <BoundTo>a55a41f0-4a72-454c-9c39-fd0eb29ef528</BoundTo>
+      <DependentUpon>Mailslurper_close.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dfb5a4e2-4b0f-49db-8802-a47dcfd97a97</id>
+    </Compile>
+    <Compile Include="codemodules\Mailslurper_server.cs">
+      <id>3138d015-10b6-496f-b101-778575aba80a</id>
     </Compile>
     <Compile Include="codemodules\Powershell_handler.cs">
       <id>aebf1688-0b58-48f5-8a61-e25dcefcb09e</id>
@@ -261,6 +279,11 @@
       <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
       <id>b025442d-c8b5-423b-8c81-f2e2b5b4851a</id>
       <recordtableid>483e171e-a890-4e82-bb24-61ee5ca2cc64</recordtableid>
+    </None>
+    <None Include="codemodules\Mailslurper_close.rxrec">
+      <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
+      <id>a55a41f0-4a72-454c-9c39-fd0eb29ef528</id>
+      <recordtableid>76acc615-d617-40e7-8466-f9babd7bea32</recordtableid>
     </None>
     <None Include="get_vdog_scheduler_checkin_cmd.rxrec">
       <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>

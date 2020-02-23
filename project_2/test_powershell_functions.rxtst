@@ -3,13 +3,38 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="07b70abb-c338-40cd-9bf2-23e9d6cdbb30"
+			name="Mailslurper_server"
+			ref="4372da50-7a55-4a1b-96de-417d24a9af33"
+			type="UserCode">
+				<description>
+					<![CDATA[start (default)]]>
+				</description>
+			</testmodule>
+			<testmodule
+			id="592f04fc-f52e-4d6f-8245-ec90687107cd"
+			name="Mailslurper_server"
+			ref="4372da50-7a55-4a1b-96de-417d24a9af33"
+			type="UserCode">
+				<description>
+					<![CDATA[shutdown]]>
+				</description>
+				<databinding>
+					<var
+					dataname="mailslruper"
+					datasourceid="9ca79aa6-fe50-4c82-a53d-98a948502c75"
+					variableid="9c4fc009-1816-4bab-8e59-aea135d54806"
+					variablename="server_call">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="68e1b1fe-20b8-4e3b-87da-5434c2dcd3ac"
 			name="restfull"
 			ref="d50ca5ee-69b0-4b7d-82a0-bfc40f8c58bc"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="6cbd5f6a-1aba-4637-b30a-d62c63ca1a47"
 			name="smtp"
 			ref="07aab4c5-1a14-451e-8fe6-1f82909a9035"
@@ -23,13 +48,18 @@
 			<testcase
 			id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
 			name="TestCase">
+				<parameters>
+					<param
+					name="mailslruper"
+					value="shutdown">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
-			enabled="False"
-			id="ade4bde9-95e0-4e47-b278-23d467d3038e"
-			name="testing_json"
-			ref="80d280a2-d866-4366-899e-cda05fc5e243"
-			type="Recording">
+			id="bca34ee1-ff3b-4e00-909a-9b506ca6fe79"
+			name="Delay_"
+			ref="73c12313-8545-4329-a28c-564c2a225593"
+			type="UserCode">
 			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -73,6 +103,10 @@
 						name="wait_for_process_and_get_cmd">
 						</testmodule>
 						<testmodule
+						id="07b70abb-c338-40cd-9bf2-23e9d6cdbb30"
+						name="Mailslurper_server">
+						</testmodule>
+						<testmodule
 						id="6cbd5f6a-1aba-4637-b30a-d62c63ca1a47"
 						name="smtp">
 						</testmodule>
@@ -81,8 +115,12 @@
 						name="restfull">
 						</testmodule>
 						<testmodule
-						id="ade4bde9-95e0-4e47-b278-23d467d3038e"
-						name="testing_json">
+						id="bca34ee1-ff3b-4e00-909a-9b506ca6fe79"
+						name="Delay_">
+						</testmodule>
+						<testmodule
+						id="592f04fc-f52e-4d6f-8245-ec90687107cd"
+						name="Mailslurper_server">
 						</testmodule>
 					</testcase>
 				</testcase>

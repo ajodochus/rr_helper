@@ -182,6 +182,49 @@ L7BfMqaqNl3Xibq+TtyeGeL1+cns7BwJBhdIOBIlUixOZDlJFheXSDabJYqiECmXyz/w+y//AffT
 AvnQB9zbAAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b71d9d6f-488a-4235-a160-11c5bded1761"
+		isrooted="True"
+		name="CUsersVagrantDocumentsMailslurper1"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="titlebar,uiautomation"
+			capname="titlebar"
+			id="aea9dbde-2181-4e4c-bc7e-2df3d351f6a5"
+			name="TitleBar"
+			refimgid="a5aabba4-5279-40c9-940f-815c336c7405"
+			searchtimeout="30000ms">
+				/form[@title&lt;'mailslurper.exe']/titlebar[@automationid='TitleBar']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="214c0b30-d4b5-4ae2-b08c-fc174dcd0949"
+			name="TextArea"
+			refimgid="0d4dce9c-2be6-419e-92f2-0464290116b0"
+			refpath="/form[@title='C:\Users\vagrant\Documents\mailslurper-1.14.1-windows\mailslurper.exe']/text[@automationid='Text Area']"
+			searchtimeout="30000ms">
+				/form[@title&lt;'mailslurper.exe']/text[@automationid='Text Area']
+			</item>
+			<basepath>
+				/form[@title&lt;'mailslurper.exe']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHNSURBVDhPzdHNT9NwHMfxhYsJf8eOHnbYgRtX
+smwyHgRnpvEJj5KQQIKZ4qI2s6l1CJsOcBmwEHwAhUnQxQMJFw96kMvYFpfswbbr1nUMWSKST2y/
+xJimIUG8+E3elyZ9/b6/1vJ/zJdUDsfJH5zHxsctJDc/w8dGYbPb2wkofRNQkctHJuuVD/v9TBBE
+nLbZHATUd3aRWP9EvdV796f9/R/I5/NIp9PUwcFPXGFW8H2vaQQ6fXF0+efQy8TQz0XhGZ+CN/wU
+kqhtV6loJwqUDgzwS0agXK3hGv8S1yee42o4Djc3CSfPoXOCJaBQKCCTyVA6cGM2jnpj1wgMTi/B
+FQjBwT6CK8jBHXqAnimGgGrVuMHI8jMz0MEE4eR4nHnMoutJAL3T99Afu0NAsVhENpuldGAsOW4G
+nPxDuCdZdEcYnJ25C8/sGLwLPojaqY3GDlRVQa2moNncQ0rYNgPuUAA9kfvoi/rhmbuNC4s3cenF
+CAGlUgm5XE7rK+p1lSAToK98LubH+fgtXFwcxeVXwxh4M0SAJEl0DT1FUeivmABJFI9MVWvah6zS
+i7IsUwZgOfEeq+sf/qrXa0lYrdY2ArQ5pdV6glq0/mUsll91MTKXhMgO+wAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

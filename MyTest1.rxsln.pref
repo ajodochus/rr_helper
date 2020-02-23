@@ -9,8 +9,9 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>{124FA085-09FE-4788-8C54-CDCE778FB107}</string>
       <string>74091f54-0d4b-4afc-b325-ac18d2308fcf</string>
+      <string>375181da-4867-4729-ae74-4777fda0dbf9</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyTest1[kkkkk[Calculator[Reports[]]test_powershell_functions[Reports[]]]]]&#xD;&#xA;Solution MyTest1\kkkkk\test_powershell_functions\wait_for_process.ps1&#xD;&#xA;Solution MyTest1\kkkkk\test_powershell_functions\Reports" />
+  <ProjectBrowserState value="[Solution MyTest1[kkkkk[Calculator[common_recording[]]test_powershell_functions[codemodules[]]]]]&#xD;&#xA;Solution MyTest1\kkkkk\test_powershell_functions\codemodules\Mailslurper_server.cs&#xD;&#xA;Solution MyTest1\kkkkk\test_powershell_functions\Reports" />
   <StartupProject value="{124FA085-09FE-4788-8C54-CDCE778FB107}" />
 </Properties>

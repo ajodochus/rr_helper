@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="76acc615-d617-40e7-8466-f9babd7bea32"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Mailslurper_close"
+	namespace="project_2.codemodules">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="Close"
+		enabled="False"
+		optional="False"
+		searchpropertyid="0acf46d8-8f0e-45de-b820-be9b1d08aad0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b71d9d6f-488a-4235-a160-11c5bded1761"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="3"
+				prefcap="form"
+				rect="192,192,1119,647"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						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
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						C:\Users\vagrant\Documents\mailslurper-1.14.1-windows\mailslurper.exe
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						ConsoleWindowClass
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						329590
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						3220
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						mailslurper
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, AcceptFiles, WindowEdge, ApplicationWindow, Layered
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, VerticalScrollBar, TiledWindow, ClipSiblings, Visible
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						C:\Users\vagrant\Documents\mailslurper-1.14.1-windows\mailslurper.exe
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title&lt;'mailslurper.exe']
+				</path>
+			</info>
+			<arguments
+			id="c1dfe94e-4057-4c57-aa63-66e33b3d8857">
+			</arguments>
+		</invokeactionrecorditem>
+		<userrecorditem
+		classname="Mailslurper_close"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="kill"
+		namespace="project_2.codemodules"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="707c6452-a712-433f-a737-12a0e614de24">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="937bfc73-dcfc-42f3-880a-3c60a32ce20a"
+	name="global_repo"
+	relativepath="..\..\global_repo\global_repo.rxrep">
+		<codegen
+		classname="global_repo"
+		namespace="global_repo">
+		</codegen>
+		<rootfolder
+		id="e8abadf6-fac5-414e-bd6b-9fe377c28278"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Mailslurper_close.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

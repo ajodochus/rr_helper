@@ -29,6 +29,7 @@ namespace global_repo
         static global_repo instance = new global_repo();
         global_repoFolders.ExplorerAppFolder _explorer;
         global_repoFolders.CUserClientAppFolder _cuserclient;
+        global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder _cusersvagrantdocumentsmailslurper1;
 
         /// <summary>
         /// Gets the singleton class instance representing the global_repo element repository.
@@ -47,6 +48,7 @@ namespace global_repo
         {
             _explorer = new global_repoFolders.ExplorerAppFolder(this);
             _cuserclient = new global_repoFolders.CUserClientAppFolder(this);
+            _cusersvagrantdocumentsmailslurper1 = new global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder(this);
         }
 
 #region Variables
@@ -81,6 +83,15 @@ namespace global_repo
         public virtual global_repoFolders.CUserClientAppFolder CUserClient
         {
             get { return _cuserclient; }
+        }
+
+        /// <summary>
+        /// The CUsersVagrantDocumentsMailslurper1 folder.
+        /// </summary>
+        [RepositoryFolder("b71d9d6f-488a-4235-a160-11c5bded1761")]
+        public virtual global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder CUsersVagrantDocumentsMailslurper1
+        {
+            get { return _cusersvagrantdocumentsmailslurper1; }
         }
     }
 
@@ -374,6 +385,98 @@ namespace global_repo
                 get
                 {
                     return _jobstoppenInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CUsersVagrantDocumentsMailslurper1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("b71d9d6f-488a-4235-a160-11c5bded1761")]
+        public partial class CUsersVagrantDocumentsMailslurper1AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _titlebarInfo;
+            RepoItemInfo _textareaInfo;
+
+            /// <summary>
+            /// Creates a new CUsersVagrantDocumentsMailslurper1  folder.
+            /// </summary>
+            public CUsersVagrantDocumentsMailslurper1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CUsersVagrantDocumentsMailslurper1", "/form[@title<'mailslurper.exe']", parentFolder, 30000, null, true, "b71d9d6f-488a-4235-a160-11c5bded1761", "")
+            {
+                _titlebarInfo = new RepoItemInfo(this, "TitleBar", "titlebar[@automationid='TitleBar']", 30000, null, "aea9dbde-2181-4e4c-bc7e-2df3d351f6a5");
+                _textareaInfo = new RepoItemInfo(this, "TextArea", "text[@automationid='Text Area']", 30000, null, "214c0b30-d4b5-4ae2-b08c-fc174dcd0949");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("b71d9d6f-488a-4235-a160-11c5bded1761")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("b71d9d6f-488a-4235-a160-11c5bded1761")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar item.
+            /// </summary>
+            [RepositoryItem("aea9dbde-2181-4e4c-bc7e-2df3d351f6a5")]
+            public virtual Ranorex.TitleBar TitleBar
+            {
+                get
+                {
+                    return _titlebarInfo.CreateAdapter<Ranorex.TitleBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar item info.
+            /// </summary>
+            [RepositoryItemInfo("aea9dbde-2181-4e4c-bc7e-2df3d351f6a5")]
+            public virtual RepoItemInfo TitleBarInfo
+            {
+                get
+                {
+                    return _titlebarInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TextArea item.
+            /// </summary>
+            [RepositoryItem("214c0b30-d4b5-4ae2-b08c-fc174dcd0949")]
+            public virtual Ranorex.Text TextArea
+            {
+                get
+                {
+                    return _textareaInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TextArea item info.
+            /// </summary>
+            [RepositoryItemInfo("214c0b30-d4b5-4ae2-b08c-fc174dcd0949")]
+            public virtual RepoItemInfo TextAreaInfo
+            {
+                get
+                {
+                    return _textareaInfo;
                 }
             }
         }
