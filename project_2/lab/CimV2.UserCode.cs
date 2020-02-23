@@ -23,7 +23,7 @@ using Ranorex.Core.Testing;
 using System.Management;
 using System.Diagnostics;
 
-namespace project_2.codemodules
+namespace project_2.lab
 {
 	public partial class CimV2
 	{

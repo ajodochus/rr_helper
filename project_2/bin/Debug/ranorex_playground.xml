@@ -4,45 +4,6 @@
         <name>ranorex_playground</name>
     </assembly>
     <members>
-        <member name="T:project_2.codemodules.CimV2">
-             <summary>
-            The CimV2 recording.
-             </summary>
-        </member>
-        <member name="F:project_2.codemodules.CimV2.repo">
-            <summary>
-            Holds an instance of the global::project_2.Repository repository.
-            </summary>
-        </member>
-        <member name="M:project_2.codemodules.CimV2.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:project_2.codemodules.CimV2.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:project_2.codemodules.CimV2.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:project_2.codemodules.CimV2.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:project_2.codemodules.CimV2.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:project_2.codemodules.CimV2.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="T:project_2.codemodules.Delay_10_seconds">
             <summary>
             Description of Delay_.
@@ -79,6 +40,45 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
+        <member name="T:project_2.lab.CimV2">
+             <summary>
+            The CimV2 recording.
+             </summary>
+        </member>
+        <member name="F:project_2.lab.CimV2.repo">
+            <summary>
+            Holds an instance of the global::project_2.Repository repository.
+            </summary>
+        </member>
+        <member name="M:project_2.lab.CimV2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.lab.CimV2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.lab.CimV2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.lab.CimV2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.lab.CimV2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.lab.CimV2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:project_2.codemodules.Powershell_handler">
             <summary>
             Description of Powershell_handler.
@@ -97,27 +97,27 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="T:project_2.codemodules.psexec_handler">
+        <member name="T:project_2.lab.psexec_handler">
              <summary>
             The psexec_handler recording.
              </summary>
         </member>
-        <member name="F:project_2.codemodules.psexec_handler.repo">
+        <member name="F:project_2.lab.psexec_handler.repo">
             <summary>
             Holds an instance of the global::project_2.Repository repository.
             </summary>
         </member>
-        <member name="M:project_2.codemodules.psexec_handler.#ctor">
+        <member name="M:project_2.lab.psexec_handler.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:project_2.codemodules.psexec_handler.Start">
+        <member name="M:project_2.lab.psexec_handler.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:project_2.codemodules.psexec_handler.Instance"/>.
+            Starts the replay of the static recording <see cref="P:project_2.lab.psexec_handler.Instance"/>.
             </summary>
         </member>
-        <member name="M:project_2.codemodules.psexec_handler.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:project_2.lab.psexec_handler.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -125,215 +125,54 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:project_2.codemodules.psexec_handler.Init">
+        <member name="M:project_2.lab.psexec_handler.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:project_2.codemodules.psexec_handler.Instance">
+        <member name="P:project_2.lab.psexec_handler.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="T:global_repo.global_repo">
+        <member name="T:project_2.lab.smtp">
+             <summary>
+            The smtp recording.
+             </summary>
+        </member>
+        <member name="F:project_2.lab.smtp.repo">
             <summary>
-            The class representing the global_repo element repository.
+            Holds an instance of the global::project_2.Repository repository.
             </summary>
         </member>
-        <member name="M:global_repo.global_repo.#ctor">
+        <member name="M:project_2.lab.smtp.#ctor">
             <summary>
-            Repository class constructor.
+            Constructs a new instance.
             </summary>
         </member>
-        <member name="P:global_repo.global_repo.Instance">
+        <member name="M:project_2.lab.smtp.Start">
             <summary>
-            Gets the singleton class instance representing the global_repo element repository.
+            Starts the replay of the static recording <see cref="P:project_2.lab.smtp.Instance"/>.
             </summary>
         </member>
-        <member name="P:global_repo.global_repo.SelfInfo">
+        <member name="M:project_2.lab.smtp.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
-            The Self item info.
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.lab.smtp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:global_repo.global_repo.Explorer">
+        <member name="P:project_2.lab.smtp.Instance">
             <summary>
-            The Explorer folder.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repo.CUserClient">
-            <summary>
-            The CUserClient folder.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repo.CUsersVagrantDocumentsMailslurper1">
-            <summary>
-            The CUsersVagrantDocumentsMailslurper1 folder.
-            </summary>
-        </member>
-        <member name="T:global_repo.global_repoFolders">
-            <summary>
-            Inner folder classes.
-            </summary>
-        </member>
-        <member name="T:global_repo.global_repoFolders.ExplorerAppFolder">
-            <summary>
-            The ExplorerAppFolder folder.
-            </summary>
-        </member>
-        <member name="M:global_repo.global_repoFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new Explorer  folder.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.MicrosoftEdge">
-            <summary>
-            The MicrosoftEdge item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.MicrosoftEdgeInfo">
-            <summary>
-            The MicrosoftEdge item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.FileExplorer">
-            <summary>
-            The FileExplorer item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.FileExplorerInfo">
-            <summary>
-            The FileExplorer item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.test">
-            <summary>
-            The test item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.testInfo">
-            <summary>
-            The test item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Explorer1AktivesFenster">
-            <summary>
-            The Explorer1AktivesFenster item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Explorer1AktivesFensterInfo">
-            <summary>
-            The Explorer1AktivesFenster item info.
-            </summary>
-        </member>
-        <member name="T:global_repo.global_repoFolders.CUserClientAppFolder">
-            <summary>
-            The CUserClientAppFolder folder.
-            </summary>
-        </member>
-        <member name="M:global_repo.global_repoFolders.CUserClientAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new CUserClient  folder.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.Gleich">
-            <summary>
-            The Gleich item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.GleichInfo">
-            <summary>
-            The Gleich item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.Jobs">
-            <summary>
-            The Jobs item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobsInfo">
-            <summary>
-            The Jobs item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStarten">
-            <summary>
-            The JobStarten item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStartenInfo">
-            <summary>
-            The JobStarten item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStoppen">
-            <summary>
-            The JobStoppen item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStoppenInfo">
-            <summary>
-            The JobStoppen item info.
-            </summary>
-        </member>
-        <member name="T:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder">
-            <summary>
-            The CUsersVagrantDocumentsMailslurper1AppFolder folder.
-            </summary>
-        </member>
-        <member name="M:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new CUsersVagrantDocumentsMailslurper1  folder.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TitleBar">
-            <summary>
-            The TitleBar item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TitleBarInfo">
-            <summary>
-            The TitleBar item info.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TextArea">
-            <summary>
-            The TextArea item.
-            </summary>
-        </member>
-        <member name="P:global_repo.global_repoFolders.CUsersVagrantDocumentsMailslurper1AppFolder.TextAreaInfo">
-            <summary>
-            The TextArea item info.
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:project_2.Repository">
@@ -426,66 +265,27 @@
             The JobStoppen item info.
             </summary>
         </member>
-        <member name="T:project_2.smtp">
-             <summary>
-            The smtp recording.
-             </summary>
-        </member>
-        <member name="F:project_2.smtp.repo">
-            <summary>
-            Holds an instance of the Repository repository.
-            </summary>
-        </member>
-        <member name="M:project_2.smtp.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:project_2.smtp.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:project_2.smtp.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:project_2.smtp.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:project_2.smtp.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:project_2.smtp.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:project_2._powershell_testcase.wait_for_process_and_get_cmd">
+        <member name="T:project_2.lab.wait_for_process_and_get_cmd">
              <summary>
             The wait_for_process_and_get_cmd recording.
              </summary>
         </member>
-        <member name="F:project_2._powershell_testcase.wait_for_process_and_get_cmd.repo">
+        <member name="F:project_2.lab.wait_for_process_and_get_cmd.repo">
             <summary>
             Holds an instance of the global::project_2.Repository repository.
             </summary>
         </member>
-        <member name="M:project_2._powershell_testcase.wait_for_process_and_get_cmd.#ctor">
+        <member name="M:project_2.lab.wait_for_process_and_get_cmd.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:project_2._powershell_testcase.wait_for_process_and_get_cmd.Start">
+        <member name="M:project_2.lab.wait_for_process_and_get_cmd.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:project_2._powershell_testcase.wait_for_process_and_get_cmd.Instance"/>.
+            Starts the replay of the static recording <see cref="P:project_2.lab.wait_for_process_and_get_cmd.Instance"/>.
             </summary>
         </member>
-        <member name="M:project_2._powershell_testcase.wait_for_process_and_get_cmd.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:project_2.lab.wait_for_process_and_get_cmd.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -493,13 +293,13 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:project_2._powershell_testcase.wait_for_process_and_get_cmd.Init">
+        <member name="M:project_2.lab.wait_for_process_and_get_cmd.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:project_2._powershell_testcase.wait_for_process_and_get_cmd.Instance">
+        <member name="P:project_2.lab.wait_for_process_and_get_cmd.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>

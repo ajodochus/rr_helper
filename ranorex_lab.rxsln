@@ -4,11 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 9.2.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kkkkk", "kkkkk", "{3B138986-26AC-4A82-8DB1-E82935879CDF}"
-	ProjectSection(SolutionItems) = postProject
-		Ranorex = .\Ranorex.rxsettings
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ranorex_playground", "project_2\ranorex_playground.csproj", "{124FA085-09FE-4788-8C54-CDCE778FB107}"
 EndProject
 Global
@@ -21,8 +16,5 @@ Global
 		{124FA085-09FE-4788-8C54-CDCE778FB107}.Debug|x86.ActiveCfg = Debug|x86
 		{124FA085-09FE-4788-8C54-CDCE778FB107}.Release|x86.Build.0 = Release|x86
 		{124FA085-09FE-4788-8C54-CDCE778FB107}.Release|x86.ActiveCfg = Release|x86
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{124FA085-09FE-4788-8C54-CDCE778FB107} = {3B138986-26AC-4A82-8DB1-E82935879CDF}
 	EndGlobalSection
 EndGlobal

@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="smtp"
-	namespace="project_2">
+	namespace="project_2.lab">
 	</codegen>
 	<variables>
 	</variables>
@@ -44,7 +44,7 @@ mode="Global">
 	<repository
 	id="7c4cf967-b58b-41bd-b9db-81f589722ade"
 	name="Repository"
-	relativepath="Repository.rxrep">
+	relativepath="..\Repository.rxrep">
 		<codegen
 		classname="Repository"
 		namespace="project_2">

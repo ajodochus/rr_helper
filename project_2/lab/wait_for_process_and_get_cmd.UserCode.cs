@@ -24,7 +24,7 @@ using System.Collections.ObjectModel;
 
 using System.IO;
 
-namespace project_2._powershell_testcase
+namespace project_2.lab
 {
 	public partial class wait_for_process_and_get_cmd
 	{

@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace project_2
+namespace project_2.lab
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The smtp recording.
+    ///The CimV2 recording.
     /// </summary>
-    [TestModule("07aab4c5-1a14-451e-8fe6-1f82909a9035", ModuleType.Recording, 1)]
-    public partial class smtp : ITestModule
+    [TestModule("85db8cf7-1177-4418-9859-b267a40858ad", ModuleType.Recording, 1)]
+    public partial class CimV2 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the Repository repository.
+        /// Holds an instance of the global::project_2.Repository repository.
         /// </summary>
-        public static Repository repo = Repository.Instance;
+        public static global::project_2.Repository repo = global::project_2.Repository.Instance;
 
-        static smtp instance = new smtp();
+        static CimV2 instance = new CimV2();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public smtp()
+        public CimV2()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static smtp Instance
+        public static CimV2 Instance
         {
             get { return instance; }
         }
@@ -73,13 +73,19 @@ namespace project_2
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 500;
-            Keyboard.DefaultKeyPressTime = 100;
+            Mouse.DefaultMoveTime = 300;
+            Keyboard.DefaultKeyPressTime = 20;
             Delay.SpeedFactor = 1.00;
 
             Init();
 
-            send_mail();
+            //get_process_by_name();
+            //Delay.Milliseconds(0);
+            
+            //cim();
+            //Delay.Milliseconds(0);
+            
+            event_watcher("");
             Delay.Milliseconds(0);
             
         }

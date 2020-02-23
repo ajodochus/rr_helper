@@ -21,7 +21,7 @@ using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 using System.Net.Mail;
 
-namespace project_2
+namespace project_2.lab
 {
     public partial class smtp
     {

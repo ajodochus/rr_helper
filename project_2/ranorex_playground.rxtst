@@ -65,7 +65,7 @@
 			</testmodule>
 			<testcase
 			id="7816a2d7-8500-4434-bcce-f5b4ff08397b"
-			name="test_powershell_functions"
+			name="ranorex_playground"
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
@@ -134,7 +134,7 @@
 			enabletracingscreenshots="True"
 			id="ee1ebcc1-8d6c-47c0-a622-abdb0fc97954"
 			junitreport="False"
-			name="test_powershell_functions"
+			name="ranorex_playground"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
@@ -142,28 +142,17 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
-			<testmodule
-			enabled="False"
-			id="f4846c8d-9b60-4b06-b22b-88f0e28757de"
-			name="wait_for_process_and_get_cmd"
-			ref="d79707e0-fca0-44ab-86cf-db406d853359"
-			type="Recording">
-			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
 			id="ee1ebcc1-8d6c-47c0-a622-abdb0fc97954"
-			name="test_powershell_functions">
+			name="ranorex_playground">
 				<testcase
 				id="7816a2d7-8500-4434-bcce-f5b4ff08397b"
-				name="test_powershell_functions">
+				name="ranorex_playground">
 					<testcase
 					id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
 					name="get_mailslurper_email_info">
-						<testmodule
-						id="f4846c8d-9b60-4b06-b22b-88f0e28757de"
-						name="wait_for_process_and_get_cmd">
-						</testmodule>
 						<testmodule
 						id="07b70abb-c338-40cd-9bf2-23e9d6cdbb30"
 						name="Mailslurper_server">

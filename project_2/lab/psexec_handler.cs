@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace project_2.codemodules
+namespace project_2.lab
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
@@ -73,8 +73,8 @@ namespace project_2.codemodules
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 500;
-            Keyboard.DefaultKeyPressTime = 100;
+            Mouse.DefaultMoveTime = 300;
+            Keyboard.DefaultKeyPressTime = 20;
             Delay.SpeedFactor = 1.00;
 
             Init();

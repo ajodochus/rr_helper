@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="wait_for_process_and_get_cmd"
-	namespace="project_2._powershell_testcase">
+	namespace="project_2.lab">
 	</codegen>
 	<variables>
 	</variables>
@@ -30,7 +30,7 @@ mode="Global">
 		enabled="False"
 		isexternaltestmethod="False"
 		methodname="test_with_add_parameter"
-		namespace="project_2._powershell_testcase"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>
@@ -1323,7 +1323,7 @@ AHkr6v8A99n/ABo8lfV/++z/AI0UUAHkr6v/AN9n/GjyV9X/AO+z/jRRQAeSvq//AH2f8aKKKAP/
 		enabled="True"
 		isexternaltestmethod="False"
 		methodname="wait_for_process_async"
-		namespace="project_2._powershell_testcase"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>
@@ -1338,7 +1338,7 @@ AHkr6v8A99n/ABo8lfV/++z/AI0UUAHkr6v/AN9n/GjyV9X/AO+z/jRRQAeSvq//AH2f8aKKKAP/
 		enabled="True"
 		isexternaltestmethod="False"
 		methodname="get_cmd_parameter"
-		namespace="project_2._powershell_testcase"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>
@@ -1380,7 +1380,7 @@ AHkr6v8A99n/ABo8lfV/++z/AI0UUAHkr6v/AN9n/GjyV9X/AO+z/jRRQAeSvq//AH2f8aKKKAP/
 		enabled="False"
 		isexternaltestmethod="False"
 		methodname="execute_cmd"
-		namespace="project_2._powershell_testcase"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>

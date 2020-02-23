@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 using System.Diagnostics;
 
-namespace project_2.codemodules
+namespace project_2.lab
 {
 	public partial class psexec_handler
 	{

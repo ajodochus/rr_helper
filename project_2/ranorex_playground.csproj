@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
     <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
-    <projectdefaultrepository>20e4b585-c168-44d1-b95e-81b9ac68983d</projectdefaultrepository>
+    <projectdefaultrepository>6fdcbf01-3f2d-406d-b173-399ff66b61f1</projectdefaultrepository>
     <StartAction>Project</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
@@ -132,44 +132,50 @@
     <Compile Include="AssemblyInfo.cs">
       <id>e6de7573-785a-4bc8-a602-bc26babab273</id>
     </Compile>
-    <Compile Include="codemodules\CimV2.cs">
-      <DependentUpon>CimV2.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>5917094e-8e0f-48f9-bda8-58885afb1790</id>
-      <BoundTo>0338fd4d-3b76-423e-948b-7ea52f60d3c1</BoundTo>
-    </Compile>
-    <Compile Include="codemodules\CimV2.UserCode.cs">
-      <DependentUpon>CimV2.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>7375b9c4-e667-40d9-965f-8b92db5c2c8a</id>
-      <BoundTo>0338fd4d-3b76-423e-948b-7ea52f60d3c1</BoundTo>
-    </Compile>
     <Compile Include="codemodules\Delay_10_seconds.cs">
       <id>c682ef78-fae7-4a3c-accf-5a6e9ce21c3e</id>
     </Compile>
     <Compile Include="codemodules\Mailslurper_server.cs">
       <id>3138d015-10b6-496f-b101-778575aba80a</id>
     </Compile>
-    <Compile Include="codemodules\Powershell_handler.cs">
+    <Compile Include="lab\CimV2.cs">
+      <DependentUpon>CimV2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5917094e-8e0f-48f9-bda8-58885afb1790</id>
+      <BoundTo>0338fd4d-3b76-423e-948b-7ea52f60d3c1</BoundTo>
+    </Compile>
+    <Compile Include="lab\CimV2.UserCode.cs">
+      <DependentUpon>CimV2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7375b9c4-e667-40d9-965f-8b92db5c2c8a</id>
+      <BoundTo>0338fd4d-3b76-423e-948b-7ea52f60d3c1</BoundTo>
+    </Compile>
+    <Compile Include="lab\Powershell_handler.cs">
       <id>aebf1688-0b58-48f5-8a61-e25dcefcb09e</id>
     </Compile>
-    <Compile Include="codemodules\psexec_handler.cs">
+    <Compile Include="lab\psexec_handler.cs">
       <DependentUpon>psexec_handler.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>1afc5c1b-8f7a-452f-9537-33b34fb06c83</id>
       <BoundTo>faa0f3c0-97a0-4c1d-a82d-1009446bde4e</BoundTo>
     </Compile>
-    <Compile Include="codemodules\psexec_handler.UserCode.cs">
+    <Compile Include="lab\psexec_handler.UserCode.cs">
       <DependentUpon>psexec_handler.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>85f4c413-9714-49de-9820-a8aea7a4cb61</id>
       <BoundTo>faa0f3c0-97a0-4c1d-a82d-1009446bde4e</BoundTo>
     </Compile>
-    <Compile Include="global_repo.cs">
-      <DependentUpon>global_repo.rxrep</DependentUpon>
-      <RepositoryCode>true</RepositoryCode>
-      <id>359fc697-4db2-4ba9-83e8-0896032fc983</id>
-      <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
+    <Compile Include="lab\smtp.cs">
+      <DependentUpon>smtp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>efa478b9-fde3-4d32-9a1f-6e5552841ac0</id>
+      <BoundTo>0f15c664-1431-4e62-9859-2675325a8631</BoundTo>
+    </Compile>
+    <Compile Include="lab\smtp.UserCode.cs">
+      <DependentUpon>smtp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fee91658-cfff-41e6-9ce4-8d6c65fbaabe</id>
+      <BoundTo>0f15c664-1431-4e62-9859-2675325a8631</BoundTo>
     </Compile>
     <Compile Include="Program.cs">
       <id>a1ca851d-f941-4610-91d3-e6968d702fd9</id>
@@ -180,25 +186,13 @@
       <RepositoryCode>true</RepositoryCode>
       <id>895c9b59-c00b-48fd-bbdb-9695ea50d52b</id>
     </Compile>
-    <Compile Include="smtp.cs">
-      <BoundTo>0f15c664-1431-4e62-9859-2675325a8631</BoundTo>
-      <DependentUpon>smtp.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>efa478b9-fde3-4d32-9a1f-6e5552841ac0</id>
-    </Compile>
-    <Compile Include="smtp.UserCode.cs">
-      <BoundTo>0f15c664-1431-4e62-9859-2675325a8631</BoundTo>
-      <DependentUpon>smtp.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>fee91658-cfff-41e6-9ce4-8d6c65fbaabe</id>
-    </Compile>
-    <Compile Include="_powershell_testcase\wait_for_process_and_get_cmd.cs">
+    <Compile Include="lab\wait_for_process_and_get_cmd.cs">
       <BoundTo>52198995-8d94-4a5b-a060-6331d8aa42dd</BoundTo>
       <DependentUpon>wait_for_process_and_get_cmd.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>b65327f0-bc40-4011-a81d-1dde2dc3a412</id>
     </Compile>
-    <Compile Include="_powershell_testcase\wait_for_process_and_get_cmd.UserCode.cs">
+    <Compile Include="lab\wait_for_process_and_get_cmd.UserCode.cs">
       <BoundTo>52198995-8d94-4a5b-a060-6331d8aa42dd</BoundTo>
       <DependentUpon>wait_for_process_and_get_cmd.rxrec</DependentUpon>
       <UserCode>true</UserCode>
@@ -206,34 +200,30 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\global_repo\global_repo.rximg">
-      <DependentUpon>global_repo.rxrep</DependentUpon>
-      <imageblob>true</imageblob>
-      <id>8173911b-9987-48f3-aa16-d7597cbbadf6</id>
-      <Link>global_repo.rximg</Link>
-      <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
-    </None>
-    <None Include="..\global_repo\global_repo.rxrep">
-      <id>20e4b585-c168-44d1-b95e-81b9ac68983d</id>
-      <repoid>937bfc73-dcfc-42f3-880a-3c60a32ce20a</repoid>
-      <reporootid>e8abadf6-fac5-414e-bd6b-9fe377c28278</reporootid>
-      <Link>global_repo.rxrep</Link>
-    </None>
     <None Include="app.config">
       <id>eb833073-a7ce-4f29-a803-e44d0222267c</id>
     </None>
-    <None Include="codemodules\CimV2.rxrec">
+    <None Include="lab\CimV2.rxrec">
+      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
       <id>0338fd4d-3b76-423e-948b-7ea52f60d3c1</id>
       <recordtableid>85db8cf7-1177-4418-9859-b267a40858ad</recordtableid>
-      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
     </None>
-    <None Include="codemodules\psexec_handler.rxrec">
+    <None Include="lab\invoke_start_explorer.ps1">
+      <id>efbee9cc-c310-4513-ad09-a73371f11776</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="lab\psexec_handler.rxrec">
+      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
       <id>faa0f3c0-97a0-4c1d-a82d-1009446bde4e</id>
       <recordtableid>274359b7-cb35-4f2e-a4e0-b0a2f8b8eea4</recordtableid>
-      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
     </None>
-    <None Include="invoke_start_explorer.ps1">
-      <id>efbee9cc-c310-4513-ad09-a73371f11776</id>
+    <None Include="lab\smtp.rxrec">
+      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
+      <id>0f15c664-1431-4e62-9859-2675325a8631</id>
+      <recordtableid>07aab4c5-1a14-451e-8fe6-1f82909a9035</recordtableid>
+    </None>
+    <None Include="lab\wait_for_process.ps1">
+      <id>b1f09937-068a-4c79-8a66-4664ee9d34c1</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="mailslurper\config.json">
@@ -262,27 +252,14 @@
       <repoid>7c4cf967-b58b-41bd-b9db-81f589722ade</repoid>
       <reporootid>fe244156-b2ec-4b29-ac88-f61643b09cb8</reporootid>
     </None>
-    <None Include="smtp.rxrec">
-      <id>0f15c664-1431-4e62-9859-2675325a8631</id>
-      <recordtableid>07aab4c5-1a14-451e-8fe6-1f82909a9035</recordtableid>
-      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
-    </None>
-    <None Include="wait_for_process.ps1">
-      <id>b1f09937-068a-4c79-8a66-4664ee9d34c1</id>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="_powershell_testcase\wait_for_process_and_get_cmd.rxrec">
+    <None Include="lab\wait_for_process_and_get_cmd.rxrec">
       <id>52198995-8d94-4a5b-a060-6331d8aa42dd</id>
       <recordtableid>d79707e0-fca0-44ab-86cf-db406d853359</recordtableid>
       <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="project_2.rxtmg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>986b4eff-f768-4d16-9765-b96964176013</id>
-    </Content>
-    <Content Include="test_powershell_functions.rxtst">
+    <Content Include="ranorex_playground.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>3aaaab78-47f8-43e2-91ed-a809f9c6e26e</id>
     </Content>
@@ -294,7 +271,7 @@
     <Folder Include="mailslurper">
       <id>8d0cbb12-2b57-4ebb-9059-53a7304f4c3e</id>
     </Folder>
-    <Folder Include="_powershell_testcase">
+    <Folder Include="lab">
       <id>74091f54-0d4b-4afc-b325-ac18d2308fcf</id>
     </Folder>
   </ItemGroup>

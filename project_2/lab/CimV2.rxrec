@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="CimV2"
-	namespace="project_2.codemodules">
+	namespace="project_2.lab">
 	</codegen>
 	<variables>
 	</variables>
