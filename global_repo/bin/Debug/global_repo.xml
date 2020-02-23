@@ -29,6 +29,11 @@
             The Explorer folder.
             </summary>
         </member>
+        <member name="P:global_repo.global_repo.CUserClient">
+            <summary>
+            The CUserClient folder.
+            </summary>
+        </member>
         <member name="T:global_repo.global_repoFolders">
             <summary>
             Inner folder classes.
@@ -92,6 +97,66 @@
         <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Explorer1AktivesFensterInfo">
             <summary>
             The Explorer1AktivesFenster item info.
+            </summary>
+        </member>
+        <member name="T:global_repo.global_repoFolders.CUserClientAppFolder">
+            <summary>
+            The CUserClientAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:global_repo.global_repoFolders.CUserClientAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CUserClient  folder.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.Gleich">
+            <summary>
+            The Gleich item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.GleichInfo">
+            <summary>
+            The Gleich item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.Jobs">
+            <summary>
+            The Jobs item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobsInfo">
+            <summary>
+            The Jobs item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStarten">
+            <summary>
+            The JobStarten item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStartenInfo">
+            <summary>
+            The JobStarten item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStoppen">
+            <summary>
+            The JobStoppen item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStoppenInfo">
+            <summary>
+            The JobStoppen item info.
             </summary>
         </member>
     </members>

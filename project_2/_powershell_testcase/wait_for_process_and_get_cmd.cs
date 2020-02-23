@@ -79,13 +79,37 @@ namespace project_2._powershell_testcase
 
             Init();
 
+            //test_with_add_parameter();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CUserClient.Gleich' at 126;75.", repo.CUserClient.GleichInfo, new RecordItemIndex(1));
+            repo.CUserClient.Gleich.Click("126;75");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CUserClient.Jobs' at 32;18.", repo.CUserClient.JobsInfo, new RecordItemIndex(2));
+            repo.CUserClient.Jobs.Click("32;18");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CUserClient.JobStarten' at 39;35.", repo.CUserClient.JobStartenInfo, new RecordItemIndex(3));
+            repo.CUserClient.JobStarten.Click("39;35");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(4));
+            Delay.Duration(1000, false);
+            
             wait_for_process_async();
             Delay.Milliseconds(0);
             
-            //get_cmd_parameter();
-            //Delay.Milliseconds(0);
+            get_cmd_parameter();
+            Delay.Milliseconds(0);
             
-            //test_with_add_parameter();
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'CUserClient.JobStoppen'", repo.CUserClient.JobStoppenInfo, new ActionTimeout(40000), new RecordItemIndex(7));
+            //repo.CUserClient.JobStoppenInfo.WaitForExists(40000);
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(8));
+            //Delay.Duration(20000, false);
+            
+            //execute_cmd();
             //Delay.Milliseconds(0);
             
         }

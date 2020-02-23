@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="07aab4c5-1a14-451e-8fe6-1f82909a9035"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="smtp"
+	namespace="project_2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="smtp"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="send_mail"
+		namespace="project_2"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="6d639036-ae5e-44f8-b207-e0a5dca3c67c">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="937bfc73-dcfc-42f3-880a-3c60a32ce20a"
+	name="global_repo"
+	relativepath="..\global_repo\global_repo.rxrep">
+		<codegen
+		classname="global_repo"
+		namespace="global_repo">
+		</codegen>
+		<rootfolder
+		id="e8abadf6-fac5-414e-bd6b-9fe377c28278"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		smtp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

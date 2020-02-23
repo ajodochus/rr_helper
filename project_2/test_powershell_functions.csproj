@@ -38,6 +38,9 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Ranorex.Bootstrapper">
       <Private>False</Private>
     </Reference>
@@ -117,6 +120,7 @@
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Management.Automation" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
@@ -126,6 +130,18 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs">
       <id>e6de7573-785a-4bc8-a602-bc26babab273</id>
+    </Compile>
+    <Compile Include="codemodules\http_request.cs">
+      <BoundTo>b025442d-c8b5-423b-8c81-f2e2b5b4851a</BoundTo>
+      <DependentUpon>http_request.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a87098b8-358a-4b00-8ff1-b4e2d59713c4</id>
+    </Compile>
+    <Compile Include="codemodules\http_request.UserCode.cs">
+      <BoundTo>b025442d-c8b5-423b-8c81-f2e2b5b4851a</BoundTo>
+      <DependentUpon>http_request.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e0ec9bd-5981-4e67-92a0-484ac868ef1c</id>
     </Compile>
     <Compile Include="codemodules\Powershell_handler.cs">
       <id>aebf1688-0b58-48f5-8a61-e25dcefcb09e</id>
@@ -147,6 +163,18 @@
       <RepositoryCode>true</RepositoryCode>
       <id>359fc697-4db2-4ba9-83e8-0896032fc983</id>
       <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
+    </Compile>
+    <Compile Include="parse_string_to_json.cs">
+      <BoundTo>95fe4d16-785a-4e46-b8e6-2e1a992b2130</BoundTo>
+      <DependentUpon>parse_string_to_json.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a0bd864b-16e1-4d9f-8e6f-3742ae11e301</id>
+    </Compile>
+    <Compile Include="parse_string_to_json.UserCode.cs">
+      <BoundTo>95fe4d16-785a-4e46-b8e6-2e1a992b2130</BoundTo>
+      <DependentUpon>parse_string_to_json.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9d906384-348a-42ed-8416-16e116b1d6c8</id>
     </Compile>
     <Compile Include="Powershell_start_explorer_on_machine.cs">
       <BoundTo>e94d3fff-7238-4bf9-b024-9f9935806f29</BoundTo>
@@ -174,6 +202,30 @@
       <DependentUpon>powershell.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7b860889-5f12-44cd-868f-b5c9ca933ae2</id>
+    </Compile>
+    <Compile Include="restfull.cs">
+      <BoundTo>60bcdeea-9f9c-44d8-bafb-67730d4e6f1b</BoundTo>
+      <DependentUpon>restfull.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>608be60e-42a4-4d62-b632-efbdcc00a383</id>
+    </Compile>
+    <Compile Include="restfull.UserCode.cs">
+      <BoundTo>60bcdeea-9f9c-44d8-bafb-67730d4e6f1b</BoundTo>
+      <DependentUpon>restfull.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ebaee23c-c1ad-41e6-b192-e03574fce148</id>
+    </Compile>
+    <Compile Include="smtp.cs">
+      <BoundTo>0f15c664-1431-4e62-9859-2675325a8631</BoundTo>
+      <DependentUpon>smtp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>efa478b9-fde3-4d32-9a1f-6e5552841ac0</id>
+    </Compile>
+    <Compile Include="smtp.UserCode.cs">
+      <BoundTo>0f15c664-1431-4e62-9859-2675325a8631</BoundTo>
+      <DependentUpon>smtp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fee91658-cfff-41e6-9ce4-8d6c65fbaabe</id>
     </Compile>
     <Compile Include="_powershell_testcase\wait_for_process_and_get_cmd.cs">
       <BoundTo>52198995-8d94-4a5b-a060-6331d8aa42dd</BoundTo>
@@ -205,6 +257,11 @@
     <None Include="app.config">
       <id>eb833073-a7ce-4f29-a803-e44d0222267c</id>
     </None>
+    <None Include="codemodules\http_request.rxrec">
+      <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
+      <id>b025442d-c8b5-423b-8c81-f2e2b5b4851a</id>
+      <recordtableid>483e171e-a890-4e82-bb24-61ee5ca2cc64</recordtableid>
+    </None>
     <None Include="get_vdog_scheduler_checkin_cmd.rxrec">
       <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
       <id>5ec2be01-000f-49f8-bb4b-7cc963a10e05</id>
@@ -213,6 +270,14 @@
     <None Include="invoke_start_explorer.ps1">
       <id>efbee9cc-c310-4513-ad09-a73371f11776</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config">
+      <id>9d0b90b0-47aa-495a-8ccd-77387f2242c8</id>
+    </None>
+    <None Include="parse_string_to_json.rxrec">
+      <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
+      <id>95fe4d16-785a-4e46-b8e6-2e1a992b2130</id>
+      <recordtableid>68f0deb4-b43e-43a5-a7c6-05c0ffe725cf</recordtableid>
     </None>
     <None Include="Powershell_start_explorer_on_machine.rxrec">
       <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
@@ -223,6 +288,16 @@
       <id>46efd714-898b-4cff-ad4c-15f801cb4b32</id>
       <recordtableid>db6df1f9-ca19-45bd-8e50-e21e32940804</recordtableid>
       <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
+    </None>
+    <None Include="restfull.rxrec">
+      <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
+      <id>60bcdeea-9f9c-44d8-bafb-67730d4e6f1b</id>
+      <recordtableid>d50ca5ee-69b0-4b7d-82a0-bfc40f8c58bc</recordtableid>
+    </None>
+    <None Include="smtp.rxrec">
+      <BoundTo>20e4b585-c168-44d1-b95e-81b9ac68983d</BoundTo>
+      <id>0f15c664-1431-4e62-9859-2675325a8631</id>
+      <recordtableid>07aab4c5-1a14-451e-8fe6-1f82909a9035</recordtableid>
     </None>
     <None Include="wait_for_process.ps1">
       <id>b1f09937-068a-4c79-8a66-4664ee9d34c1</id>

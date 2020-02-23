@@ -28,6 +28,7 @@ namespace global_repo
     {
         static global_repo instance = new global_repo();
         global_repoFolders.ExplorerAppFolder _explorer;
+        global_repoFolders.CUserClientAppFolder _cuserclient;
 
         /// <summary>
         /// Gets the singleton class instance representing the global_repo element repository.
@@ -45,6 +46,7 @@ namespace global_repo
             : base("global_repo", "/", null, 0, false, "e8abadf6-fac5-414e-bd6b-9fe377c28278", ".\\RepositoryImages\\global_repoe8abadf6.rximgres")
         {
             _explorer = new global_repoFolders.ExplorerAppFolder(this);
+            _cuserclient = new global_repoFolders.CUserClientAppFolder(this);
         }
 
 #region Variables
@@ -70,6 +72,15 @@ namespace global_repo
         public virtual global_repoFolders.ExplorerAppFolder Explorer
         {
             get { return _explorer; }
+        }
+
+        /// <summary>
+        /// The CUserClient folder.
+        /// </summary>
+        [RepositoryFolder("95dfe53f-b6cb-44a0-a481-f85add362169")]
+        public virtual global_repoFolders.CUserClientAppFolder CUserClient
+        {
+            get { return _cuserclient; }
         }
     }
 
@@ -219,6 +230,150 @@ namespace global_repo
                 get
                 {
                     return _explorer1aktivesfensterInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CUserClientAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("95dfe53f-b6cb-44a0-a481-f85add362169")]
+        public partial class CUserClientAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _gleichInfo;
+            RepoItemInfo _jobsInfo;
+            RepoItemInfo _jobstartenInfo;
+            RepoItemInfo _jobstoppenInfo;
+
+            /// <summary>
+            /// Creates a new CUserClient  folder.
+            /// </summary>
+            public CUserClientAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CUserClient", "/form[@name='CUserClient']", parentFolder, 30000, null, true, "95dfe53f-b6cb-44a0-a481-f85add362169", "")
+            {
+                _gleichInfo = new RepoItemInfo(this, "Gleich", "element[@name='centralwidget']/container[@name='c_pProjectTreeSplitter']//container[@name='CVersionOverview']//container[@name='qt_tabwidget_stackedwidget']/container[@name='c_pJobsTab']//table[@name='client_jobTableView']/row[@index='0']/cell[@columnindex='3']", 30000, null, "9a69837b-1636-44bd-9973-7ecf32206de6");
+                _jobsInfo = new RepoItemInfo(this, "Jobs", ".//tabpagelist[@name='qt_tabwidget_tabbar']/tabpage[@title='Jobs']", 30000, null, "ec4deca1-3eaa-4218-9b71-4613e8623848");
+                _jobstartenInfo = new RepoItemInfo(this, "JobStarten", ".//container[@name='qt_tabwidget_stackedwidget']/container[8]/?/?/container[@caption='Ausführung']/button[@text='Job starten']", 30000, null, "54e7fa7e-7479-4a2b-80d8-1e554c9380b4");
+                _jobstoppenInfo = new RepoItemInfo(this, "JobStoppen", ".//container[@name='qt_tabwidget_stackedwidget']/container[8]/?/?/container[@caption='Ausführung']/button[@text='Jobstoppen' and @enabled='False']", 30000, null, "ff5b27bc-6fa6-44e1-881f-f573800e2943");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("95dfe53f-b6cb-44a0-a481-f85add362169")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("95dfe53f-b6cb-44a0-a481-f85add362169")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Gleich item.
+            /// </summary>
+            [RepositoryItem("9a69837b-1636-44bd-9973-7ecf32206de6")]
+            public virtual Ranorex.Cell Gleich
+            {
+                get
+                {
+                    return _gleichInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Gleich item info.
+            /// </summary>
+            [RepositoryItemInfo("9a69837b-1636-44bd-9973-7ecf32206de6")]
+            public virtual RepoItemInfo GleichInfo
+            {
+                get
+                {
+                    return _gleichInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Jobs item.
+            /// </summary>
+            [RepositoryItem("ec4deca1-3eaa-4218-9b71-4613e8623848")]
+            public virtual Ranorex.TabPage Jobs
+            {
+                get
+                {
+                    return _jobsInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Jobs item info.
+            /// </summary>
+            [RepositoryItemInfo("ec4deca1-3eaa-4218-9b71-4613e8623848")]
+            public virtual RepoItemInfo JobsInfo
+            {
+                get
+                {
+                    return _jobsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The JobStarten item.
+            /// </summary>
+            [RepositoryItem("54e7fa7e-7479-4a2b-80d8-1e554c9380b4")]
+            public virtual Ranorex.Button JobStarten
+            {
+                get
+                {
+                    return _jobstartenInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JobStarten item info.
+            /// </summary>
+            [RepositoryItemInfo("54e7fa7e-7479-4a2b-80d8-1e554c9380b4")]
+            public virtual RepoItemInfo JobStartenInfo
+            {
+                get
+                {
+                    return _jobstartenInfo;
+                }
+            }
+
+            /// <summary>
+            /// The JobStoppen item.
+            /// </summary>
+            [RepositoryItem("ff5b27bc-6fa6-44e1-881f-f573800e2943")]
+            public virtual Ranorex.Button JobStoppen
+            {
+                get
+                {
+                    return _jobstoppenInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JobStoppen item info.
+            /// </summary>
+            [RepositoryItemInfo("ff5b27bc-6fa6-44e1-881f-f573800e2943")]
+            public virtual RepoItemInfo JobStoppenInfo
+            {
+                get
+                {
+                    return _jobstoppenInfo;
                 }
             }
         }

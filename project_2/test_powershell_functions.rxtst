@@ -2,6 +2,19 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="68e1b1fe-20b8-4e3b-87da-5434c2dcd3ac"
+			name="restfull"
+			ref="d50ca5ee-69b0-4b7d-82a0-bfc40f8c58bc"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="6cbd5f6a-1aba-4637-b30a-d62c63ca1a47"
+			name="smtp"
+			ref="07aab4c5-1a14-451e-8fe6-1f82909a9035"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="7816a2d7-8500-4434-bcce-f5b4ff08397b"
 			name="test_powershell_functions"
@@ -11,6 +24,13 @@
 			id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
 			name="TestCase">
 			</testcase>
+			<testmodule
+			enabled="False"
+			id="ade4bde9-95e0-4e47-b278-23d467d3038e"
+			name="testing_json"
+			ref="80d280a2-d866-4366-899e-cda05fc5e243"
+			type="Recording">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -31,6 +51,7 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
+			enabled="False"
 			id="f4846c8d-9b60-4b06-b22b-88f0e28757de"
 			name="wait_for_process_and_get_cmd"
 			ref="d79707e0-fca0-44ab-86cf-db406d853359"
@@ -50,6 +71,18 @@
 						<testmodule
 						id="f4846c8d-9b60-4b06-b22b-88f0e28757de"
 						name="wait_for_process_and_get_cmd">
+						</testmodule>
+						<testmodule
+						id="6cbd5f6a-1aba-4637-b30a-d62c63ca1a47"
+						name="smtp">
+						</testmodule>
+						<testmodule
+						id="68e1b1fe-20b8-4e3b-87da-5434c2dcd3ac"
+						name="restfull">
+						</testmodule>
+						<testmodule
+						id="ade4bde9-95e0-4e47-b278-23d467d3038e"
+						name="testing_json">
 						</testmodule>
 					</testcase>
 				</testcase>
@@ -71,5 +104,8 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Newtonsoft.Json.dll
+		</reference>
 	</references>
 </testsuitedoc>

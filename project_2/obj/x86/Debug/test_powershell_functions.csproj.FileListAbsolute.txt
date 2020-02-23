@@ -20,3 +20,5 @@ C:\Users\Administrator\Documents\rr_helper\project_2\obj\x86\Debug\test_powershe
 C:\Users\Administrator\Documents\rr_helper\project_2\obj\x86\Debug\test_powershell_functions.pdb
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\invoke_start_explorer.ps1
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\wait_for_process.ps1
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\Newtonsoft.Json.xml

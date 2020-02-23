@@ -4,6 +4,45 @@
         <name>test_powershell_functions</name>
     </assembly>
     <members>
+        <member name="T:project_2.codemodules.http_request">
+             <summary>
+            The http_request recording.
+             </summary>
+        </member>
+        <member name="F:project_2.codemodules.http_request.repo">
+            <summary>
+            Holds an instance of the global::global_repo.global_repo repository.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.http_request.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.http_request.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.codemodules.http_request.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.codemodules.http_request.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.codemodules.http_request.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.codemodules.http_request.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:project_2.codemodules.Powershell_handler">
             <summary>
             Description of Powershell_handler.
@@ -86,6 +125,11 @@
             The Explorer folder.
             </summary>
         </member>
+        <member name="P:global_repo.global_repo.CUserClient">
+            <summary>
+            The CUserClient folder.
+            </summary>
+        </member>
         <member name="T:global_repo.global_repoFolders">
             <summary>
             Inner folder classes.
@@ -149,6 +193,105 @@
         <member name="P:global_repo.global_repoFolders.ExplorerAppFolder.Explorer1AktivesFensterInfo">
             <summary>
             The Explorer1AktivesFenster item info.
+            </summary>
+        </member>
+        <member name="T:global_repo.global_repoFolders.CUserClientAppFolder">
+            <summary>
+            The CUserClientAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:global_repo.global_repoFolders.CUserClientAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CUserClient  folder.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.Gleich">
+            <summary>
+            The Gleich item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.GleichInfo">
+            <summary>
+            The Gleich item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.Jobs">
+            <summary>
+            The Jobs item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobsInfo">
+            <summary>
+            The Jobs item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStarten">
+            <summary>
+            The JobStarten item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStartenInfo">
+            <summary>
+            The JobStarten item info.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStoppen">
+            <summary>
+            The JobStoppen item.
+            </summary>
+        </member>
+        <member name="P:global_repo.global_repoFolders.CUserClientAppFolder.JobStoppenInfo">
+            <summary>
+            The JobStoppen item info.
+            </summary>
+        </member>
+        <member name="T:project_2.parse_string_to_json">
+             <summary>
+            The parse_string_to_json recording.
+             </summary>
+        </member>
+        <member name="F:project_2.parse_string_to_json.repo">
+            <summary>
+            Holds an instance of the global::global_repo.global_repo repository.
+            </summary>
+        </member>
+        <member name="M:project_2.parse_string_to_json.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.parse_string_to_json.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.parse_string_to_json.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.parse_string_to_json.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.parse_string_to_json.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.parse_string_to_json.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:project_2.Powershell_start_explorer_on_machine">
@@ -235,6 +378,84 @@
             </summary>
         </member>
         <member name="P:project_2.Powershell.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:project_2.restfull">
+             <summary>
+            The restfull recording.
+             </summary>
+        </member>
+        <member name="F:project_2.restfull.repo">
+            <summary>
+            Holds an instance of the global::global_repo.global_repo repository.
+            </summary>
+        </member>
+        <member name="M:project_2.restfull.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.restfull.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.restfull.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.restfull.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.restfull.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.restfull.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:project_2.smtp">
+             <summary>
+            The smtp recording.
+             </summary>
+        </member>
+        <member name="F:project_2.smtp.repo">
+            <summary>
+            Holds an instance of the global::global_repo.global_repo repository.
+            </summary>
+        </member>
+        <member name="M:project_2.smtp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.smtp.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.smtp.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.smtp.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.smtp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.smtp.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>

@@ -27,6 +27,1299 @@ mode="Global">
 	<recorditems>
 		<userrecorditem
 		classname="wait_for_process_and_get_cmd"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="test_with_add_parameter"
+		namespace="project_2._powershell_testcase"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="22c2f0ed-4e5d-4fcf-8987-1fde91041dfa">
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="700ms"
+		enabled="True"
+		loc="126;75"
+		movetime="500ms"
+		optional="False"
+		searchpropertyid="7ea8cf9d-0096-4062-8766-7173c0641826"
+		sx="711"
+		sy="481"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9a69837b-1636-44bd-9973-7ecf32206de6"
+			sourcename="Recorder">
+				<element
+				capabilities="qtitem"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="3"
+				prefcap="cell"
+				rect="585,406,186,122"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="columnindex"
+					type="System.Int32">
+						3
+					</attribute>
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="rowindex"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Gleich
+					</attribute>
+					<attribute
+					name="userdata"
+					type="System.Object">
+						5
+					</attribute>
+				</element>
+				<path>
+					/form[@name='CUserClient']/element[@name='centralwidget']/container[@name='c_pProjectTreeSplitter']//container[@name='CVersionOverview']//container[@name='qt_tabwidget_stackedwidget']/container[@name='c_pJobsTab']//table[@name='client_jobTableView']/row[@index='0']/cell[@columnindex='3']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="6de82ae7-33a5-4daf-8019-3a8ad34fc97b">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAEyAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDUlsxL
+EIzPNgPvzkH8OQePanNbu0YRrmYjncflBYenA/lip6KokiEKhkKsyqilQgPyke4/CmQWiQuGDO21
+dqBsYQeg4+nXPSrFFMCB0aITSQqXkkIOCRgHAH5cU+GMRQpGDnaMZ9akopAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAnkt/z0/n/jR5Lf
+89P5/wCNV31CKO4Idh5Xlq4ZVJ6k8nHbgc1KbuES+XuYtkDhCQCemSBgUAK6FMZbOfTNN/E/nUk3
+Rf8Ae/oaZVrYlififzo/E/nVWS7dHmPkgxQkB2D/ADdAc4x7+tStdQrIIyxycdFJAz0yego0DUl/
+E/nR+J/Oq0V8kiMxSUbXK8Rse59vb8KJrxVhLxFSfLdxnI5X2/8A1UaBqWfxP50fifzqH7VFvCEs
+W4BwhIBPYnGBU9OyC4n4n86PxP50tVmuJTNIkESP5eN26TaemeBg0rINSx+J/Oj8T+dQy3Pl3Ece
+zIb7zZ+76fmajku5Eeb90hjhIDMXwegPAx7+tGgalr8T+dH4n86WinZBcT8T+dH4n86WiiyC4n4n
+86PxP50tFFkFxPxP50fifzpaKLILififzo/E/nS0UWQXE/E/nR+J/OloosguJ+J/Oj8T+dLRRZBc
+T8T+dH4n86WiiyC4n4n86PxP50tFFkFxPxP50fifzpaKLILififzo/E/nS0UWQXE/E/nR+J/Oloo
+sguJ+J/Oj8T+dLRRZBcT8T+dH4n86WiiyC4n4n86PxP50tFFkFxPxP50fifzpaKLILififzo/E/n
+S0UWQXE/E/nR+J/OloosguJ+J/Oj8T+dLRRZBcT8T+dH4n86WiiyC4n4n86PxP50tFFkFxPxP50f
+ifzpaKLILififzo/E/nS0UWQXE/E/nR+J/OloosguJ+J/OiloosguUvsM6RmKMxsrQCJmYkEdckD
+HPXpmpDayi5DRhUUFcusrAsB6rjB9M1e2P8A31/75/8Ar0eW/wDfX/vn/wCvWZYyX+H/AHv6Gm1I
+0TMMF1/75/8Ar0nkt/fH/fP/ANeqTRLTM+W3ndrhF8sRznltx3AbQDxj29aa1iwuGKgPG7K3MrLt
+xj+EcHpWl5Lf3x/3z/8AXo8lv74/75/+vRdBZma9pMUKFYnQSmTazEBwcnB47E+/SmiwkEJQeWvy
+SqAucDceO1ankt/fH/fP/wBeo5CI2wXzjliF+6PU80XQalM20v2kOoVBkEusjAkD1XGD6Zq7T/JY
+9HH/AHz/APXo8lv74/75/wDr07oVmMqnd20lwxBhgPZZSSHT3HHX8RV/yW/vj/vn/wCvR5Lf3x/3
+z/8AXouh2ZQksfO85pGbe33CHYAYHGR0PPNOhtF8+SeaOJpGIIbGSuAB1x6irvkt/fH/AHz/APXo
+8lv74/75/wDr0XQWYyin+S398f8AfP8A9ejyW/vj/vn/AOvRzIVmMop/kt/fH/fP/wBejyW/vj/v
+n/69HMgsxlFP8lv74/75/wDr0hibeF3jkE/d/wDr0cyCzG0U/wAlv74/75/+vR5Lf3x/3z/9ejmQ
+WYyin+S398f98/8A16PJb++P++f/AK9HMgsxlFP8lv74/wC+f/r0eS398f8AfP8A9ejmQWYyin+S
+398f98//AF6PJb++P++f/r0cyCzGUU/yW/vj/vn/AOvR5Lf3x/3z/wDXo5kFmMop/kt/fH/fP/16
+PJb++P8Avn/69HMgsxlFP8lv74/75/8Ar0eS398f98//AF6OZBZjKKf5Lf3x/wB8/wD16PJb++P+
++f8A69HMgsxlFP8AJb++P++f/r0eS398f98//Xo5kFmMop/kt/fH/fP/ANejyW/vj/vn/wCvRzIL
+MZRT/Jb++P8Avn/69Hkt/fH/AHz/APXo5kFmMopzxMqFt4OBn7v/ANel8lv74/75/wDr0cyCzGUU
+/wAlv74/75/+vR5Lf3x/3z/9ejmQWYyin+S398f98/8A16PJb++P++f/AK9HMgsxlFP8lv74/wC+
+f/r0eS398f8AfP8A9ejmQWYyin+S398f98//AF6PJb++P++f/r0cyCzGUU/yW/vj/vn/AOvR5Lf3
+x/3z/wDXo5kFmMop/kt/fH/fP/16PJb++P8Avn/69HMgsxlFP8lv74/75/8Ar0eS398f98//AF6O
+ZBZjKKf5Lf3x/wB8/wD16PJb++P++f8A69HMgsxlFOMTAqN45OPu+31pfJb++P8Avn/69HMgsxlF
+P8lv74/75/8Ar0UcyCzJM0ZrJmnldQ8bHZPNsXLlBtAPfnGSOopSs6qkbylQ04ACSliBtOQWIBrM
+s1c0ZrMdnjmazV5P3jKUYsSQv8XPX+E/nUcZup5HlDKpWYrzOw2gHGCmMcj+dAGvmkaQKyqd2W6Y
+Ukfie1ZoSWSKdlmfzDKVUNIQMbug9Pr1pYZvngEfmgAyBkdyxyO2cnNAGlmkUKudoxk5Puay42b7
+JBdCaRpnddw3kqcnBXb0457dqRi6o0/nSlludoG87du7GMdO9AGqgVFCqMAdBS5qKVnWNjEgdx0U
+nGfxqC2kdt5d3afHKONgH068e+TQBczRmqzO/wBnY3GITngxOWPt2HOe2DSWskzg+auFH3WI2sw9
+17fp9BQBJNdxQuEfeWIzhI2bj8AaljkWSNXRgysMgjvVGcStqK+TIiHyTkshbuPcVBG4e1ggjRy3
+zHiYop2nBJYc857DvQBrZpvmr5pjz84G7HtWVbzPcJaxSysEcPllcguVOANwwenPvii5dobsKjsI
+jGFebduKDJ5z+me1AGvmjNZc0xhttQHmsPLACEuSR8gxz9ac22W5uRLcSIsaKwCyFdvHXj/9VAGl
+mmk/vV/3T/SobSR5LSF5fvsgLcY5xUhP7xfof6U7ASMwVSx6AZNRm5iEAnL/ALsgENjrnpTs1lx/
+6xLLr5Mhkx/sjlf1I/KkBrZpskqxJvc4XIGfrxWZGzfZILoTSNM7ruG8lTk4K7enHPbtSSqz2tw5
+lkLedtX5jhRvHbpQBrZpk06QJvkJAJAGFLEk+wqnC4gvJomlby9qMPMcnBJI6n6DinahuMUWwgN5
+yYJGR19KALMNxHOCYyflOCGUqQfcHmpM1lmUwtdCYmSQ7MtF8uc8AdePz71F580K3Me/ZtMYJ80y
+eWGOCcsM9OaANd5VQqGONx2j3NOzWXeqbaOM2++VxKCEeQtztPqadbyfv7YrO8gkVyxYnluO3bHP
+HagDSzRmsiOUzfZgbhwkkkoyr43DJwM1bsmOZ03s6RybULHJ6DIz3wc0AXM0ZqlcyzCTa26ODHMk
+Y3E+3+z9cH6ipmeUOoiSNo+Ms0hB/LBz+dAE+aGYKpYngDJqlNLItwRbFpG43xkfKP8AgXY9OOfp
+U8x/0d89dp/lQ9h9RIb2GdgqM2SNw3Iy5HqMjmp81lW5kRrFpnSQFMIFXaV+XOTyc8DHbrTYZn+1
+W8ibwk+4hXmLFhjP3eg7dDQxI1nkWNGdjhVGSfalDBlBB4PIrKQCTTGuHldpXiYsN525wcjb0GP6
+UxZnNs0kkjxyoyKYwxARdw598jv+FHUDYzRmsu9nYPeBJiuyOPkH7pJP9MVNH+6v1jjld1eMs4Zy
+2ORg89M5P5UAXJT+6f8A3TTs1HIf3bfQ07NACvIscbO5wqjJPtSRyrLGsiHKsMg+oqnqEhJigWNp
+C7bmVSM7V5PUjviqwnaKCaLa8BSVWUEjIRmHoenWgDXzTJp44FBkJ5OAApYk+wHNUJ3klubmKGXB
+CR8b8dzkZ7EjvUZWOZrT/XrtmZSrStkEK3cHmgDTM8QbaZEDZAxuGcnoKVJVkBKHOCVP1FZpnYW3
+MpDG72D5ufv9Py/SmYaNHnWSQMLrAAYhcFsEY6HrR/X5Aa+aM1lMzLBNMZZNwn2j5zhV3jt0pbuZ
+zLdJHMylViHyn7pLH+mKBmpmjNZM8j2zzxJLIEIjO5nLFNzEEgn2p7Bo7uSGG4cZgJAeQsFbPB5z
+QI080m9dwXcNxGcZ5xWWBI0RiTzQ6OPMjac5YY/hbOfQ9vwpYhFJeW8qtNgwFhukbPBHXnn+tAGp
+mkV1cZVgw6ZBrJhlZrq3ZS6x3G7hpyzMMZzt6L+BpbbEMVvsdwGuWVsuSD97jk/SgDWzRmstnkna
+cRSFws+CgkKkgKMgHtzV21kV7aNkL7SvG85P40ASufmT/e/oadmo2PzJ9f6GnZoAdmim5ooAhMcZ
+i8oxoY8Y2YGMfSkSGKNQqRIqqcgBQAD61b8uP+4v5UeXH/cX8qLgVyqlw5UbgMA45AphghaUStDG
+ZB0cqM/nVvy4/wC4v5UeXH/cX8qLgVWiidCjRoyMclSoIJoWONAoVFUJ93Axj6Va8uP+4v5UeXH/
+AHF/Ki4FQQwrKZRFGJD1cKMn8acUQrgouCd2Md+uas+XH/cX8qPLj/uL+VFwIM0Zqfy4/wC4v5Ue
+XH/cX8qLgQZozU/lx/3F/Kjy4/7i/lRcCpLBBOQZoY5COm9QcUPDDIqrJFG6r90MoIH0q35cf9xf
+yo8uP+4v5UXAqNDC8flvEjJnO0qCM/SlEcajCxoBt24Cjp6fSrXlx/3F/Kjy4/7i/lRcCmba3OMw
+RHau0fIOB6fSmG0ieZ5JUSTcQQGUHbgVf8uP+4v5U10QY+RfyoAizTSfnH0P9Kl2p/cX8qaVXzox
+tGDnPFMQmaaFUOXCjcRgtjkirPlx/wBxfyo8uP8AuL+VK4yoIYVlMoijEh6uFGT+NO2JtK7FwTkj
+HU+tWfLj/uL+VHlx/wBxfyouBWaONiSyKScckenIokjjlTZKiuvowyKs+XH/AHF/Kjy4/wC4v5UX
+AqLBCsRiWGMRnqgUYP4UqQxRqVSJFUjBAUAY/wAmrXlx/wBxfyo8uP8AuL+VFwKkcEMQxHDGgB3Y
+VQOfWka3gcEPDGwY7jlAcn1+tXPLj/uL+VHlx/3F/Ki4FGS1jkdMqmxd2UKgg5qVFWNAkaqijoFG
+AKs+XH/cX8qPLj/uL+VFwIM0Zqfy4/7i/lR5cf8AcX8qLgQZoOCMHkGp/Lj/ALi/lR5cf9xfyouB
+Tit4ISTDDHGTwSiAUqQQRtuSGNWJzkKAc+tW/Lj/ALi/lR5cf9xfyouBU8iAOz+THvYYZtoyfrSt
+FExy0aE7duSo6en0q15cf9xfyo8uP+4v5UXAoyWsRgaKJEiBwPlUDoc/4/nUkUUUOfKiSPdydqgZ
+qyY0wfkX8qZtT+4v5UwInPyN9DTs051TY2FXp6U+ONDGpKL0HagCHau/ftG7GN2OcUjIjElkUkrt
+JI6j0+lWfLj/ALi/lR5cf9xfypXAp/ZrcRmPyIthGCuwY9elOWONVVVRQE+6APu/SrXlx/3F/Kjy
+4/7i/lRcCoYITIZDDGXOMttGTjpz+ApxRCuCi4J3Yx365qz5cf8AcX8qPLj/ALi/lRcCtsTay7F2
+tncMcHPWmrBCi7UhjVfQKAOuf51b8uP+4v5UeXH/AHF/Ki4FWRAyvtCB2G3LLnI9D6ioLezSLcXE
+R3DbtSPauO/HPWtHy4/7i/lR5cf9xfyouBSNtbGIRm3i8sHIXYMZ+lPaONihaNCU+7lR8v09KteX
+H/cX8qPLj/uL+VFwKiQQRtuSGNWJzkKAc+tBggIcGGMiQ5cbR8319at+XH/cX8qPLj/uL+VFwKbW
+1uybGgiKZztKDHTH8qlGAAAMAdAKmaNAPuL+VM2p/cX8qYETHlfr/Q07NLIq5TCj7w7VN5cf9xfy
+oAgzRU/lx/3F/KilcB1FV/Ok/wBn8qPOk/2fyp8rDmRYoqv50n+z+VHnSf7P5UcrDmRYoqv50n+z
++VHnSf7P5UcrDmRYoqv50n+z+VHnSf7P5UcrDmRYoqv50n+z+VHnSf7P5UcrDmRYoqv50n+z+VHn
+Sf7P5UcrDmRYoqv50n+z+VHnSf7P5UcrDmRYoqv50n+z+VHnSf7P5UcrDmRYqOU4xUfnSf7P5U13
+d8Zxx7UKLFdEbW0L3K3DIDIo69vr9f8APpUynM8f4/yqP5vUflWZP5z6hMq3DxiNN3ynHYe4xRJt
+GlKCm3ra2pv0Vhi0vuM3r+/zt7f/AF/yHrwC0vuM3r+/zt7f/X/IevEe92NOSn/P+DNyisMWl9xm
+9f3+dvb/AOv+Q9eAWl9xm9f3+dvb/wCv+Q9eD3uwclP+f8GblFYYtL7jN6/v87e3/wBf8h68AtL7
+jN6/v87e3/1/yHrwe92Dkp/z/gzcorDFpfcZvX9/nb2/+v8AkPXgFpfcZvX9/nb2/wDr/kPXg97s
+HJT/AJ/wZuUVhi0vuM3r+/zt7f8A1/yHrwC0vuM3r+/zt7f/AF/yHrwe92Dkp/z/AIM3KKwxaX3G
+b1/f529v/r/kPXgFpfcZvX9/nb2/+v8AkPXg97sHJT/n/Bm5RWGLS+4zev7/ADt7f/X/ACHrwC0v
+uM3r+/zt7f8A1/yHrwe92Dkp/wA/4M3KKwxaX3Gb1/f529v/AK/5D14BaX3Gb1/f529v/r/kPXg9
+7sHJT/n/AAZuUVhi0vuM3r+/zt7f/X/IevALS+4zev7/ADt7f/X/ACHrwe92Dkp/z/gzcorDFpfc
+ZvX9/nb2/wDr/kPXgFpfcZvX9/nb2/8Ar/kPXg97sHJT/n/Bm233T9KqTxR3ERjlGVP5j3FZ4tL4
+9b1/f529v/r/AJD14QWV7xm7b3+Y+3/1/wAh68NOS6CcKf8AP+DNIKkcOyNQqgYAFWYv9Un+6Kw/
+sd0GUPeMN3HDE84z3I9/89LGkXErWjbnL4cgFsnsKLtuzQOnFRcoyvY1qKr+dJ/s/lR50n+z+VVy
+sx5kWKKr+dJ/s/lR50n+z+VHKw5kWKKr+dJ/s/lR50n+z+VHKw5kWKKr+dJ/s/lR50n+z+VHKw5k
+WKKr+dJ/s/lR50n+z+VHKw5kWKKr+dJ/s/lR50n+z+VHKw5kWKKr+dJ/s/lR50n+z+VHKw5kSynC
+/jVSa2hnkR5UDMh49/Y+o/z61K8juMHb+VM+b1H5VSTRLaHscsn+8Ks1T5yDkcHPSpPOk/2fypOL
+GmWKKr+dJ/s/lRS5WPmQyiiitDMKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArNJxqd
+2c4xD1zjsPcfzFaVZpONTuznGIeucdh7j+YqJ9PU6KG0/T9UaVFFFWc4UUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAMkOHj5xlvXrwff/AB/qKej/APHo3++f5Crkhw8fOMt6
+9eD7/wCP9RT0f/j0b/fP8hWb+NHRD+DL5fqX6KKK0OcKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigYUUUUCCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACs0nGp3ZzjEPX
+OOw9x/MVpVmk41O7OcYh65x2HuP5ion09ToobT9P1RpUUUVZzhRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAyQ4ePnGW9evB9/wDH+op6P/x6N/vn+Qq5IcPHzjLevXg+/wDj
+/UU9H/49G/3z/IVm/jR0Q/gy+X6l+iiitDnCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oGFFFFAgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArNJxqd2c4xD1zjsPcfzF
+aVZpONTuznGIeucdh7j+YqJ9PU6KG0/T9UaVFFFWc4UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAMkOHj5xlvXrwff/H+op6P/wAejf75/kKuSHDx84y3r14Pv/j/AFFPR/8A
+j0b/AHz/ACFZv40dEP4Mvl+pfooorQ5wooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKBhR
+RRQIhSdWSR3wixsVJJ4470vnKyK8TxurNgHfwfp6n2qlLFLs3ASKq3JZti5bHYgEHPNOWLhXQzPu
+nVmMibTwMZxgfypJjLhniWURGVBIeiFhk/hTLe6jnVcMgkK7jHuyQKhtT5TPFLG/mNKzbthIbJyD
+np0wPwqOGFkiscRlSrkt8vTIOc0AaNFFFMQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVmk41O7Oc
+Yh65x2HuP5itKs0nGp3ZzjEPXOOw9x/MVE+nqdFDafp+qJnlklZhGcKDjg9aEllicCQ7lY45PSot
+ixyMsiknORz2pNiySKsa4OcnntS5nexyXdzRdlRC7HCqMk+gqBJriTa4t1EbEfekw2PXGMfrT7qI
+z2ssQOC6kA1VlkabygEuI5ldcqAwXGRnJHynjNadTQspOrJI74RY2Kkk8cd6XzlZFeJ43VmwDv4P
+09T7VSlil2bgJFVbks2xctjsQCDnmnLFwroZn3TqzGRNp4GM4wP5UkwLhniWURGVBIeiFhk/hTLe
+6jnVcMgkK7jHuyQKhtT5TPFLG/mNKzbthIbJyDnp0wPwqOGFkiscRlSrkt8vTIOc0AaNFFFMQUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAyQ4ePnGW9evB9/8f6jKsbsWtuu5CyvIdzA/dGBzWrIcPHzj
+LevXg+/+P9Rl6ahcR5Uld7huOOVFZy+NHTD+DL5fqaTTbZvLwP8AVl9xOBQ08ccavPJHHu9X4/An
+rVJYpkmliKMypAyxvjqD0H1HSnpmCdZJY5GUwqqlULbSOowOmePyq7/195zlgXcXnPG7omGAXLD5
+sgHj86VbqF7lrcSL5ijkZFVZoS0V+REdzqAvy8nC8Y/Gpoty3z7lb541wdpxxnPPagCaSeKL/Wyo
+n+8wFEk8MW3zZY03dNzAZqFot187lMjydoJHuciqi+eLaKJllQeQANkWSx/ukkEAfXHWi4WNKWaK
+EAyypGD0LMBmoxdxec8buiYYBcsPmyAePzqrBugeOSaORgYFUFULFSOoIHIzx+VLNCWivyIjudQF
++Xk4XjH40MEXpC4QmNVZuwZsD88Gq8NxM900LwxgIuWZZC2Ceg6Cn3Ezw2pdY2d8ABQpPP4VWQA2
+UkEJl851Yl3iZdzHvkihgi2txE4fy5Y3KfeAccfX0pgu4hMkLugldd2AwI+lVY4w6Eg3JdIWULJG
+FAyOnCjP4ZqZAyXFsWR8GEpkKTg8dfSgCwLiFpAizRlyMhQwyaatymyR5Csao5UlmwKoQYks4YY4
+XD+aG3bCAMNknd06fjzUzebGjYVlDTtlhHuKj1A//XQmFi2JojGJBKmw9G3DB/GnRyJKgeN1dT0K
+nIrOihdgN6SMPtW/LrgkbepAHrVq1VlmusqQpkyOOvyimgLNQrdQvctbiRfMUcjIqaqNwkjTXSIG
+DSwgI2DjPPftSAnN7aAkG6hBHBHmCiqa7digzXq4AG37MDj24SildjsjToooqiQooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACs0nGp3ZzjEPXOOw9x/MVpVmk41O7OcYh65x2HuP5ion09T
+oobT9P1RoMiuMOoYe4zQqKgwihR7DFOoqznCiiigAooooAKKKKACiiigAooooAKKKKACm708zy96
+78btueceuKdVKbT47+7lVnaN4442SReqnL/p0/Kk3YaVy7RVW2uy9w9pOuy5iGXA5U+4P4jr61ap
+gFFFFAgooooAZIcPHzjLevXg+/8Aj/UU9H/49G/3z/IVckOHj5xlvXrwff8Ax/qKej/8ejf75/kK
+zfxo6IfwZfL9S/RRRWhzhRRRQAUUUUAFFFFABRRRQAUUUUANjRY0CIMKOgp1FFABRRRQAUUUUDCi
+iigQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVmk41O7OcYh65x2HuP5itKs0
+nGp3ZzjEPXOOw9x/MVE+nqdFDafp+qNKiiirOcKKKKACiiigAooooAKKKKACiiigAooooAKbaf8A
+IQuP+uUf83p1Vbm1lmd9lx5UcqBJAEBLAbuAT0+96UmroaH6rJbSQxES4nYFrZ41LHIHsDx60li8
+0lojXA/ecg/KVzgkZwfXrVBTNbzLZrDL5UU6tA6RkqAxO4MT7MRn2rXpRQ5BRRRVEhRRRQAyQ4eP
+nGW9evB9/wDH+op6P/x6N/vn+Qq5IcPHzjLevXg+/wDj/UU9H/49G/3z/IVm/jR0Q/gy+X6l+iii
+tDnCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooGFFFFAgooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigArNJxqd2c4xD1zjsPcfzFaVZpONTuznGIeucdh7j+YqJ9PU6KG0/T
+9UaVFFFWc4UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAMkOHj5xlvXrwf
+f/H+op6P/wAejf75/kKuSHDx84y3r14Pv/j/AFFPR/8Aj0b/AHz/ACFZv40dEP4Mvl+pfooorQ5w
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKBhRRRQIXY390/lRsb+6fyq1RUc7L5Srsb+6
+fyo2N/dP5Vaoo52HKVdjf3T+VGxv7p/KrVFHOw5Srsb+6fyo2N/dP5Vaoo52HKVdjf3T+VGxv7p/
+KrVFHOw5Srsb+6fyo2N/dP5Vaoo52HKVdjf3T+VGxv7p/KrVFHOw5Srsb+6fyo2N/dP5Vaoo52HK
+Vdjf3T+VGxv7p/KrVFHOw5Srsb+6fyrLdhHqlzuYITFgZOOcD3H8xW9VabT7WeUySxbnbqdxH9ai
+TbtY2pOMb83VWKpvIRn5lP8AwNeevv7fqPfAbyEZ+ZT/AMDXnr7+36j3xN/ZNj/zw/8AH2/xo/sm
+x/54f+Pt/jRzTHy0O7/D/MhN5CM/Mp/4GvPX39v1HvgN5CM/Mp/4GvPX39v1Hvib+ybH/nh/4+3+
+NH9k2P8Azw/8fb/GjmmHLQ7v8P8AMhN5CM/Mp/4GvPX39v1HvgN5CM/Mp/4GvPX39v1Hvib+ybH/
+AJ4f+Pt/jR/ZNj/zw/8AH2/xo5phy0O7/D/MhN5CM/Mp/wCBrz19/b9R74DeQjPzKf8Aga89ff2/
+Ue+Jv7Jsf+eH/j7f40f2TY/88P8Ax9v8aOaYctDu/wAP8yE3kIz8yn/ga89ff2/Ue+A3kIz8yn/g
+a89ff2/Ue+Jv7Jsf+eH/AI+3+NH9k2P/ADw/8fb/ABo5phy0O7/D/MhN5CM/Mp/4GvPX39v1HvgN
+5CM/Mp/4GvPX39v1Hvib+ybH/nh/4+3+NH9k2P8Azw/8fb/GjmmHLQ7v8P8AMhN5CM/Mp/4GvPX3
+9v1HvgN5CM/Mp/4GvPX39v1Hvib+ybH/AJ4f+Pt/jR/ZNj/zw/8AH2/xo5phy0O7/D/MhN5CM/Mp
+/wCBrz19/b9R74DeQjPzKf8Aga89ff2/Ue+Jv7Jsf+eH/j7f40f2TY/88P8Ax9v8aOaYctDu/wAP
+8yE3kIz8yn/ga89ff2/Ue+A3kIz8yn/ga89ff2/Ue+Jv7Jsf+eH/AI+3+NH9k2P/ADw/8fb/ABo5
+phy0O7/D/MhN5CM/Mp/4GvPX39v1HvgN5CM/Mp/4GvPX39v1Hvib+ybH/nh/4+3+NH9k2P8Azw/8
+fb/GjmmHLQ7v8P8AMhN5CM/Mp/4GvPX39v1HvgN5CM/Mp/4GvPX39v1Hvib+ybH/AJ4f+Pt/jR/Z
+Nj/zw/8AH2/xo5phy0O7/D/MgN1Ezr+8UANyd49D7/T8x+EWjKTaNgE/vD/IVc/smx/54f8Aj7f4
+1Yt7eK2QpCu1Sc4yTz+NK8r3Y26ag4xvrYi2N/dP5UbG/un8qtUVpzs5+Uq7G/un8qNjf3T+VWqK
+OdhylXY390/lRsb+6fyq1RRzsOUq7G/un8qNjf3T+VWqKOdhylXY390/lRsb+6fyq1RRzsOUq7G/
+un8qNjf3T+VWqKOdhylXY390/lRsb+6fyq1RRzsOUq7G/un8qNjf3T+VWqKOdhylXY390/lRsb+6
+fyq1RS5mHKVdjf3T+VFWqKfOw5QoooqCgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="700ms"
+		enabled="True"
+		loc="32;18"
+		movetime="500ms"
+		optional="False"
+		searchpropertyid="5c1036de-a757-4207-b908-cf0d47c366d6"
+		sx="351"
+		sy="47"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ec4deca1-3eaa-4218-9b71-4613e8623848"
+			sourcename="Recorder">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="4"
+				prefcap="tabpage"
+				rect="319,29,55,24"
+				role="tabpage"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="index"
+					type="System.Int32">
+						4
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Jobs
+					</attribute>
+				</element>
+				<path>
+					/form[@name='CUserClient']//tabpagelist[@name='qt_tabwidget_tabbar']/tabpage[@title='Jobs']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="13015448-4828-478f-a749-55f09fa17496">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAByANgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqPzl
+9DR5y+hp2YrokoqPzl9DR5y+hoswuiSio/OX0NHnL6GizC6JKKj85fQ0ecvoaLMLokoqPzl9DVbU
+LporKR4SVcYwcD1FJppXKiuaSiupdorGR9UeNZBdRgMARlR/hS7tU/5+4fyH+FK77GrpJac6/r5G
+xRWPu1T/AJ+4fyH+FG7VP+fuH8h/hRr2D2cf51/XyNiisfdqn/P3D+Q/wo3ap/z9w/kP8KNewezj
+/Ov6+RsUVjg6qel1EfwH+FS6ZdzvJcJcvvMZAGAB65ou72sJ0rRclJOxp0VH5y+ho85fQ1VmY3RJ
+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
+IdRRRQMKKKKACiiigD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="700ms"
+		enabled="True"
+		loc="39;35"
+		movetime="500ms"
+		optional="False"
+		searchpropertyid="da047243-8658-46b7-a3b6-ee6106caa5ff"
+		sx="311"
+		sy="92"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="54e7fa7e-7479-4a2b-80d8-1e554c9380b4"
+			sourcename="Recorder">
+				<element
+				capabilities="qtelement"
+				dontcache="False"
+				enabled="True"
+				flavor="qt"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="272,57,71,74"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Job starten
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Job starten
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						c_pJobStart
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						QToolButton
+					</attribute>
+					<attribute
+					name="internalid"
+					type="System.Int64">
+						387
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						c_pJobStart
+					</attribute>
+					<attribute
+					name="tooltip"
+					type="System.String">
+						Job starten
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						DMToolButton
+					</attribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.acceptDrops property of type Boolean."
+					name="AcceptDrops"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.arrowType property of type String."
+					name="ArrowType"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.autoExclusive property of type Boolean."
+					name="AutoExclusive"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.autoFillBackground property of type Boolean."
+					name="AutoFillBackground"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.autoRaise property of type Boolean."
+					name="AutoRaise"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.autoRepeat property of type Boolean."
+					name="AutoRepeat"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.autoRepeatDelay property of type Int32."
+					name="AutoRepeatDelay"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.autoRepeatInterval property of type Int32."
+					name="AutoRepeatInterval"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.baseSize property of type Size."
+					name="BaseSize"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.checkable property of type Boolean."
+					name="Checkable"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.checked property of type Boolean."
+					name="Checked"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.childrenRect property of type Rectangle."
+					name="ChildrenRect"
+					readonly="False"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.childrenRegion property of type QRemoteObject."
+					name="ChildrenRegion"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.contextMenuPolicy property of type String."
+					name="ContextMenuPolicy"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.cursor property of type QRemoteObject."
+					name="Cursor"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.down property of type Boolean."
+					name="Down"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.enabled property of type Boolean."
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.focus property of type Boolean."
+					name="Focus"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.focusPolicy property of type String."
+					name="FocusPolicy"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.font property of type String."
+					name="Font"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.frameGeometry property of type Rectangle."
+					name="FrameGeometry"
+					readonly="False"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.frameSize property of type Size."
+					name="FrameSize"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.fullScreen property of type Boolean."
+					name="FullScreen"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.geometry property of type Rectangle."
+					name="Geometry"
+					readonly="False"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.height property of type Int32."
+					name="Height"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.icon property of type String."
+					name="Icon"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.iconSize property of type Size."
+					name="IconSize"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.inputMethodHints property of type String."
+					name="InputMethodHints"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.isActiveWindow property of type Boolean."
+					name="IsActiveWindow"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.layoutDirection property of type String."
+					name="LayoutDirection"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.locale property of type QRemoteObject."
+					name="Locale"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.maximized property of type Boolean."
+					name="Maximized"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.maximumHeight property of type Int32."
+					name="MaximumHeight"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.maximumSize property of type Size."
+					name="MaximumSize"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.maximumWidth property of type Int32."
+					name="MaximumWidth"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.minimized property of type Boolean."
+					name="Minimized"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.minimumHeight property of type Int32."
+					name="MinimumHeight"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.minimumSize property of type Size."
+					name="MinimumSize"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.minimumSizeHint property of type Size."
+					name="MinimumSizeHint"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.minimumWidth property of type Int32."
+					name="MinimumWidth"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.modal property of type Boolean."
+					name="Modal"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.mouseTracking property of type Boolean."
+					name="MouseTracking"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.normalGeometry property of type Rectangle."
+					name="NormalGeometry"
+					readonly="False"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.objectName property of type String."
+					name="ObjectName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.palette property of type QRemoteObject."
+					name="Palette"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.popupMode property of type Object."
+					name="PopupMode"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.pos property of type Point."
+					name="Pos"
+					readonly="False"
+					type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.rect property of type Rectangle."
+					name="Rect"
+					readonly="False"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.shortcut property of type QRemoteObject."
+					name="Shortcut"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.size property of type Size."
+					name="Size"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.sizeHint property of type Size."
+					name="SizeHint"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.sizeIncrement property of type Size."
+					name="SizeIncrement"
+					readonly="False"
+					type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.sizePolicy property of type QRemoteObject."
+					name="SizePolicy"
+					readonly="False"
+					type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.statusTip property of type String."
+					name="StatusTip"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.styleSheet property of type String."
+					name="StyleSheet"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.toolButtonStyle property of type String."
+					name="ToolButtonStyle"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.toolTipDuration property of type Int32."
+					name="ToolTipDuration"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.updatesEnabled property of type Boolean."
+					name="UpdatesEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.visible property of type Boolean."
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.whatsThis property of type String."
+					name="WhatsThis"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.width property of type Int32."
+					name="Width"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.windowFilePath property of type String."
+					name="WindowFilePath"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.windowIcon property of type String."
+					name="WindowIcon"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.windowIconText property of type String."
+					name="WindowIconText"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.windowModality property of type String."
+					name="WindowModality"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.windowModified property of type Boolean."
+					name="WindowModified"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.windowOpacity property of type Double."
+					name="WindowOpacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.windowTitle property of type String."
+					name="WindowTitle"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.x property of type Int32."
+					name="X"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The Qt DMToolButton.y property of type Int32."
+					name="Y"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicaction
+					description="The Qt DMToolButton.animateClick(int) method."
+					displayName="AnimateClick">
+						<argument
+						description="A method argument of type Int32."
+						displayName="arg0"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.click() method."
+					displayName="Click">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.close() method."
+					displayName="Close">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.deleteLater() method."
+					displayName="DeleteLater">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.grab(QRect) method."
+					displayName="Grab">
+						<argument
+						description="A method argument of type Rectangle."
+						displayName="arg0"
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Int64">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.hide() method."
+					displayName="Hide">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.lower() method."
+					displayName="Lower">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.raise() method."
+					displayName="Raise">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.repaint() method."
+					displayName="Repaint">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setChecked(bool) method."
+					displayName="SetChecked">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setDefaultAction(QAction*) method."
+					displayName="SetDefaultAction">
+						<argument
+						description="A method argument of type QRemoteObject."
+						displayName="arg0"
+						type="Ranorex.Plugin.QRemoteObject, Ranorex.Plugin.Qt, Culture=neutral">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setDisabled(bool) method."
+					displayName="SetDisabled">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setEnabled(bool) method."
+					displayName="SetEnabled">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setFocus() method."
+					displayName="SetFocus">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setHidden(bool) method."
+					displayName="SetHidden">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setIconSize(QSize) method."
+					displayName="SetIconSize">
+						<argument
+						description="A method argument of type Size."
+						displayName="arg0"
+						type="System.Drawing.Size, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setStyleSheet(QString) method."
+					displayName="SetStyleSheet">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setToolButtonStyle(Qt::ToolButtonStyle) method."
+					displayName="SetToolButtonStyle">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setVisible(bool) method."
+					displayName="SetVisible">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setWindowModified(bool) method."
+					displayName="SetWindowModified">
+						<argument
+						description="A method argument of type Boolean."
+						displayName="arg0"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.setWindowTitle(QString) method."
+					displayName="SetWindowTitle">
+						<argument
+						description="A method argument of type String."
+						displayName="arg0"
+						type="System.String">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.show() method."
+					displayName="Show">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.showFullScreen() method."
+					displayName="ShowFullScreen">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.showMaximized() method."
+					displayName="ShowMaximized">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.showMenu() method."
+					displayName="ShowMenu">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.showMinimized() method."
+					displayName="ShowMinimized">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.showNormal() method."
+					displayName="ShowNormal">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.toggle() method."
+					displayName="Toggle">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The Qt DMToolButton.update() method."
+					displayName="Update">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@name='CUserClient']//container[@name='qt_tabwidget_stackedwidget']/container[8]/?/?/container[@caption='Ausf&#252;hrung']/button[@text='Job starten']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="13a30c37-5644-4e00-a715-66db11746da9">
+				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
+2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<userrecorditem
+		classname="wait_for_process_and_get_cmd"
 		enabled="True"
 		isexternaltestmethod="False"
 		methodname="wait_for_process_async"
@@ -42,7 +1335,7 @@ mode="Global">
 		</userrecorditem>
 		<userrecorditem
 		classname="wait_for_process_and_get_cmd"
-		enabled="False"
+		enabled="True"
 		isexternaltestmethod="False"
 		methodname="get_cmd_parameter"
 		namespace="project_2._powershell_testcase"
@@ -55,11 +1348,38 @@ mode="Global">
 			id="abec6466-98a3-4a86-bf54-84de95815e24">
 			</arguments>
 		</userrecorditem>
+		<WaitForRecordItem
+		enabled="False"
+		optional="False"
+		searchpropertyid="b038b13a-91a3-40d4-9933-690e23f6fdb5"
+		waitaction="Exists"
+		waittimeout="40000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ff5b27bc-6fa6-44e1-881f-f573800e2943"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='CUserClient']//container[@name='qt_tabwidget_stackedwidget']/container[8]/?/?/container[@caption='Ausf&#252;hrung']/button[@text='Jobstoppen' and @enabled='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="20000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<userrecorditem
 		classname="wait_for_process_and_get_cmd"
 		enabled="False"
 		isexternaltestmethod="False"
-		methodname="test_with_add_parameter"
+		methodname="execute_cmd"
 		namespace="project_2._powershell_testcase"
 		optional="False">
 			<comment>
@@ -67,7 +1387,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<arguments
-			id="22c2f0ed-4e5d-4fcf-8987-1fde91041dfa">
+			id="5fe102ea-2462-450b-9ef4-f6c046aa2e74">
 			</arguments>
 		</userrecorditem>
 	</recorditems>

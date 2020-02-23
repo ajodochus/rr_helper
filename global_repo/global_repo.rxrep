@@ -114,6 +114,74 @@ QVyBLgcznOHMyZ1gBrkY7oKP7x+AMbqCt6/vYIjBMDgMQC5AD3FSMNwF5GKsqYsUjFWQFIxVkBSM
 VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,qtelement,qtwindow,nativewindow"
+		capname="form"
+		id="95dfe53f-b6cb-44a0-a481-f85add362169"
+		isrooted="True"
+		name="CUserClient"
+		refpath="/form[@name='CUserClient']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="cell,qtitem"
+			capname="cell"
+			id="9a69837b-1636-44bd-9973-7ecf32206de6"
+			name="Gleich"
+			refimgid="b638dd57-825f-40da-8c7a-047b14566068"
+			refpath="/form[@name='CUserClient']/element[@name='centralwidget']/container/element[1]/container/container[@name='CVersionOverview']/element[@name='c_pBackgroundWidget']/container/container/container[@name='c_pJobsTab']/element/container/element[2]/table/row/cell[@text='Gleich' and @columnindex='3']"
+			searchtimeout="30000ms">
+				/form[@name='CUserClient']/element[@name='centralwidget']/container[@name='c_pProjectTreeSplitter']//container[@name='CVersionOverview']//container[@name='qt_tabwidget_stackedwidget']/container[@name='c_pJobsTab']//table[@name='client_jobTableView']/row[@index='0']/cell[@columnindex='3']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="ec4deca1-3eaa-4218-9b71-4613e8623848"
+			name="Jobs"
+			refimgid="9a0c37e6-8532-4575-9cf6-d721c0a8830f"
+			refpath="/form[@name='CUserClient']/element[@name='CMenuWidget']/container/tabpagelist/tabpage[@title='Jobs']"
+			searchtimeout="30000ms">
+				/form[@name='CUserClient']//tabpagelist[@name='qt_tabwidget_tabbar']/tabpage[@title='Jobs']
+			</item>
+			<item
+			addcaps="button,qtelement"
+			capname="button"
+			id="54e7fa7e-7479-4a2b-80d8-1e554c9380b4"
+			name="JobStarten"
+			refimgid="5066f078-196b-4e50-b965-5477668634f3"
+			refpath="/form[@name='CUserClient']/element[@name='CMenuWidget']/container/container/container[8]/element/container[@caption='Ausführung']/button[@text='Job starten']"
+			searchtimeout="30000ms">
+				/form[@name='CUserClient']//container[@name='qt_tabwidget_stackedwidget']/container[8]/?/?/container[@caption='Ausf&#252;hrung']/button[@text='Job starten']
+			</item>
+			<item
+			addcaps="button,qtelement"
+			capname="button"
+			id="ff5b27bc-6fa6-44e1-881f-f573800e2943"
+			name="JobStoppen"
+			refimgid="07fe4da8-73a4-40c7-b97b-ff3c81917342"
+			searchtimeout="30000ms">
+				/form[@name='CUserClient']//container[@name='qt_tabwidget_stackedwidget']/container[8]/?/?/container[@caption='Ausf&#252;hrung']/button[@text='Jobstoppen' and @enabled='False']
+			</item>
+			<basepath>
+				/form[@name='CUserClient']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKMSURBVDhPlVPbThNRFJ0f8C9MfMUPwPCgPmlM
+1D/wQd/VhKuNFwTaTi9AW3oBSi/TdlrobSiIA4kaZwq0gBHES1ugFiTEb1jHc87YW3xykpXZM3PW
+2vusdUZgl6goD/XiNv4HqY13viuBwCXBpaqP9j7tg2F37zO2tndQKu9iu7TL682tMr2X+bfmuibS
+HzVR+FGpkW/fK9g/OMT7DxriiSSW0lkkU0uIxWVEpTjkZApv1Q1o+ibY2k4IjcYvUq0eY2V1DW6P
+FxarDaLNAato5zUDqx3OKcx4/ajXT7sgXFz8JrXaMaLRGCbMVoxPWDD6epzXDC9ejmJs3Nx6Pj+/
+6AIXqNcbyOWXYbXZYTI9x9179/FqdIwTenquon9gEC63B+GIxElnZ+e0ewNHRyeGAHuh6UVI8QQl
+WTAwONzq2j8whMkpF29QKu+gWj2CphWxtqYil1MMAaZ6cvITlUqNG9cctwnmyUI4guXCChKyjLm5
+eY75+WBboAmVuj04PIJbt+/g+o2bMFtF2GxOOCenMe1ywzPjhT8wSwWCWAiF/xUolXYw8syE3t5r
+6Ovro2QHJ7uaZL9BDoUiNOJYtwCLheXOknj85CmG6CSc7HbTCH1GZzp2KBymqUmIU88EaiBpNM7A
+oBe3YLaIrfztDqcxtrfdmY0dlQxykh4wgZ4BwsxjUJQCFxDtxtitPVMyMyxEyRHeWUYqlUI6nYZw
+ePiVHBx8AYOyXOCOG2N7jLE7yKxzIsHIi8hkMsjn8xAKWtFXpvkyrKy+6dgzczvQNuzvnjvJ0Uwm
+L7BfMqaqNl3Xibq+TtyeGeL1+cns7BwJBhdIOBIlUixOZDlJFheXSDabJYqiECmXyz/w+y//AffT
+AvnQB9zbAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

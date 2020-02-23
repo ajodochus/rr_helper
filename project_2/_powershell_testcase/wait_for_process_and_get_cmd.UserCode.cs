@@ -33,7 +33,7 @@ namespace project_2._powershell_testcase
 		static string  var_username = "vagrant";
 		static string var_password = "vagrant";
 		static string var_remote_ip_or_vmname = "vagrant-1";
-		static string var_process = "notepad";
+		static string var_process = "vdogschedulercheckin";
 		string var_process_cmd = "not available";
 		string login_ps_script = "$Username = '" +var_username+"';" +
 			"$Password = '"+var_password+"';" +
@@ -151,6 +151,18 @@ namespace project_2._powershell_testcase
 			
 			
 		}
+
+        public void execute_cmd()
+        {
+        	//string sb =  @"start-process C:\Program Files (x86)\vdogServer\VDogSchedulerCheckIn.exe" /at:c "/rd:C:\vdServerArchive\VD_TMP_VD\654_50" "/DirRPrj:\test" "/Name:test" "/Backup:C:\vdServerArchive\test\BACKUP\test\58CC0116EF414719ACA02730BC02A386\20200218.000\\Backup.zip" "/CFile:C:\vdServerArchive\VD_TMP_VD\654_50\result.ini" "/Key:txYoMzRp+DS98uEYG9rkR9LONX3KAHxKMQEKv3OmJtLXj0+wEYmVXaLo7HaVzpdrV2CbtxIuwH0=" 
+            PowerShell powerShell = PowerShell.Create();
+			powerShell.AddScript(login_ps_script +
+			                     "Invoke-Command -ComputerName "+var_remote_ip_or_vmname+" -ScriptBlock {iex "+var_process_cmd+"} -credential $Cred");
+            var result = powerShell.Invoke();
+            
+            Ranorex.Report.Info("after invoke");
+
+        }
 		
 		
 	}
