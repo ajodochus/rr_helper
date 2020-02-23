@@ -30,9 +30,9 @@ namespace project_2
     public partial class smtp : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::global_repo.global_repo repository.
+        /// Holds an instance of the Repository repository.
         /// </summary>
-        public static global::global_repo.global_repo repo = global::global_repo.global_repo.Instance;
+        public static Repository repo = Repository.Instance;
 
         static smtp instance = new smtp();
 

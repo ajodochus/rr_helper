@@ -24,29 +24,29 @@ namespace project_2.codemodules
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The http_request recording.
+    ///The psexec_handler recording.
     /// </summary>
-    [TestModule("483e171e-a890-4e82-bb24-61ee5ca2cc64", ModuleType.Recording, 1)]
-    public partial class http_request : ITestModule
+    [TestModule("274359b7-cb35-4f2e-a4e0-b0a2f8b8eea4", ModuleType.Recording, 1)]
+    public partial class psexec_handler : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::global_repo.global_repo repository.
+        /// Holds an instance of the global::project_2.Repository repository.
         /// </summary>
-        public static global::global_repo.global_repo repo = global::global_repo.global_repo.Instance;
+        public static global::project_2.Repository repo = global::project_2.Repository.Instance;
 
-        static http_request instance = new http_request();
+        static psexec_handler instance = new psexec_handler();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public http_request()
+        public psexec_handler()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static http_request Instance
+        public static psexec_handler Instance
         {
             get { return instance; }
         }
@@ -79,7 +79,13 @@ namespace project_2.codemodules
 
             Init();
 
-            requ();
+            //get_cmd_remote("vagrant-1", "vagrant", "vagrant", "", "Get-WMIObject –Class Win32_Bios | Select PSComputername, __Server");
+            //Delay.Milliseconds(0);
+            
+            //psexec_2();
+            //Delay.Milliseconds(0);
+            
+            psexec_3();
             Delay.Milliseconds(0);
             
         }

@@ -30,9 +30,9 @@ namespace project_2._powershell_testcase
     public partial class wait_for_process_and_get_cmd : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::global_repo.global_repo repository.
+        /// Holds an instance of the global::project_2.Repository repository.
         /// </summary>
-        public static global::global_repo.global_repo repo = global::global_repo.global_repo.Instance;
+        public static global::project_2.Repository repo = global::project_2.Repository.Instance;
 
         static wait_for_process_and_get_cmd instance = new wait_for_process_and_get_cmd();
 

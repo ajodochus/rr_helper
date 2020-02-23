@@ -42,15 +42,15 @@ mode="Global">
 		</userrecorditem>
 	</recorditems>
 	<repository
-	id="937bfc73-dcfc-42f3-880a-3c60a32ce20a"
-	name="global_repo"
-	relativepath="..\global_repo\global_repo.rxrep">
+	id="7c4cf967-b58b-41bd-b9db-81f589722ade"
+	name="Repository"
+	relativepath="Repository.rxrep">
 		<codegen
-		classname="global_repo"
-		namespace="global_repo">
+		classname="Repository"
+		namespace="project_2">
 		</codegen>
 		<rootfolder
-		id="e8abadf6-fac5-414e-bd6b-9fe377c28278"
+		id="fe244156-b2ec-4b29-ac88-f61643b09cb8"
 		name="_rootdummy_">
 		</rootfolder>
 	</repository>

@@ -57,7 +57,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="9a69837b-1636-44bd-9973-7ecf32206de6"
+			id="d32479aa-17c0-43a3-bc94-74a83ba6185b"
 			sourcename="Recorder">
 				<element
 				capabilities="qtitem"
@@ -313,7 +313,7 @@ iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 			<bindings>
 			</bindings>
 			<info
-			id="ec4deca1-3eaa-4218-9b71-4613e8623848"
+			id="5c6ff813-6ad0-4f7d-b161-e31f4405aaff"
 			sourcename="Recorder">
 				<element
 				capabilities=""
@@ -430,7 +430,7 @@ IdRRRQMKKKKACiiigD//2Q==
 			<bindings>
 			</bindings>
 			<info
-			id="54e7fa7e-7479-4a2b-80d8-1e554c9380b4"
+			id="8962eefb-eda1-4c05-a6d9-ec8ffa233c53"
 			sourcename="Recorder">
 				<element
 				capabilities="qtelement"
@@ -1359,7 +1359,7 @@ AHkr6v8A99n/ABo8lfV/++z/AI0UUAHkr6v/AN9n/GjyV9X/AO+z/jRRQAeSvq//AH2f8aKKKAP/
 			<bindings>
 			</bindings>
 			<info
-			id="ff5b27bc-6fa6-44e1-881f-f573800e2943"
+			id="a0553e74-62a7-4a4f-b473-6a73dac767f3"
 			sourcename="RepositoryEditor">
 				<path>
 					/form[@name='CUserClient']//container[@name='qt_tabwidget_stackedwidget']/container[8]/?/?/container[@caption='Ausf&#252;hrung']/button[@text='Jobstoppen' and @enabled='True']
@@ -1392,15 +1392,15 @@ AHkr6v8A99n/ABo8lfV/++z/AI0UUAHkr6v/AN9n/GjyV9X/AO+z/jRRQAeSvq//AH2f8aKKKAP/
 		</userrecorditem>
 	</recorditems>
 	<repository
-	id="937bfc73-dcfc-42f3-880a-3c60a32ce20a"
-	name="global_repo"
-	relativepath="..\..\global_repo\global_repo.rxrep">
+	id="7c4cf967-b58b-41bd-b9db-81f589722ade"
+	name="Repository"
+	relativepath="..\Repository.rxrep">
 		<codegen
-		classname="global_repo"
-		namespace="global_repo">
+		classname="Repository"
+		namespace="project_2">
 		</codegen>
 		<rootfolder
-		id="e8abadf6-fac5-414e-bd6b-9fe377c28278"
+		id="fe244156-b2ec-4b29-ac88-f61643b09cb8"
 		name="_rootdummy_">
 		</rootfolder>
 	</repository>

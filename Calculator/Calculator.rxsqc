@@ -1,17 +1,7 @@
 [
   {
-    "Enabled": "False",
-    "TestSuite": "_Standard",
-    "RunConfig": "TestRun"
-  },
-  {
     "Enabled": "True",
     "TestSuite": "_Temperatur",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "False",
-    "TestSuite": "_Entwickler",
     "RunConfig": "TestRun"
   }
 ]

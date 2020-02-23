@@ -165,10 +165,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>742fb7ac-5010-4787-bfed-68bba04b2d7e</id>
     </Content>
-    <Content Include="_Standard.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>6feeb162-7b44-428b-91bb-cb3ee87a4047</id>
-    </Content>
     <None Include="app.config">
       <id>e59dd8c2-a58f-4378-a5c8-91f7c1493438</id>
     </None>
@@ -207,16 +203,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>0436a4ba-5121-48ba-8a6e-aea5e24ed9cb</id>
     </Content>
-    <Content Include="_Entwickler.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>3ceca924-dff2-435a-82a9-bac6f214da02</id>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\project_1\common_recordings.csproj">
-      <Project>{B79DA9B0-0E52-48A2-9A2B-951C0B496917}</Project>
-      <Name>common_recordings</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="common_recording">

@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace project_2
+namespace project_2.codemodules
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The restfull recording.
+    ///The CimV2 recording.
     /// </summary>
-    [TestModule("d50ca5ee-69b0-4b7d-82a0-bfc40f8c58bc", ModuleType.Recording, 1)]
-    public partial class restfull : ITestModule
+    [TestModule("85db8cf7-1177-4418-9859-b267a40858ad", ModuleType.Recording, 1)]
+    public partial class CimV2 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::global_repo.global_repo repository.
+        /// Holds an instance of the global::project_2.Repository repository.
         /// </summary>
-        public static global::global_repo.global_repo repo = global::global_repo.global_repo.Instance;
+        public static global::project_2.Repository repo = global::project_2.Repository.Instance;
 
-        static restfull instance = new restfull();
+        static CimV2 instance = new CimV2();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public restfull()
+        public CimV2()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static restfull Instance
+        public static CimV2 Instance
         {
             get { return instance; }
         }
@@ -79,7 +79,13 @@ namespace project_2
 
             Init();
 
-            get_email();
+            //get_process_by_name();
+            //Delay.Milliseconds(0);
+            
+            //cim();
+            //Delay.Milliseconds(0);
+            
+            event_watcher("");
             Delay.Milliseconds(0);
             
         }

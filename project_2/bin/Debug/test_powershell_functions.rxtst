@@ -8,7 +8,7 @@
 			ref="4372da50-7a55-4a1b-96de-417d24a9af33"
 			type="UserCode">
 				<description>
-					<![CDATA[start (default)]]>
+					<![CDATA[start server]]>
 				</description>
 				<databinding>
 					<var
@@ -19,11 +19,24 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="407d4004-e668-4ef4-9b37-3cacb70b3c06"
+			name="powershell_wait_for_remote_process_and_get_cmd_info">
+			</testcase>
+			<testmodule
+			id="4de7e00d-ef34-4e47-abeb-3199c938b8f1"
+			name="wait_for_process_and_get_cmd"
+			ref="d79707e0-fca0-44ab-86cf-db406d853359"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="54056ed8-354e-4176-809b-cacef84a942d"
 			name="Mailslurper_server"
 			ref="4372da50-7a55-4a1b-96de-417d24a9af33"
 			type="UserCode">
+				<description>
+					<![CDATA[send mail for test purpose]]>
+				</description>
 				<databinding>
 					<var
 					dataname="NewParameter2"
@@ -39,7 +52,7 @@
 			ref="4372da50-7a55-4a1b-96de-417d24a9af33"
 			type="UserCode">
 				<description>
-					<![CDATA[shutdown]]>
+					<![CDATA[shutdown server]]>
 				</description>
 				<databinding>
 					<var
@@ -49,13 +62,6 @@
 					variablename="server_call">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			enabled="False"
-			id="6cbd5f6a-1aba-4637-b30a-d62c63ca1a47"
-			name="smtp"
-			ref="07aab4c5-1a14-451e-8fe6-1f82909a9035"
-			type="Recording">
 			</testmodule>
 			<testcase
 			id="7816a2d7-8500-4434-bcce-f5b4ff08397b"
@@ -68,7 +74,7 @@
 			ref="4372da50-7a55-4a1b-96de-417d24a9af33"
 			type="UserCode">
 				<description>
-					<![CDATA[get mail / http://localhost:8085/mail]]>
+					<![CDATA[api call  http://localhost:8085/mail]]>
 				</description>
 				<databinding>
 					<var
@@ -87,7 +93,7 @@
 			</testmodule>
 			<testcase
 			id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
-			name="TestCase">
+			name="get_mailslurper_email_info">
 				<parameters>
 					<param
 					name="mailslruper"
@@ -113,7 +119,7 @@
 			</testcase>
 			<testmodule
 			id="bca34ee1-ff3b-4e00-909a-9b506ca6fe79"
-			name="Delay_"
+			name="Delay_10_seconds"
 			ref="73c12313-8545-4329-a28c-564c2a225593"
 			type="UserCode">
 			</testmodule>
@@ -153,7 +159,7 @@
 				name="test_powershell_functions">
 					<testcase
 					id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
-					name="TestCase">
+					name="get_mailslurper_email_info">
 						<testmodule
 						id="f4846c8d-9b60-4b06-b22b-88f0e28757de"
 						name="wait_for_process_and_get_cmd">
@@ -161,10 +167,6 @@
 						<testmodule
 						id="07b70abb-c338-40cd-9bf2-23e9d6cdbb30"
 						name="Mailslurper_server">
-						</testmodule>
-						<testmodule
-						id="6cbd5f6a-1aba-4637-b30a-d62c63ca1a47"
-						name="smtp">
 						</testmodule>
 						<testmodule
 						id="54056ed8-354e-4176-809b-cacef84a942d"
@@ -176,11 +178,19 @@
 						</testmodule>
 						<testmodule
 						id="bca34ee1-ff3b-4e00-909a-9b506ca6fe79"
-						name="Delay_">
+						name="Delay_10_seconds">
 						</testmodule>
 						<testmodule
 						id="592f04fc-f52e-4d6f-8245-ec90687107cd"
 						name="Mailslurper_server">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="407d4004-e668-4ef4-9b37-3cacb70b3c06"
+					name="powershell_wait_for_remote_process_and_get_cmd_info">
+						<testmodule
+						id="4de7e00d-ef34-4e47-abeb-3199c938b8f1"
+						name="wait_for_process_and_get_cmd">
 						</testmodule>
 					</testcase>
 				</testcase>
