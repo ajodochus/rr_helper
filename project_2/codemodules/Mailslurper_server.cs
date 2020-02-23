@@ -76,9 +76,9 @@ namespace project_2.codemodules
 		}
 
 		/// <summary>
-		/// Performs the playback of actions in this module.
+		/// Mailslurper handler
 		/// </summary>
-		/// <remarks>You should not call this method directly, instead pass the module
+		/// <remarks>Beschreibung ..... You should not call this method directly, instead pass the module
 		/// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
 		/// that will in turn invoke this method.</remarks>
 		void ITestModule.Run()

@@ -30,7 +30,7 @@ mode="Global">
 		enabled="False"
 		isexternaltestmethod="False"
 		methodname="get_process_by_name"
-		namespace="project_2.codemodules"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>
@@ -45,7 +45,7 @@ mode="Global">
 		enabled="False"
 		isexternaltestmethod="False"
 		methodname="cim"
-		namespace="project_2.codemodules"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>
@@ -60,7 +60,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="False"
 		methodname="event_watcher"
-		namespace="project_2.codemodules"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>
