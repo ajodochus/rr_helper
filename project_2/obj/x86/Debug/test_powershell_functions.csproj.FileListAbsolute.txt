@@ -22,3 +22,6 @@ C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\wait_for_process.ps1
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\Newtonsoft.Json.dll
 C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\mailslurper\config.json
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\mailslurper\mailslurper.db
+C:\Users\vagrant\Documents\Ranorex\RanorexStudio Projects\MyTest1\project_2\bin\Debug\mailslurper\mailslurper.exe

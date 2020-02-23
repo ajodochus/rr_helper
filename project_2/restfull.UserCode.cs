@@ -32,7 +32,6 @@ namespace project_2
 	{
 		
 		private const string URL = "http://localhost:8085/mail";
-
 		private const string DATA = @"{""mailitem"":{""id"":""Name""}}";
 		/// <summary>
 		/// This method gets called right after the recording has been started.
@@ -57,20 +56,11 @@ namespace project_2
 				WebResponse webResponse = request.GetResponse();
 				Stream webStream = webResponse.GetResponseStream();
 				//StreamReader responseReader = new StreamReader(webStream, Encoding.ASCII);
-				StreamReader responseReader = new StreamReader(webStream);
-				
+				StreamReader responseReader = new StreamReader(webStream);				
 				string response = responseReader.ReadToEnd();
-				Ranorex.Report.Info(response);
-				//dynamic data = JObject.Parse(response);
-				//Ranorex.Report.Info(data.mailitem.id);
-				//string respronse_ok = response.Replace("\"", "\\u022");
-
-				//object empObj = JsonConvert.DeserializeObject(respronse_ok);
-				//JObject jobj = JObject.Parse(response);
+				Ranorex.Report.Info(response);	
 				
 				JObject studentObj = JObject.Parse(response);
-				//string name = studentObj["mailItems"]; // Manas
-				//var a = studentObj["mailItems"][0];
 				var id = studentObj["mailItems"][0]["id"];
 				var subject = studentObj["mailItems"][0]["subject"];
 				var body = studentObj["mailItems"][0]["body"];
@@ -78,8 +68,6 @@ namespace project_2
 				Ranorex.Report.Info("id: " + id.ToString());
 				Ranorex.Report.Info("subject: " + subject.ToString());
 				Ranorex.Report.Info("body: " + body.ToString());
-				// test
-				
 				responseReader.Close();
 			} catch (Exception e) {
 				Ranorex.Report.Info("-----------------");

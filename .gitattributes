@@ -4,3 +4,4 @@
 *.cs merge=rx-tree-merge
 *.vb merge=rx-tree-merge
 *.rximg merge=rx-img-merge
+*.exe filter=lfs diff=lfs merge=lfs -text

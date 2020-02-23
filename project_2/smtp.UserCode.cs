@@ -40,7 +40,6 @@ namespace project_2
             {
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("127.0.0.1");
-
                 mail.From = new MailAddress("from@test.de");
                 mail.To.Add("test@test.de");
                 mail.Subject = "slurpermail";

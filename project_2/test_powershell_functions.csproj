@@ -131,7 +131,7 @@
     <Compile Include="AssemblyInfo.cs">
       <id>e6de7573-785a-4bc8-a602-bc26babab273</id>
     </Compile>
-    <Compile Include="codemodules\Delay_.cs">
+    <Compile Include="codemodules\Delay_10_seconds.cs">
       <id>c682ef78-fae7-4a3c-accf-5a6e9ce21c3e</id>
     </Compile>
     <Compile Include="codemodules\http_request.cs">
@@ -294,6 +294,18 @@
       <id>efbee9cc-c310-4513-ad09-a73371f11776</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="mailslurper\config.json">
+      <id>b26dd99e-8807-4379-8d03-f11427289e2d</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mailslurper\mailslurper.db">
+      <id>4509c7b8-01f0-4a18-85c6-9d391aeb0e68</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="mailslurper\mailslurper.exe">
+      <id>d5d0298f-0140-4321-9738-a1271535c230</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config">
       <id>9d0b90b0-47aa-495a-8ccd-77387f2242c8</id>
     </None>
@@ -345,6 +357,9 @@
   <ItemGroup>
     <Folder Include="codemodules">
       <id>375181da-4867-4729-ae74-4777fda0dbf9</id>
+    </Folder>
+    <Folder Include="mailslurper">
+      <id>8d0cbb12-2b57-4ebb-9059-53a7304f4c3e</id>
     </Folder>
     <Folder Include="_powershell_testcase">
       <id>74091f54-0d4b-4afc-b325-ac18d2308fcf</id>

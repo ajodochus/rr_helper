@@ -24,12 +24,12 @@ namespace project_2.codemodules
     /// Description of Delay_.
     /// </summary>
     [TestModule("73C12313-8545-4329-A28C-564C2A225593", ModuleType.UserCode, 1)]
-    public class Delay_ : ITestModule
+    public class Delay_10_seconds : ITestModule
     {
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Delay_()
+        public Delay_10_seconds()
         {
             // Do not delete - a parameterless constructor is required!
         }
@@ -42,7 +42,7 @@ namespace project_2.codemodules
         /// that will in turn invoke this method.</remarks>
         void ITestModule.Run()
         {
-        	Delay.Seconds(20);
+        	Delay.Seconds(10);
         }
     }
 }
