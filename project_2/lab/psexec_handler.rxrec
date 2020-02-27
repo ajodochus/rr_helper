@@ -30,7 +30,7 @@ mode="Global">
 		enabled="False"
 		isexternaltestmethod="False"
 		methodname="get_cmd_remote"
-		namespace="project_2.codemodules"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>
@@ -94,7 +94,7 @@ mode="Global">
 		enabled="False"
 		isexternaltestmethod="False"
 		methodname="psexec_2"
-		namespace="project_2.codemodules"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>
@@ -109,7 +109,7 @@ mode="Global">
 		enabled="True"
 		isexternaltestmethod="False"
 		methodname="psexec_3"
-		namespace="project_2.codemodules"
+		namespace="project_2.lab"
 		optional="False">
 			<comment>
 			</comment>

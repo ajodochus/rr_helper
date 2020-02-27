@@ -92,6 +92,10 @@
 				</databinding>
 			</testmodule>
 			<testcase
+			id="96ef8585-9ac4-4400-8c84-cf3aa1de8027"
+			name="mailsac">
+			</testcase>
+			<testcase
 			id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
 			name="get_mailslurper_email_info">
 				<parameters>
@@ -142,6 +146,12 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="f688b2b4-2915-4c46-b6d2-9445d2d918b7"
+			name="get_mailsac_mail"
+			ref="4cdab3df-4095-4a19-a92f-560cb05a1bfb"
+			type="Recording">
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -182,6 +192,14 @@
 						name="wait_for_process_and_get_cmd">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="96ef8585-9ac4-4400-8c84-cf3aa1de8027"
+					name="mailsac">
+						<testmodule
+						id="f688b2b4-2915-4c46-b6d2-9445d2d918b7"
+						name="get_mailsac_mail">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -196,7 +214,7 @@
 			id="7816a2d7-8500-4434-bcce-f5b4ff08397b">
 			</testcontainer>
 			<testcontainer
-			id="9ca79aa6-fe50-4c82-a53d-98a948502c75">
+			id="96ef8585-9ac4-4400-8c84-cf3aa1de8027">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

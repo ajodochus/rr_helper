@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="07aab4c5-1a14-451e-8fe6-1f82909a9035"
+id="4cdab3df-4095-4a19-a92f-560cb05a1bfb"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,25 +19,25 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="smtp"
-	namespace="project_2.lab">
+	classname="get_mailsac_mail"
+	namespace="project_2.mailsac">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
 		<userrecorditem
-		classname="smtp"
+		classname="get_mailsac_mail"
 		enabled="True"
 		isexternaltestmethod="False"
-		methodname="send_mail"
-		namespace="project_2.lab"
+		methodname="get_mail"
+		namespace="project_2.mailsac"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<arguments
-			id="6d639036-ae5e-44f8-b207-e0a5dca3c67c">
+			id="3b06ce37-e93d-4a9e-a4e6-ed49e41e795c">
 			</arguments>
 		</userrecorditem>
 	</recorditems>
@@ -56,7 +56,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		smtp.UserCode.cs
+		get_mailsac_mail.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
