@@ -203,7 +203,7 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:project_2.mailcare.get_mail.Init">
+        <member name="F:project_2.mailcare.get_mail.str_request">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.

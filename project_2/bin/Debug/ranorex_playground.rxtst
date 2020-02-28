@@ -137,12 +137,6 @@
 			ref="73c12313-8545-4329-a28c-564c2a225593"
 			type="UserCode">
 			</testmodule>
-			<testmodule
-			id="e9f86e65-8b07-4b75-aa14-e8d2e6544545"
-			name="Delay_10_seconds"
-			ref="73c12313-8545-4329-a28c-564c2a225593"
-			type="UserCode">
-			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -222,10 +216,6 @@
 						<testmodule
 						id="29c43186-f702-46c6-89db-1622c2df5ce7"
 						name="get_mail">
-						</testmodule>
-						<testmodule
-						id="e9f86e65-8b07-4b75-aa14-e8d2e6544545"
-						name="Delay_10_seconds">
 						</testmodule>
 					</testcase>
 				</testcase>

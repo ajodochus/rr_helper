@@ -23,6 +23,8 @@ using System;
 using System.Net.Http;
 
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace project_2.mailcare
 {
@@ -33,26 +35,31 @@ namespace project_2.mailcare
 		/// It can be used to execute recording specific initialization code.
 		/// </summary>
 
+		//string str_request = "emails?subject=Vdog";
+		string str_request = "";
 		
 		
 		private  void Init()
 		{
 
-			Test(); //async, passes through immediately
-
+			get_mail_via_subject(); //async, passes through immediately
+			//delete_mail_by_id();
 			Console.WriteLine("FIRST"); //prints sooner than pages
 			Thread.Sleep(10000); //just to get the output from Test()
-			Delay.Seconds(10);
+			//Delay.Seconds(10);
 		}
 		
-		static async void Test()
+		static async void get_mail_via_subject()
 		{
-			var r = await DownloadPage();
-			Console.WriteLine(r.ToString());
-			Ranorex.Report.Info("r: " + r.ToString());
+			var r = await get_mail_via_subject_task();
+			r = r.ToString();
+			JObject studentObj = JObject.Parse(r);
+			var id = studentObj["data"][0]["id"];
+			Ranorex.Report.Info("r: " + r);
+			Ranorex.Report.Info("id: " + id.ToString());
 		}
 		
-		static async Task<string> DownloadPage()
+		static async Task<string> get_mail_via_subject_task()
 		{
 			var baseAddress = new Uri("https://mailix.xyz/api/");
 			
@@ -60,7 +67,7 @@ namespace project_2.mailcare
 			{
 				httpClient.DefaultRequestHeaders.TryAddWithoutValidation("accept", "application/vnd.mailcare.v1+json");
 				
-				using(var response = await httpClient.GetAsync("emails?subject=Vdog"))
+				using(var response = await httpClient.GetAsync("emails?subject=vdogrrsub"))
 				{
 					string responseData = await response.Content.ReadAsStringAsync();
 					return responseData;
@@ -68,8 +75,27 @@ namespace project_2.mailcare
 			}
 		}
 		
+		static async void delete_mail_by_id()
+		{
+			var r = await delete_mail_by_id_task();
+			Ranorex.Report.Info("r: " + r.ToString());
+		}
 		
-		
+		static async Task<string> delete_mail_by_id_task()
+		{
+			var baseAddress = new Uri("https://mailix.xyz/api/");
+			
+			using (var httpClient = new HttpClient{ BaseAddress = baseAddress })
+			{
+				httpClient.DefaultRequestHeaders.TryAddWithoutValidation("accept", "application/vnd.mailcare.v1+json");
+				
+				using(var response = await httpClient.DeleteAsync("emails/795b63d0-e48d-4e02-b875-d0fffae4f211"))
+				{
+					string responseData = await response.Content.ReadAsStringAsync();
+					return responseData;
+				}
+			}
+		}
 
 	}
 }
