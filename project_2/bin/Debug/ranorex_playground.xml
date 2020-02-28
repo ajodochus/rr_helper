@@ -203,11 +203,12 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="F:project_2.mailcare.get_mail.str_request">
+        <member name="F:project_2.mailcare.get_mail.s_sleep">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
+            
         </member>
         <member name="P:project_2.mailcare.get_mail.Instance">
             <summary>
@@ -218,6 +219,42 @@
             <summary>
             Gets or sets the value of variable response.
             </summary>
+        </member>
+        <member name="T:project_2.mailcare.Mailcare">
+            <summary>
+            Description of Mailcare.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.Mailcare.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.Mailcare.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:project_2.mailcare.validate_email_arrived">
+            <summary>
+            Description of validate_email_arrived.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.validate_email_arrived.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.validate_email_arrived.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
         </member>
         <member name="T:project_2.mailsac.get_mailsac_mail">
              <summary>

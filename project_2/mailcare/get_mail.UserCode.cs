@@ -34,18 +34,19 @@ namespace project_2.mailcare
 		/// This method gets called right after the recording has been started.
 		/// It can be used to execute recording specific initialization code.
 		/// </summary>
-
-		//string str_request = "emails?subject=Vdog";
-		string str_request = "";
+		/// 
+		bool s_sleep = true;
 		
 		
 		private  void Init()
 		{
 
-			get_mail_via_subject(); //async, passes through immediately
+			//get_mail_via_subject(); //async, passes through immediately
+			
+			
 			//delete_mail_by_id();
 			Console.WriteLine("FIRST"); //prints sooner than pages
-			Thread.Sleep(10000); //just to get the output from Test()
+			 //just to get the output from Test()
 			//Delay.Seconds(10);
 		}
 		

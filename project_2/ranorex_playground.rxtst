@@ -20,6 +20,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="29c43186-f702-46c6-89db-1622c2df5ce7"
 			name="get_mail"
 			ref="c8fbed59-2353-4609-aeb6-03e3d63d3b45"
@@ -105,6 +106,12 @@
 			id="96ef8585-9ac4-4400-8c84-cf3aa1de8027"
 			name="mailsac">
 			</testcase>
+			<testmodule
+			id="999dc7e1-a19a-43a3-ad56-4a12b0992493"
+			name="validate_email_arrived"
+			ref="2605909b-98ec-4f03-b8cf-7f39118c4aa0"
+			type="UserCode">
+			</testmodule>
 			<testcase
 			id="9ca79aa6-fe50-4c82-a53d-98a948502c75"
 			name="get_mailslurper_email_info">
@@ -216,6 +223,10 @@
 						<testmodule
 						id="29c43186-f702-46c6-89db-1622c2df5ce7"
 						name="get_mail">
+						</testmodule>
+						<testmodule
+						id="999dc7e1-a19a-43a3-ad56-4a12b0992493"
+						name="validate_email_arrived">
 						</testmodule>
 					</testcase>
 				</testcase>

@@ -189,6 +189,12 @@
       <UserCode>true</UserCode>
       <id>099ccba3-05a5-457b-b604-0b2633045dce</id>
     </Compile>
+    <Compile Include="mailcare\Mailcare.cs">
+      <id>8c6f194e-91e9-4a14-b998-43fe250a34a3</id>
+    </Compile>
+    <Compile Include="mailcare\validate_email_arrived.cs">
+      <id>68425a5f-dbaf-40df-a3a1-f23cad535acb</id>
+    </Compile>
     <Compile Include="mailsac\get_mailsac_mail.cs">
       <BoundTo>b8972f47-4596-4701-b6a3-739ee85888fc</BoundTo>
       <DependentUpon>get_mailsac_mail.rxrec</DependentUpon>
