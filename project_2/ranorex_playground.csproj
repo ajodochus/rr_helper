@@ -177,6 +177,18 @@
       <id>fee91658-cfff-41e6-9ce4-8d6c65fbaabe</id>
       <BoundTo>0f15c664-1431-4e62-9859-2675325a8631</BoundTo>
     </Compile>
+    <Compile Include="mailcare\get_mail.cs">
+      <BoundTo>da748950-7de0-4cab-9fcd-2ac4d2f1f11b</BoundTo>
+      <DependentUpon>get_mail.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e2478119-f840-4fe0-8f43-062679a1121f</id>
+    </Compile>
+    <Compile Include="mailcare\get_mail.UserCode.cs">
+      <BoundTo>da748950-7de0-4cab-9fcd-2ac4d2f1f11b</BoundTo>
+      <DependentUpon>get_mail.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>099ccba3-05a5-457b-b604-0b2633045dce</id>
+    </Compile>
     <Compile Include="mailsac\get_mailsac_mail.cs">
       <BoundTo>b8972f47-4596-4701-b6a3-739ee85888fc</BoundTo>
       <DependentUpon>get_mailsac_mail.rxrec</DependentUpon>
@@ -238,6 +250,11 @@
       <id>b1f09937-068a-4c79-8a66-4664ee9d34c1</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="mailcare\get_mail.rxrec">
+      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
+      <id>da748950-7de0-4cab-9fcd-2ac4d2f1f11b</id>
+      <recordtableid>c8fbed59-2353-4609-aeb6-03e3d63d3b45</recordtableid>
+    </None>
     <None Include="mailsac\get_mailsac_mail.rxrec">
       <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
       <id>b8972f47-4596-4701-b6a3-739ee85888fc</id>
@@ -293,6 +310,9 @@
     </Folder>
     <Folder Include="mailsac">
       <id>d9c05f23-5eb3-4cc5-abac-82b9eea7abf1</id>
+    </Folder>
+    <Folder Include="mailcare">
+      <id>02f28bcb-d0fe-4c75-8583-0035c29cc624</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

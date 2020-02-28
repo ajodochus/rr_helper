@@ -175,6 +175,50 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:project_2.mailcare.get_mail">
+             <summary>
+            The get_mail recording.
+             </summary>
+        </member>
+        <member name="F:project_2.mailcare.get_mail.repo">
+            <summary>
+            Holds an instance of the global::project_2.Repository repository.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.get_mail.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.get_mail.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.mailcare.get_mail.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.get_mail.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.mailcare.get_mail.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.mailcare.get_mail.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:project_2.mailcare.get_mail.response">
+            <summary>
+            Gets or sets the value of variable response.
+            </summary>
+        </member>
         <member name="T:project_2.mailsac.get_mailsac_mail">
              <summary>
             The get_mailsac_mail recording.

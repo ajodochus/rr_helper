@@ -19,9 +19,19 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="29c43186-f702-46c6-89db-1622c2df5ce7"
+			name="get_mail"
+			ref="c8fbed59-2353-4609-aeb6-03e3d63d3b45"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="407d4004-e668-4ef4-9b37-3cacb70b3c06"
 			name="powershell_wait_for_remote_process_and_get_cmd_info">
+			</testcase>
+			<testcase
+			id="4c172ffe-a026-4ff6-bf8d-aff1e8c022fd"
+			name="mailcare">
 			</testcase>
 			<testmodule
 			id="4de7e00d-ef34-4e47-abeb-3199c938b8f1"
@@ -200,6 +210,14 @@
 						name="get_mailsac_mail">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="4c172ffe-a026-4ff6-bf8d-aff1e8c022fd"
+					name="mailcare">
+						<testmodule
+						id="29c43186-f702-46c6-89db-1622c2df5ce7"
+						name="get_mail">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -211,10 +229,10 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="7816a2d7-8500-4434-bcce-f5b4ff08397b">
+			id="4c172ffe-a026-4ff6-bf8d-aff1e8c022fd">
 			</testcontainer>
 			<testcontainer
-			id="96ef8585-9ac4-4400-8c84-cf3aa1de8027">
+			id="7816a2d7-8500-4434-bcce-f5b4ff08397b">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
