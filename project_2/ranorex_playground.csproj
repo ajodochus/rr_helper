@@ -177,17 +177,8 @@
       <id>fee91658-cfff-41e6-9ce4-8d6c65fbaabe</id>
       <BoundTo>0f15c664-1431-4e62-9859-2675325a8631</BoundTo>
     </Compile>
-    <Compile Include="mailcare\get_mail.cs">
-      <BoundTo>da748950-7de0-4cab-9fcd-2ac4d2f1f11b</BoundTo>
-      <DependentUpon>get_mail.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>e2478119-f840-4fe0-8f43-062679a1121f</id>
-    </Compile>
-    <Compile Include="mailcare\get_mail.UserCode.cs">
-      <BoundTo>da748950-7de0-4cab-9fcd-2ac4d2f1f11b</BoundTo>
-      <DependentUpon>get_mail.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>3d0e97c7-776b-49d1-bd85-dfa74b298f3e</id>
+    <Compile Include="mailcare\delete_email.cs">
+      <id>c2c88c8e-8bf7-4074-8070-182ff9e814b8</id>
     </Compile>
     <Compile Include="mailcare\Mailcare.cs">
       <id>8c6f194e-91e9-4a14-b998-43fe250a34a3</id>
@@ -255,11 +246,6 @@
     <None Include="lab\wait_for_process.ps1">
       <id>b1f09937-068a-4c79-8a66-4664ee9d34c1</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="mailcare\get_mail.rxrec">
-      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
-      <id>da748950-7de0-4cab-9fcd-2ac4d2f1f11b</id>
-      <recordtableid>c8fbed59-2353-4609-aeb6-03e3d63d3b45</recordtableid>
     </None>
     <None Include="mailsac\get_mailsac_mail.rxrec">
       <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>

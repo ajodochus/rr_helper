@@ -19,6 +19,12 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="32e336a4-3f9b-4df9-992d-d2adaf35d209"
+			name="delete_email"
+			ref="e544c677-7477-4e47-bebe-808aec12b020"
+			type="UserCode">
+			</testmodule>
 			<testcase
 			id="407d4004-e668-4ef4-9b37-3cacb70b3c06"
 			name="powershell_wait_for_remote_process_and_get_cmd_info">
@@ -216,6 +222,10 @@
 						<testmodule
 						id="999dc7e1-a19a-43a3-ad56-4a12b0992493"
 						name="validate_email_arrived">
+						</testmodule>
+						<testmodule
+						id="32e336a4-3f9b-4df9-992d-d2adaf35d209"
+						name="delete_email">
 						</testmodule>
 					</testcase>
 				</testcase>

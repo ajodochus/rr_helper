@@ -19,11 +19,15 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 
 using System.Net.Http;
+using System.Net;
 
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+
+using System.Net.Http;
+using System.Web;
 namespace project_2.mailcare
 {
 	
@@ -78,7 +82,7 @@ namespace project_2.mailcare
 			}
 		}
 		
-		
+
 		
 		
 		static async void wait_for_one_email_at_least()
@@ -151,6 +155,29 @@ namespace project_2.mailcare
 					return responseData;
 				}
 			}
+		}
+		
+		public static void delete_email()
+		{
+
+			HttpWebRequest request = (HttpWebRequest)WebRequest.Create(var_base_uri + @"emails/" + TestSuite.Current.Parameters["email_id"]);
+			request.Method = "DELETE";
+			request.ContentType = content_type_mailcare;
+
+			try {
+				HttpWebResponse myHttpWebResponse = (HttpWebResponse)request.GetResponse();
+				if (myHttpWebResponse.StatusCode == HttpStatusCode.OK){
+					Ranorex.Report.Info("email gelöscht");
+					
+				}
+				myHttpWebResponse.Close();
+			}
+
+			catch(Exception e)
+			{
+				Console.WriteLine("\nThe following Exception was raised : {0}",e.Message);
+			}
+
 		}
 	}
 }

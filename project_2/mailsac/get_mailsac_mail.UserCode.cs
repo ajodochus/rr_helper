@@ -56,6 +56,7 @@ namespace project_2.mailsac
 
 			try {
 				WebResponse webResponse = request.GetResponse();
+	
 				Stream webStream = webResponse.GetResponseStream();
 				//StreamReader responseReader = new StreamReader(webStream, Encoding.ASCII);
 				StreamReader responseReader = new StreamReader(webStream);
