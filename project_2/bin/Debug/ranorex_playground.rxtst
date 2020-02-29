@@ -107,7 +107,6 @@
 			name="mailsac">
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="999dc7e1-a19a-43a3-ad56-4a12b0992493"
 			name="validate_email_arrived"
 			ref="2605909b-98ec-4f03-b8cf-7f39118c4aa0"
@@ -232,12 +231,12 @@
 						name="get_mail">
 						</testmodule>
 						<testmodule
-						id="999dc7e1-a19a-43a3-ad56-4a12b0992493"
-						name="validate_email_arrived">
-						</testmodule>
-						<testmodule
 						id="bbd8af47-ec38-423a-8fb0-9dd20c0a4e25"
 						name="Mailcare">
+						</testmodule>
+						<testmodule
+						id="999dc7e1-a19a-43a3-ad56-4a12b0992493"
+						name="validate_email_arrived">
 						</testmodule>
 					</testcase>
 				</testcase>

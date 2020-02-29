@@ -43,16 +43,11 @@ namespace project_2.mailcare
 		/// that will in turn invoke this method.</remarks>
 		void ITestModule.Run()
 		{
-			for (int i = 0; i < 5; i++) {
-				if (TestSuite.Current.Parameters["email_id"] == "") {
-					mailcare.Mailcare.wait_for_one_email_at_least();
-					Thread.Sleep(5000);
-				} else{
-					//
-					break;
-				}
-			}
-				
+			
+			Ranorex.Report.Info("id: " +TestSuite.Current.Parameters["email_id"]);
+			Ranorex.Report.Info("email_subject: " +TestSuite.Current.Parameters["email_subject"]);
+			Ranorex.Report.Info("email_sender: " +TestSuite.Current.Parameters["email_sender"]);
+
 			
 			
 		}
