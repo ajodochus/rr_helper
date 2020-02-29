@@ -21,36 +21,40 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 namespace project_2.mailcare
 {
-    /// <summary>
-    /// Description of validate_email_arrived.
-    /// </summary>
-    [TestModule("2605909B-98EC-4F03-B8CF-7F39118C4AA0", ModuleType.UserCode, 1)]
-    public class validate_email_arrived : ITestModule
-    {
-        /// <summary>
-        /// Constructs a new instance.
-        /// </summary>
-        public validate_email_arrived()
-        {
-            // Do not delete - a parameterless constructor is required!
-        }
+	/// <summary>
+	/// Description of validate_email_arrived.
+	/// </summary>
+	[TestModule("2605909B-98EC-4F03-B8CF-7F39118C4AA0", ModuleType.UserCode, 1)]
+	public class validate_email_arrived : ITestModule
+	{
+		/// <summary>
+		/// Constructs a new instance.
+		/// </summary>
+		public validate_email_arrived()
+		{
+			// Do not delete - a parameterless constructor is required!
+		}
 
-        /// <summary>
-        /// Performs the playback of actions in this module.
-        /// </summary>
-        /// <remarks>You should not call this method directly, instead pass the module
-        /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
-        /// that will in turn invoke this method.</remarks>
-        void ITestModule.Run()
-        {
-        	var test =  mailcare.Mailcare.get_mail_via_subject_task().Result;
-        	JObject studentObj = JObject.Parse(test.ToString());
-			string id = studentObj["data"][0]["id"].ToString();
-			string sender_email = studentObj["data"][0]["sender"]["email"].ToString();
-			//Ranorex.Report.Info("r: " + r);
-			Ranorex.Report.Info("id: " + id.ToString());
-			Ranorex.Report.Info("sender email: " + sender_email.ToString());
-        	Thread.Sleep(10000);
-        }
-    }
+		/// <summary>
+		/// Performs the playback of actions in this module.
+		/// </summary>
+		/// <remarks>You should not call this method directly, instead pass the module
+		/// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
+		/// that will in turn invoke this method.</remarks>
+		void ITestModule.Run()
+		{
+			for (int i = 0; i < 5; i++) {
+				if (TestSuite.Current.Parameters["email_id"] == "") {
+					mailcare.Mailcare.wait_for_one_email_at_least();
+					Thread.Sleep(5000);
+				} else{
+					//
+					break;
+				}
+			}
+				
+			
+			
+		}
+	}
 }

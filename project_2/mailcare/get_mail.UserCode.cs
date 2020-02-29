@@ -19,7 +19,6 @@ using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
-using System;
 using System.Net.Http;
 
 using System.Threading.Tasks;

@@ -107,6 +107,7 @@
 			name="mailsac">
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="999dc7e1-a19a-43a3-ad56-4a12b0992493"
 			name="validate_email_arrived"
 			ref="2605909b-98ec-4f03-b8cf-7f39118c4aa0"
@@ -138,6 +139,12 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="bbd8af47-ec38-423a-8fb0-9dd20c0a4e25"
+			name="Mailcare"
+			ref="66fae167-3623-442e-947f-84d75487486b"
+			type="UserCode">
+			</testmodule>
 			<testmodule
 			id="bca34ee1-ff3b-4e00-909a-9b506ca6fe79"
 			name="Delay_10_seconds"
@@ -227,6 +234,10 @@
 						<testmodule
 						id="999dc7e1-a19a-43a3-ad56-4a12b0992493"
 						name="validate_email_arrived">
+						</testmodule>
+						<testmodule
+						id="bbd8af47-ec38-423a-8fb0-9dd20c0a4e25"
+						name="Mailcare">
 						</testmodule>
 					</testcase>
 				</testcase>

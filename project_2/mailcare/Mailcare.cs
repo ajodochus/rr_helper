@@ -32,6 +32,9 @@ namespace project_2.mailcare
 	[TestModule("66FAE167-3623-442E-947F-84D75487486B", ModuleType.UserCode, 1)]
 	public class Mailcare : ITestModule
 	{
+		
+		static int  count_obj = 0;
+		
 		/// <summary>
 		/// Constructs a new instance.
 		/// </summary>
@@ -48,23 +51,44 @@ namespace project_2.mailcare
 		/// that will in turn invoke this method.</remarks>
 		void ITestModule.Run()
 		{
-			Mouse.DefaultMoveTime = 300;
-			Keyboard.DefaultKeyPressTime = 100;
-			Delay.SpeedFactor = 1.0;
+			for (int i = 0; i < 50; i++) {
+				if (count_obj < 1) {
+					wait_for_one_email_at_least();
+					Thread.Sleep(5000);
+					Ranorex.Report.Info("i: " + i.ToString());
+				}  else	 {
+					Ranorex.Report.Info("array >= 1");
+					get_email_id();
+					Thread.Sleep(5000);
+					break;
+				}
+			}
+			
 		}
-/*		
-		static async void get_mail_via_subject()
+		
+		public static async void wait_for_one_email_at_least()
 		{
 			var r = await get_mail_via_subject_task();
-			r = r.ToString();
+			//ret = r.ToString();
 			JObject studentObj = JObject.Parse(r);
-			string id = studentObj["data"][0]["id"].ToString();
-			Ranorex.Report.Info("r: " + r);
-			Ranorex.Report.Info("id: " + id.ToString());
+			count_obj = ((JArray)studentObj["data"]).Count;
+
+
 
 		}
-*/		
-		public static async Task<string> get_mail_via_subject_task()
+		
+		static async void get_email_id(){
+			var r = await get_mail_via_subject_task();
+			JObject studentObj = JObject.Parse(r);
+			
+			string email_id = studentObj["data"][0]["id"].ToString();
+			//Ranorex.Report.Info("r: " + r);
+			Ranorex.Report.Info("id: " + email_id.ToString());
+			TestSuite.Current.Parameters["email_id"] = email_id;
+		}
+		
+		
+		static async Task<string> get_mail_via_subject_task()
 		{
 			var baseAddress = new Uri("https://mailix.xyz/api/");
 			
@@ -75,6 +99,7 @@ namespace project_2.mailcare
 				using(var response = await httpClient.GetAsync("emails?subject=vdogrrsub"))
 				{
 					string responseData = await response.Content.ReadAsStringAsync();
+					
 					return responseData;
 				}
 			}
