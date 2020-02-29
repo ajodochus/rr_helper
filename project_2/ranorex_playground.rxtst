@@ -19,13 +19,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			enabled="False"
-			id="29c43186-f702-46c6-89db-1622c2df5ce7"
-			name="get_mail"
-			ref="c8fbed59-2353-4609-aeb6-03e3d63d3b45"
-			type="Recording">
-			</testmodule>
 			<testcase
 			id="407d4004-e668-4ef4-9b37-3cacb70b3c06"
 			name="powershell_wait_for_remote_process_and_get_cmd_info">
@@ -139,12 +132,6 @@
 				</parameters>
 			</testcase>
 			<testmodule
-			id="bbd8af47-ec38-423a-8fb0-9dd20c0a4e25"
-			name="Mailcare"
-			ref="66fae167-3623-442e-947f-84d75487486b"
-			type="UserCode">
-			</testmodule>
-			<testmodule
 			id="bca34ee1-ff3b-4e00-909a-9b506ca6fe79"
 			name="Delay_10_seconds"
 			ref="73c12313-8545-4329-a28c-564c2a225593"
@@ -226,14 +213,6 @@
 					<testcase
 					id="4c172ffe-a026-4ff6-bf8d-aff1e8c022fd"
 					name="mailcare">
-						<testmodule
-						id="29c43186-f702-46c6-89db-1622c2df5ce7"
-						name="get_mail">
-						</testmodule>
-						<testmodule
-						id="bbd8af47-ec38-423a-8fb0-9dd20c0a4e25"
-						name="Mailcare">
-						</testmodule>
 						<testmodule
 						id="999dc7e1-a19a-43a3-ad56-4a12b0992493"
 						name="validate_email_arrived">

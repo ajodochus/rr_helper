@@ -44,9 +44,13 @@ namespace project_2.mailcare
 		void ITestModule.Run()
 		{
 			
+			mailcare.Mailcare.wait_for_mail_with_api_paraemter_and_get_data(@"vdogrr2@mailix.xyz");
+			
 			Ranorex.Report.Info("id: " +TestSuite.Current.Parameters["email_id"]);
 			Ranorex.Report.Info("email_subject: " +TestSuite.Current.Parameters["email_subject"]);
 			Ranorex.Report.Info("email_sender: " +TestSuite.Current.Parameters["email_sender"]);
+			Ranorex.Report.Info("email body: " + TestSuite.Current.Parameters["email_body"]);
+			Ranorex.Report.Info("email attachment: " + TestSuite.Current.Parameters["email_attachment"]);
 
 			
 			

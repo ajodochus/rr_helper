@@ -36,24 +36,25 @@ namespace project_2.mailcare
 	public class Mailcare : ITestModule
 	{
 		static int  count_obj = 0;
+		static string var_api_parameter = "";
+		static string var_base_uri = @"https://mailix.xyz/api/";
+		static string content_type_mailcare = @"application/vnd.mailcare.v1+json";
+		static string content_type_plain = @"text/plain";
+		static string content_type = "";
 		
-		
-		/// <summary>
-		/// Constructs a new instance.
-		/// </summary>
 		public Mailcare()
 		{
 			// Do not delete - a parameterless constructor is required!
 		}
 
-		/// <summary>
-		/// Performs the playback of actions in this module.
-		/// </summary>
-		/// <remarks>You should not call this method directly, instead pass the module
-		/// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
-		/// that will in turn invoke this method.</remarks>
 		void ITestModule.Run()
 		{
+			
+			
+		}
+		
+		public static void wait_for_mail_with_api_paraemter_and_get_data(string api_parameter){
+			var_api_parameter = api_parameter;
 			TestSuite.Current.Parameters["email_id"] = "NA";
 			for (int i = 0; i < 50; i++) {
 				if (count_obj < 1) {
@@ -69,45 +70,47 @@ namespace project_2.mailcare
 			}
 			
 			if (TestSuite.Current.Parameters["email_id"] != "NA") {
-				get_mail_body_with_id();
+				content_type = content_type_plain;
+				get_mail_body();
+				content_type = content_type_mailcare;
+				get_mail_attachment_and_more();
 				Thread.Sleep(5000);
-				
 			}
-			
 		}
 		
-
-		public static async void wait_for_one_email_at_least()
+		
+		
+		
+		static async void wait_for_one_email_at_least()
 		{
-			var r = await get_mail_via_subject_task();
+			var r = await get_mail_via_api_parameter_task();
 			JObject studentObj = JObject.Parse(r);
 			count_obj = ((JArray)studentObj["data"]).Count;
 		}
-		
+
 		static async void get_email_data_obj(){
-			var r = await get_mail_via_subject_task();
+			var r = await get_mail_via_api_parameter_task();
 			JObject studentObj = JObject.Parse(r);
 			
 			string email_id = studentObj["data"][0]["id"].ToString();
 			string email_subject = studentObj["data"][0]["inbox"]["email"].ToString();
 			string email_sender = studentObj["data"][0]["sender"]["email"].ToString();
-			//Ranorex.Report.Info("r: " + r);
-			Ranorex.Report.Info("id: " + email_id.ToString());
+
 			TestSuite.Current.Parameters["email_id"] = email_id;
 			TestSuite.Current.Parameters["email_subject"] = email_subject;
 			TestSuite.Current.Parameters["email_sender"] = email_sender;
 			
 		}
 		
-		static async Task<string> get_mail_via_subject_task()
+		static async Task<string> get_mail_via_api_parameter_task()
 		{
-			var baseAddress = new Uri("https://mailix.xyz/api/");
+			var baseAddress = new Uri(var_base_uri);
 			
 			using (var httpClient = new HttpClient{ BaseAddress = baseAddress })
 			{
 				httpClient.DefaultRequestHeaders.TryAddWithoutValidation("accept", "application/vnd.mailcare.v1+json");
 				
-				using(var response = await httpClient.GetAsync("emails?subject=vdogrrsub"))
+				using(var response = await httpClient.GetAsync("emails?inbox=" + var_api_parameter))
 				{
 					string responseData = await response.Content.ReadAsStringAsync();
 					
@@ -116,23 +119,30 @@ namespace project_2.mailcare
 			}
 		}
 		
-
-		static async void get_mail_body_with_id(){
-			var r = await get_mail_body_with_id_task();
-			
-			
-			Ranorex.Report.Info("body: " + r.ToString());
-			
-		}
-
 		
-		static async Task<string> get_mail_body_with_id_task()
+		
+		
+		static async void get_mail_body(){
+			var r = await get_mail_with_content_type_task();
+			TestSuite.Current.Parameters["email_body"] = r.ToString();
+		}
+		
+		static async void get_mail_attachment_and_more(){
+			var r = await get_mail_with_content_type_task();
+			JObject studentObj = JObject.Parse(r);
+			
+			string email_attachment = studentObj["data"]["attachments"][0]["file_name"].ToString();
+			TestSuite.Current.Parameters["email_attachment"] = email_attachment;
+
+		}
+		
+		static async Task<string> get_mail_with_content_type_task()
 		{
-			var baseAddress = new Uri("https://mailix.xyz/api/");
+			var baseAddress = new Uri(var_base_uri);
 			
 			using (var httpClient = new HttpClient{ BaseAddress = baseAddress })
 			{
-				httpClient.DefaultRequestHeaders.TryAddWithoutValidation("accept", "text/plain");
+				httpClient.DefaultRequestHeaders.TryAddWithoutValidation("accept", content_type);
 				
 				using(var response = await httpClient.GetAsync("emails/" + TestSuite.Current.Parameters["email_id"]))
 				{

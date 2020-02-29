@@ -187,7 +187,7 @@
       <BoundTo>da748950-7de0-4cab-9fcd-2ac4d2f1f11b</BoundTo>
       <DependentUpon>get_mail.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>099ccba3-05a5-457b-b604-0b2633045dce</id>
+      <id>3d0e97c7-776b-49d1-bd85-dfa74b298f3e</id>
     </Compile>
     <Compile Include="mailcare\Mailcare.cs">
       <id>8c6f194e-91e9-4a14-b998-43fe250a34a3</id>
