@@ -4,10 +4,12 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="ranorex_playground.rxtst" />
     <Element value="mailcare\Mailcare.cs" />
+    <Element value="ranorex_playground.rxtst" />
+    <Element value="mailcare\validate_email_arrived.cs" />
+    <Element value="Program.cs" />
+    <Element value="mailcare\validate_no_email_was_send.cs" />
     <Element value="mailcare\delete_email.cs" />
-    <Element value="mailsac\get_mailsac_mail.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

@@ -49,6 +49,7 @@ namespace project_2.mailcare
 			Ranorex.Report.Info("id: " +TestSuite.Current.Parameters["email_id"]);
 			Ranorex.Report.Info("email_subject: " +TestSuite.Current.Parameters["email_subject"]);
 			Ranorex.Report.Info("email_sender: " +TestSuite.Current.Parameters["email_sender"]);
+			Ranorex.Report.Info("email_receipt: " +TestSuite.Current.Parameters["email_receipt"]);
 			Ranorex.Report.Info("email body: " + TestSuite.Current.Parameters["email_body"]);
 			Ranorex.Report.Info("email attachment: " + TestSuite.Current.Parameters["email_attachment"]);
 

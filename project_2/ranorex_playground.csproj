@@ -186,6 +186,9 @@
     <Compile Include="mailcare\validate_email_arrived.cs">
       <id>68425a5f-dbaf-40df-a3a1-f23cad535acb</id>
     </Compile>
+    <Compile Include="mailcare\validate_no_email_was_send.cs">
+      <id>675fb28e-3c03-4fbb-b2e9-45fcc568098c</id>
+    </Compile>
     <Compile Include="mailsac\get_mailsac_mail.cs">
       <BoundTo>b8972f47-4596-4701-b6a3-739ee85888fc</BoundTo>
       <DependentUpon>get_mailsac_mail.rxrec</DependentUpon>

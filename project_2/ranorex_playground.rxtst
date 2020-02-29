@@ -163,6 +163,12 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
+			id="f0c167cf-2fce-4ee0-aa5a-4874040c7b7a"
+			name="validate_no_email_was_send"
+			ref="658c15b0-5d98-4ac4-bcc1-cb1f329d0a48"
+			type="UserCode">
+			</testmodule>
+			<testmodule
 			id="f688b2b4-2915-4c46-b6d2-9445d2d918b7"
 			name="get_mailsac_mail"
 			ref="4cdab3df-4095-4a19-a92f-560cb05a1bfb"
@@ -226,6 +232,10 @@
 						<testmodule
 						id="32e336a4-3f9b-4df9-992d-d2adaf35d209"
 						name="delete_email">
+						</testmodule>
+						<testmodule
+						id="f0c167cf-2fce-4ee0-aa5a-4874040c7b7a"
+						name="validate_no_email_was_send">
 						</testmodule>
 					</testcase>
 				</testcase>

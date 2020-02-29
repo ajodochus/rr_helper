@@ -216,6 +216,24 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
+        <member name="T:project_2.mailcare.validate_no_email_was_send">
+            <summary>
+            Description of validate_no_email_was_send.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.validate_no_email_was_send.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.validate_no_email_was_send.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
         <member name="T:project_2.mailsac.get_mailsac_mail">
              <summary>
             The get_mailsac_mail recording.

@@ -14,6 +14,6 @@
       <string>d9c05f23-5eb3-4cc5-abac-82b9eea7abf1</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution ranorex_lab[ranorex_playground[codemodules[]lab[]mailcare[]mailsac[get_mailsac_mail.rxrec[]]]]]&#xD;&#xA;Solution ranorex_lab\ranorex_playground\mailcare\Mailcare.cs&#xD;&#xA;Solution ranorex_lab" />
+  <ProjectBrowserState value="[Solution ranorex_lab[ranorex_playground[codemodules[]lab[]mailcare[]mailsac[get_mailsac_mail.rxrec[]]]]]&#xD;&#xA;Solution ranorex_lab\ranorex_playground\mailcare\Mailcare.cs&#xD;&#xA;Solution ranorex_lab\ranorex_playground\References" />
   <StartupProject value="{124FA085-09FE-4788-8C54-CDCE778FB107}" />
 </Properties>
