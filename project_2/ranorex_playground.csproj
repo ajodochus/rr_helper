@@ -38,8 +38,8 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\dll\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Bootstrapper">
       <Private>False</Private>
@@ -227,6 +227,10 @@
     <None Include="app.config">
       <id>eb833073-a7ce-4f29-a803-e44d0222267c</id>
     </None>
+    <None Include="dll\Newtonsoft.Json.dll">
+      <id>21a54545-fdef-46ab-90f0-9599ffbffa09</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="lab\CimV2.rxrec">
       <id>0338fd4d-3b76-423e-948b-7ea52f60d3c1</id>
       <recordtableid>85db8cf7-1177-4418-9859-b267a40858ad</recordtableid>
@@ -267,9 +271,6 @@
       <id>d5d0298f-0140-4321-9738-a1271535c230</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="packages.config">
-      <id>9d0b90b0-47aa-495a-8ccd-77387f2242c8</id>
-    </None>
     <None Include="Repository.rximg">
       <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
       <DependentUpon>Repository.rxrep</DependentUpon>
@@ -308,6 +309,9 @@
     </Folder>
     <Folder Include="mailcare">
       <id>02f28bcb-d0fe-4c75-8583-0035c29cc624</id>
+    </Folder>
+    <Folder Include="dll">
+      <id>ee0c9497-fc23-4577-b75b-65adf49f31f1</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

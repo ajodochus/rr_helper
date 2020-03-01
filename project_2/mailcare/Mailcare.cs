@@ -61,6 +61,12 @@ namespace project_2.mailcare
 		
 			
 		/// <summary>
+		/// 
+		/// newtonsoft.net.dll relativ zum Projekt ablegen: 
+		/// - ordner "dll" im root anlegen und newtonsoft.net.dll ablegen
+		/// - dll --> copy to output directory always
+		/// - in der .csproj --> <HintPath>..\dll\Newtonsoft.Json.dll</HintPath> 
+		/// 
 		/// mailcare.Mailcare.wait_for_mail_with_api_paraemter_and_get_data(@"vdogrr2@mailix.xyz");
 			
 		///	Ranorex.Report.Info("id: " +TestSuite.Current.Parameters["email_id"]);

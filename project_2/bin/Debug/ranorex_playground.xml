@@ -198,6 +198,19 @@
             Description of Mailcare.
             </summary>
         </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member 'M:project_2.mailcare.Mailcare.wait_for_mail_with_api_paraemter_and_get_data(System.String)' ignoriert -->
+        <member name="M:project_2.mailcare.Mailcare.verify_no_email_was_sent(System.String,System.Int32)">
+            <summary>
+             mailcare.Mailcare.verify_no_email_was_sent(@"vdogrr2@mailix.xyz", 30);
+            </summary>
+            <param name="api_parameter_inbox"></param>
+            <param name="timeout"></param>
+        </member>
+        <member name="M:project_2.mailcare.Mailcare.delete_email">
+            <summary>
+            mailcare.Mailcare.delete_email();
+            </summary>
+        </member>
         <member name="T:project_2.mailcare.validate_email_arrived">
             <summary>
             Description of validate_email_arrived.

@@ -5,15 +5,8 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <string>{124FA085-09FE-4788-8C54-CDCE778FB107}</string>
-      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-      <string>375181da-4867-4729-ae74-4777fda0dbf9</string>
-      <string>74091f54-0d4b-4afc-b325-ac18d2308fcf</string>
-      <string>02f28bcb-d0fe-4c75-8583-0035c29cc624</string>
-      <string>d9c05f23-5eb3-4cc5-abac-82b9eea7abf1</string>
-    </ArrayOfString>
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </SerializedValue>
-  <ProjectBrowserState value="[Solution ranorex_lab[ranorex_playground[codemodules[]lab[]mailcare[]mailsac[get_mailsac_mail.rxrec[]]]]]&#xD;&#xA;Solution ranorex_lab\ranorex_playground\mailcare\Mailcare.cs&#xD;&#xA;Solution ranorex_lab\ranorex_playground\References" />
+  <ProjectBrowserState value="[Solution ranorex_lab[ranorex_playground[dll[]]]]&#xD;&#xA;Solution ranorex_lab\ranorex_playground\mailcare&#xD;&#xA;Solution ranorex_lab" />
   <StartupProject value="{124FA085-09FE-4788-8C54-CDCE778FB107}" />
 </Properties>

@@ -26,7 +26,7 @@ C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\ranorex_playground.exe
 C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\ranorex_playground.pdb
 C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\Newtonsoft.Json.dll
 C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\Ranorex.Core.Resolver.dll
-C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\Newtonsoft.Json.xml
 C:\Users\vagrant\Documents\rr_helper\project_2\obj\x86\Debug\ranorex_playground.csprojResolveAssemblyReference.cache
 C:\Users\vagrant\Documents\rr_helper\project_2\obj\x86\Debug\ranorex_playground.exe
 C:\Users\vagrant\Documents\rr_helper\project_2\obj\x86\Debug\ranorex_playground.pdb
+C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\dll\Newtonsoft.Json.dll
