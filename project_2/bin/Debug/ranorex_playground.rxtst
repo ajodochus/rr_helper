@@ -79,6 +79,16 @@
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
+			id="7abf12b4-7d88-4705-b897-079ba89f190b"
+			name="Mailcare2"
+			ref="6891e9e0-8ce2-4131-b3e8-f2c6f3a81438"
+			type="UserCode">
+			</testmodule>
+			<testcase
+			id="8fc4b4f6-cb9a-4be8-a78c-7c81774848aa"
+			name="TestCase">
+			</testcase>
+			<testmodule
 			id="91d544de-cf37-4f7a-8523-3aa67d14f025"
 			name="Mailslurper_server"
 			ref="4372da50-7a55-4a1b-96de-417d24a9af33"
@@ -238,6 +248,14 @@
 						name="validate_no_email_was_send">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="8fc4b4f6-cb9a-4be8-a78c-7c81774848aa"
+					name="TestCase">
+						<testmodule
+						id="7abf12b4-7d88-4705-b897-079ba89f190b"
+						name="Mailcare2">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -249,10 +267,10 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="4c172ffe-a026-4ff6-bf8d-aff1e8c022fd">
+			id="7816a2d7-8500-4434-bcce-f5b4ff08397b">
 			</testcontainer>
 			<testcontainer
-			id="7816a2d7-8500-4434-bcce-f5b4ff08397b">
+			id="8fc4b4f6-cb9a-4be8-a78c-7c81774848aa">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

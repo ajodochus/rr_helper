@@ -211,6 +211,24 @@
             mailcare.Mailcare.delete_email();
             </summary>
         </member>
+        <member name="T:project_2.mailcare.Mailcare2">
+            <summary>
+            Description of Mailcare2.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.Mailcare2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.mailcare.Mailcare2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
         <member name="T:project_2.mailcare.validate_email_arrived">
             <summary>
             Description of validate_email_arrived.

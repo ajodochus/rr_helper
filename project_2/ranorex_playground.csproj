@@ -183,6 +183,9 @@
     <Compile Include="mailcare\Mailcare.cs">
       <id>8c6f194e-91e9-4a14-b998-43fe250a34a3</id>
     </Compile>
+    <Compile Include="mailcare\Mailcare2.cs">
+      <id>d2670d10-8d13-4aea-acd1-fd15aeec8da1</id>
+    </Compile>
     <Compile Include="mailcare\validate_email_arrived.cs">
       <id>68425a5f-dbaf-40df-a3a1-f23cad535acb</id>
     </Compile>

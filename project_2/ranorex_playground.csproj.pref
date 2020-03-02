@@ -1,15 +1,17 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="mailcare\Mailcare.cs" />
+    <Element value="mailcare\Mailcare2.cs" />
   </Array>
-  <Array name="bookmarks" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Users\vagrant\Documents\rr_helper\project_2\mailcare\Mailcare2.cs|146|1|True|Break||" />
+    <Element value="Breakpoint|C:\Users\vagrant\Documents\rr_helper\project_2\mailcare\Mailcare2.cs|146|1|True|Break||" />
+  </Array>
   <Array name="files">
-    <Element value="mailcare\Mailcare.cs" />
+    <Element value="mailcare\Mailcare2.cs" />
+    <Element value="mailsac\get_mailsac_mail.rxrec" />
+    <Element value="mailsac\get_mailsac_mail.UserCode.cs" />
     <Element value="ranorex_playground.rxtst" />
-    <Element value="mailcare\validate_email_arrived.cs" />
-    <Element value="Program.cs" />
-    <Element value="mailcare\validate_no_email_was_send.cs" />
-    <Element value="mailcare\delete_email.cs" />
+    <Element value="mailcare\Mailcare.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
