@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0e5805e7-d1f4-45cc-9bbf-ef9459cd23c8"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="run_remote"
+	namespace="project_2.copy_ranorex_to_vm">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="run_remote"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="remote"
+		namespace="project_2.copy_ranorex_to_vm"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="cf684c49-03c0-4f22-9a35-e8a07fdd5faa">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="7c4cf967-b58b-41bd-b9db-81f589722ade"
+	name="Repository"
+	relativepath="..\Repository.rxrep">
+		<codegen
+		classname="Repository"
+		namespace="project_2">
+		</codegen>
+		<rootfolder
+		id="fe244156-b2ec-4b29-ac88-f61643b09cb8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		run_remote.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

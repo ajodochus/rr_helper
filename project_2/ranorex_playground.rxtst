@@ -19,6 +19,14 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="1a5552b3-9825-4971-98bc-965716b8a917"
+			name="run_IE_on_vagrant-10">
+			</testcase>
+			<testcase
+			id="2d5b7540-9159-4b9b-8310-446b256c86ba"
+			name="copy_ranorex_to_vm">
+			</testcase>
 			<testmodule
 			id="32e336a4-3f9b-4df9-992d-d2adaf35d209"
 			name="delete_email"
@@ -29,6 +37,18 @@
 			id="407d4004-e668-4ef4-9b37-3cacb70b3c06"
 			name="powershell_wait_for_remote_process_and_get_cmd_info">
 			</testcase>
+			<testmodule
+			id="4622aa58-a5eb-4eb7-bff3-cb20c89ab938"
+			name="run_remote"
+			ref="0e5805e7-d1f4-45cc-9bbf-ef9459cd23c8"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="48152b2d-dfaa-4fbd-93ff-785dd78a99ba"
+			name="copy"
+			ref="e5254836-8ebd-4d78-9157-7a412546c6ae"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="4c172ffe-a026-4ff6-bf8d-aff1e8c022fd"
 			name="mailcare">
@@ -73,6 +93,12 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="5cae7199-6dc9-4452-abd6-7213508ae1c9"
+			name="run_Ie"
+			ref="2e69f447-e0c4-4ff1-9d74-04c1ef7210d8"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="7816a2d7-8500-4434-bcce-f5b4ff08397b"
 			name="ranorex_playground"
@@ -86,7 +112,7 @@
 			</testmodule>
 			<testcase
 			id="8fc4b4f6-cb9a-4be8-a78c-7c81774848aa"
-			name="TestCase">
+			name="mailcare2">
 			</testcase>
 			<testmodule
 			id="91d544de-cf37-4f7a-8523-3aa67d14f025"
@@ -153,6 +179,10 @@
 			ref="73c12313-8545-4329-a28c-564c2a225593"
 			type="UserCode">
 			</testmodule>
+			<smartfoldernode
+			id="e7e93ea2-fd70-4cfe-8fa9-ad71a4d41172"
+			name="copy_ranorex_and_run_tests">
+			</smartfoldernode>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -250,12 +280,36 @@
 					</testcase>
 					<testcase
 					id="8fc4b4f6-cb9a-4be8-a78c-7c81774848aa"
-					name="TestCase">
+					name="mailcare2">
 						<testmodule
 						id="7abf12b4-7d88-4705-b897-079ba89f190b"
 						name="Mailcare2">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="2d5b7540-9159-4b9b-8310-446b256c86ba"
+					name="copy_ranorex_to_vm">
+						<testmodule
+						id="48152b2d-dfaa-4fbd-93ff-785dd78a99ba"
+						name="copy">
+						</testmodule>
+						<testmodule
+						id="4622aa58-a5eb-4eb7-bff3-cb20c89ab938"
+						name="run_remote">
+						</testmodule>
+					</testcase>
+					<smartfoldernode
+					id="e7e93ea2-fd70-4cfe-8fa9-ad71a4d41172"
+					name="copy_ranorex_and_run_tests">
+						<testcase
+						id="1a5552b3-9825-4971-98bc-965716b8a917"
+						name="run_IE_on_vagrant-10">
+							<testmodule
+							id="5cae7199-6dc9-4452-abd6-7213508ae1c9"
+							name="run_Ie">
+							</testmodule>
+						</testcase>
+					</smartfoldernode>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -265,12 +319,24 @@
 	<testconfigurations
 	default="TestRun">
 		<testconfiguration
-		name="TestRun">
+		name="remote">
+			<testcontainer
+			id="1a5552b3-9825-4971-98bc-965716b8a917">
+			</testcontainer>
 			<testcontainer
 			id="7816a2d7-8500-4434-bcce-f5b4ff08397b">
 			</testcontainer>
 			<testcontainer
-			id="8fc4b4f6-cb9a-4be8-a78c-7c81774848aa">
+			id="e7e93ea2-fd70-4cfe-8fa9-ad71a4d41172">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="TestRun">
+			<testcontainer
+			id="2d5b7540-9159-4b9b-8310-446b256c86ba">
+			</testcontainer>
+			<testcontainer
+			id="7816a2d7-8500-4434-bcce-f5b4ff08397b">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

@@ -40,6 +40,123 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
+        <member name="T:project_2.copy_ranorex_to_vm.copy">
+             <summary>
+            The copy recording.
+             </summary>
+        </member>
+        <member name="F:project_2.copy_ranorex_to_vm.copy.repo">
+            <summary>
+            Holds an instance of the global::project_2.Repository repository.
+            </summary>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.copy.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.copy.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.copy_ranorex_to_vm.copy.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.copy.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.copy.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.copy_ranorex_to_vm.copy.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:project_2.copy_ranorex_to_vm.run_Ie">
+             <summary>
+            The run_Ie recording.
+             </summary>
+        </member>
+        <member name="F:project_2.copy_ranorex_to_vm.run_Ie.repo">
+            <summary>
+            Holds an instance of the global::project_2.Repository repository.
+            </summary>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.run_Ie.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.run_Ie.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.copy_ranorex_to_vm.run_Ie.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.run_Ie.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.run_Ie.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.copy_ranorex_to_vm.run_Ie.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:project_2.copy_ranorex_to_vm.run_remote">
+             <summary>
+            The run_remote recording.
+             </summary>
+        </member>
+        <member name="F:project_2.copy_ranorex_to_vm.run_remote.repo">
+            <summary>
+            Holds an instance of the global::project_2.Repository repository.
+            </summary>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.run_remote.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.run_remote.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:project_2.copy_ranorex_to_vm.run_remote.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.run_remote.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:project_2.copy_ranorex_to_vm.run_remote.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:project_2.copy_ranorex_to_vm.run_remote.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:project_2.lab.CimV2">
              <summary>
             The CimV2 recording.
@@ -329,6 +446,11 @@
             The CUserClient folder.
             </summary>
         </member>
+        <member name="P:project_2.Repository.Ie">
+            <summary>
+            The Ie folder.
+            </summary>
+        </member>
         <member name="T:project_2.RepositoryFolders">
             <summary>
             Inner folder classes.
@@ -392,6 +514,26 @@
         <member name="P:project_2.RepositoryFolders.CUserClientAppFolder.JobStoppenInfo">
             <summary>
             The JobStoppen item info.
+            </summary>
+        </member>
+        <member name="T:project_2.RepositoryFolders.IeAppFolder">
+            <summary>
+            The IeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:project_2.RepositoryFolders.IeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Ie  folder.
+            </summary>
+        </member>
+        <member name="P:project_2.RepositoryFolders.IeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:project_2.RepositoryFolders.IeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
             </summary>
         </member>
         <member name="T:project_2.lab.wait_for_process_and_get_cmd">

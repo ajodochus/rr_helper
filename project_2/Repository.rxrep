@@ -79,6 +79,17 @@ Y3uMsTvIrHMiwciLyGQyyOfzEApa0Vem+TKsrL7p2DNzO9A27O+eO8nRTCYvsF8ypqo2XdeJur5O
 RK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="8e26ca35-95c9-4202-922a-05d73b4dea7b"
+		isrooted="True"
+		name="Ie"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@browsername='IE']
+			</basepath>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

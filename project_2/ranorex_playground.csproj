@@ -138,6 +138,42 @@
     <Compile Include="codemodules\Mailslurper_server.cs">
       <id>3138d015-10b6-496f-b101-778575aba80a</id>
     </Compile>
+    <Compile Include="copy_ranorex_to_vm\copy.cs">
+      <BoundTo>82ffc6c8-f670-414a-9ad2-1163f969ff1b</BoundTo>
+      <DependentUpon>copy.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d7751edc-9674-48c9-bf8d-7f8390af9747</id>
+    </Compile>
+    <Compile Include="copy_ranorex_to_vm\copy.UserCode.cs">
+      <BoundTo>82ffc6c8-f670-414a-9ad2-1163f969ff1b</BoundTo>
+      <DependentUpon>copy.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>78bcbdbe-5157-4782-a31a-4a86c6ee7891</id>
+    </Compile>
+    <Compile Include="copy_ranorex_to_vm\run_Ie.cs">
+      <BoundTo>915b9c7f-7d46-4633-9c6e-1c1b710a552a</BoundTo>
+      <DependentUpon>run_Ie.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bcfb8fc9-ac9c-46f0-b525-0569abc02a8c</id>
+    </Compile>
+    <Compile Include="copy_ranorex_to_vm\run_Ie.UserCode.cs">
+      <BoundTo>915b9c7f-7d46-4633-9c6e-1c1b710a552a</BoundTo>
+      <DependentUpon>run_Ie.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e39ed65-0018-47f1-9f2a-1ed4c731eb76</id>
+    </Compile>
+    <Compile Include="copy_ranorex_to_vm\run_remote.cs">
+      <BoundTo>3cff9a9c-eca1-403a-bb61-6a613e6777f3</BoundTo>
+      <DependentUpon>run_remote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>88ea40db-ab64-4409-b76a-55ec403cf098</id>
+    </Compile>
+    <Compile Include="copy_ranorex_to_vm\run_remote.UserCode.cs">
+      <BoundTo>3cff9a9c-eca1-403a-bb61-6a613e6777f3</BoundTo>
+      <DependentUpon>run_remote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4f3745d4-7d17-4969-af8a-2cb7806a8080</id>
+    </Compile>
     <Compile Include="lab\CimV2.cs">
       <DependentUpon>CimV2.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -230,6 +266,21 @@
     <None Include="app.config">
       <id>eb833073-a7ce-4f29-a803-e44d0222267c</id>
     </None>
+    <None Include="copy_ranorex_to_vm\copy.rxrec">
+      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
+      <id>82ffc6c8-f670-414a-9ad2-1163f969ff1b</id>
+      <recordtableid>e5254836-8ebd-4d78-9157-7a412546c6ae</recordtableid>
+    </None>
+    <None Include="copy_ranorex_to_vm\run_Ie.rxrec">
+      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
+      <id>915b9c7f-7d46-4633-9c6e-1c1b710a552a</id>
+      <recordtableid>2e69f447-e0c4-4ff1-9d74-04c1ef7210d8</recordtableid>
+    </None>
+    <None Include="copy_ranorex_to_vm\run_remote.rxrec">
+      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
+      <id>3cff9a9c-eca1-403a-bb61-6a613e6777f3</id>
+      <recordtableid>0e5805e7-d1f4-45cc-9bbf-ef9459cd23c8</recordtableid>
+    </None>
     <None Include="dll\Newtonsoft.Json.dll">
       <id>21a54545-fdef-46ab-90f0-9599ffbffa09</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -274,6 +325,10 @@
       <id>d5d0298f-0140-4321-9738-a1271535c230</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="PsExec.exe">
+      <id>51c455e3-df8e-4a6e-a9e4-ebf6e9de68f7</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Repository.rximg">
       <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
       <DependentUpon>Repository.rxrep</DependentUpon>
@@ -315,6 +370,9 @@
     </Folder>
     <Folder Include="dll">
       <id>ee0c9497-fc23-4577-b75b-65adf49f31f1</id>
+    </Folder>
+    <Folder Include="copy_ranorex_to_vm">
+      <id>ab923cc8-8f59-4eba-8c53-6686a9a51328</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

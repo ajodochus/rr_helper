@@ -28,6 +28,7 @@ namespace project_2
     {
         static Repository instance = new Repository();
         RepositoryFolders.CUserClientAppFolder _cuserclient;
+        RepositoryFolders.IeAppFolder _ie;
 
         /// <summary>
         /// Gets the singleton class instance representing the Repository element repository.
@@ -45,6 +46,7 @@ namespace project_2
             : base("Repository", "/", null, 0, false, "fe244156-b2ec-4b29-ac88-f61643b09cb8", ".\\RepositoryImages\\Repositoryfe244156.rximgres")
         {
             _cuserclient = new RepositoryFolders.CUserClientAppFolder(this);
+            _ie = new RepositoryFolders.IeAppFolder(this);
         }
 
 #region Variables
@@ -70,6 +72,15 @@ namespace project_2
         public virtual RepositoryFolders.CUserClientAppFolder CUserClient
         {
             get { return _cuserclient; }
+        }
+
+        /// <summary>
+        /// The Ie folder.
+        /// </summary>
+        [RepositoryFolder("8e26ca35-95c9-4202-922a-05d73b4dea7b")]
+        public virtual RepositoryFolders.IeAppFolder Ie
+        {
+            get { return _ie; }
         }
     }
 
@@ -219,6 +230,46 @@ namespace project_2
                 get
                 {
                     return _jobstoppenInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The IeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("8e26ca35-95c9-4202-922a-05d73b4dea7b")]
+        public partial class IeAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new Ie  folder.
+            /// </summary>
+            public IeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Ie", "/dom[@browsername='IE']", parentFolder, 30000, null, false, "8e26ca35-95c9-4202-922a-05d73b4dea7b", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("8e26ca35-95c9-4202-922a-05d73b4dea7b")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("8e26ca35-95c9-4202-922a-05d73b4dea7b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

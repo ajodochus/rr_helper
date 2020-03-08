@@ -112,13 +112,13 @@ namespace project_2.mailcare
 			
 			using (var httpClient = new HttpClient{ BaseAddress = baseAddress })
 			{
-				httpClient.DefaultRequestHeaders.TryAddWithoutValidation("accept", content_type);
+				httpClient.DefaultRequestHeaders.TryAddWithoutValidation("accept", "");
 				
 				using(var response = await httpClient. GetAsync("emails/" + TestSuite.Current.Parameters["email_id"]))
 				{
 					string responseData = await response.Content.ReadAsStringAsync();
 					
-					return responseData;
+			
 				}
 			}
 			
