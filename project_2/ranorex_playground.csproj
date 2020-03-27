@@ -38,6 +38,9 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="INIFileParser">
+      <HintPath>..\packages\ini-parser.2.5.2\lib\net20\INIFileParser.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\dll\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -186,6 +189,18 @@
       <id>7375b9c4-e667-40d9-965f-8b92db5c2c8a</id>
       <BoundTo>0338fd4d-3b76-423e-948b-7ea52f60d3c1</BoundTo>
     </Compile>
+    <Compile Include="lab\ini_read_write.cs">
+      <BoundTo>bfb987a0-463a-4fc0-8e21-962a41779d0a</BoundTo>
+      <DependentUpon>ini_read_write.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6d87e78d-e2fc-40dd-8a6d-ef7ef8a6898a</id>
+    </Compile>
+    <Compile Include="lab\ini_read_write.UserCode.cs">
+      <BoundTo>bfb987a0-463a-4fc0-8e21-962a41779d0a</BoundTo>
+      <DependentUpon>ini_read_write.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>71fcb5a2-445a-408e-bf51-d2f85cc167f6</id>
+    </Compile>
     <Compile Include="lab\Powershell_handler.cs">
       <id>aebf1688-0b58-48f5-8a61-e25dcefcb09e</id>
     </Compile>
@@ -290,6 +305,11 @@
       <recordtableid>85db8cf7-1177-4418-9859-b267a40858ad</recordtableid>
       <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
     </None>
+    <None Include="lab\ini_read_write.rxrec">
+      <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
+      <id>bfb987a0-463a-4fc0-8e21-962a41779d0a</id>
+      <recordtableid>f8645906-f5d3-42da-8927-a4593c182542</recordtableid>
+    </None>
     <None Include="lab\invoke_start_explorer.ps1">
       <id>efbee9cc-c310-4513-ad09-a73371f11776</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -325,6 +345,9 @@
       <id>d5d0298f-0140-4321-9738-a1271535c230</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="packages.config">
+      <id>c35a0b5d-72fe-4059-8693-46eac247beaf</id>
+    </None>
     <None Include="PsExec.exe">
       <id>51c455e3-df8e-4a6e-a9e4-ebf6e9de68f7</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -344,6 +367,14 @@
       <id>52198995-8d94-4a5b-a060-6331d8aa42dd</id>
       <recordtableid>d79707e0-fca0-44ab-86cf-db406d853359</recordtableid>
       <BoundTo>6fdcbf01-3f2d-406d-b173-399ff66b61f1</BoundTo>
+    </None>
+    <None Include="resources\0304A6B6C101406EA6CD7DB39C8EE6B6.INI">
+      <id>8e076780-1591-445f-aa86-e4391ea07a36</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="resources\server.ini">
+      <id>f3a52b28-b48d-403a-8a60-51eafbc5b400</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -373,6 +404,9 @@
     </Folder>
     <Folder Include="copy_ranorex_to_vm">
       <id>ab923cc8-8f59-4eba-8c53-6686a9a51328</id>
+    </Folder>
+    <Folder Include="resources">
+      <id>5690c0d4-c567-499e-a019-6f54479cb646</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

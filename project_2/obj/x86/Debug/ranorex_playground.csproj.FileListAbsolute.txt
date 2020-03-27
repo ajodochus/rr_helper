@@ -31,3 +31,7 @@ C:\Users\vagrant\Documents\rr_helper\project_2\obj\x86\Debug\ranorex_playground.
 C:\Users\vagrant\Documents\rr_helper\project_2\obj\x86\Debug\ranorex_playground.pdb
 C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\dll\Newtonsoft.Json.dll
 C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\PsExec.exe
+C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\resources\0304A6B6C101406EA6CD7DB39C8EE6B6.INI
+C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\resources\server.ini
+C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\INIFileParser.dll
+C:\Users\vagrant\Documents\rr_helper\project_2\bin\Debug\INIFileParser.xml

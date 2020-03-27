@@ -24,6 +24,10 @@
 			name="run_IE_on_vagrant-10">
 			</testcase>
 			<testcase
+			id="1e4d713f-129b-439f-bb56-5aeb203c9cf6"
+			name="ini_read_write">
+			</testcase>
+			<testcase
 			id="2d5b7540-9159-4b9b-8310-446b256c86ba"
 			name="copy_ranorex_to_vm">
 			</testcase>
@@ -32,6 +36,12 @@
 			name="delete_email"
 			ref="e544c677-7477-4e47-bebe-808aec12b020"
 			type="UserCode">
+			</testmodule>
+			<testmodule
+			id="3678477e-6e65-4e62-b22a-e89a782ae03c"
+			name="ini_read_write"
+			ref="f8645906-f5d3-42da-8927-a4593c182542"
+			type="Recording">
 			</testmodule>
 			<testcase
 			id="407d4004-e668-4ef4-9b37-3cacb70b3c06"
@@ -310,6 +320,14 @@
 							</testmodule>
 						</testcase>
 					</smartfoldernode>
+					<testcase
+					id="1e4d713f-129b-439f-bb56-5aeb203c9cf6"
+					name="ini_read_write">
+						<testmodule
+						id="3678477e-6e65-4e62-b22a-e89a782ae03c"
+						name="ini_read_write">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -333,7 +351,7 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="2d5b7540-9159-4b9b-8310-446b256c86ba">
+			id="1e4d713f-129b-439f-bb56-5aeb203c9cf6">
 			</testcontainer>
 			<testcontainer
 			id="7816a2d7-8500-4434-bcce-f5b4ff08397b">
@@ -341,6 +359,9 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			INIFileParser.dll
+		</reference>
 		<reference>
 			Newtonsoft.Json.dll
 		</reference>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f8645906-f5d3-42da-8927-a4593c182542"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ini_read_write"
+	namespace="project_2.lab">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="ini_read_write"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="read"
+		namespace="project_2.lab"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="dedc4192-a7e8-45b4-9afb-2264c2becabf">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="7c4cf967-b58b-41bd-b9db-81f589722ade"
+	name="Repository"
+	relativepath="..\Repository.rxrep">
+		<codegen
+		classname="Repository"
+		namespace="project_2">
+		</codegen>
+		<rootfolder
+		id="fe244156-b2ec-4b29-ac88-f61643b09cb8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ini_read_write.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
