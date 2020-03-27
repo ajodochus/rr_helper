@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{546A6F4E-682A-4E18-B421-8E5166DF441A}</ProjectGuid>
+    <ProjectGuid>{F3A667AE-F483-4E5F-A7A5-F07B64AD72F2}</ProjectGuid>
     <TargetFrameworkProfile />
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -123,22 +123,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <id>ee738cb1-d110-4529-bd3f-916d2cf16620</id>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modules\CollectRetryErrorMessagesModule.cs" />
-    <Compile Include="Modules\EmailModule.cs" />
-    <Compile Include="Modules\ReportToPDFModule.cs" />
-    <Compile Include="UserCodeCollections\DragNDropLibrary.cs" />
-    <Compile Include="UserCodeCollections\EmailLibrary.cs" />
-    <Compile Include="UserCodeCollections\ExceptionExtensions.cs" />
-    <Compile Include="UserCodeCollections\FileLibrary.cs" />
-    <Compile Include="UserCodeCollections\PopupWatcherLibrary.cs" />
-    <Compile Include="UserCodeCollections\StringLibrary.cs" />
-    <Compile Include="UserCodeCollections\SystemLibrary.cs" />
-    <Compile Include="UserCodeCollections\Utils.cs" />
-    <Compile Include="UserCodeCollections\ValidationLibrary.cs" />
-    <Compile Include="UserCodeCollections\WebLibrary.cs" />
+    <Compile Include="Modules\CollectRetryErrorMessagesModule.cs">
+      <id>ffdf0761-d7c4-46ed-ba74-1ad4ec9646f8</id>
+    </Compile>
+    <Compile Include="Modules\EmailModule.cs">
+      <id>c1975427-5c7f-4e2d-a1d0-d9d38edd645a</id>
+    </Compile>
+    <Compile Include="Modules\ReportToPDFModule.cs">
+      <id>2e72420a-9d33-4d4f-a307-5bbb288cf867</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\DragNDropLibrary.cs">
+      <id>2c507e23-d6d7-49d0-b851-db9ca847321d</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\EmailLibrary.cs">
+      <id>980251ac-6257-4d55-a713-ad9a6bdc1176</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\ExceptionExtensions.cs">
+      <id>47eed07f-8772-4649-8efb-fc2a77d79acb</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\FileLibrary.cs">
+      <id>07ebb0be-8131-45e3-8f6c-ce8c84d3d1b9</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\PopupWatcherLibrary.cs">
+      <id>89b75ce2-99fc-46cc-a48e-3435d38a702b</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\StringLibrary.cs">
+      <id>1e197194-b8f5-4fc6-8b05-2440c7e660f6</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\SystemLibrary.cs">
+      <id>6756547f-2d51-4f5c-a164-f0b5f2c257aa</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\Utils.cs">
+      <id>539ef284-3854-44a3-a354-3bb18f890be7</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\ValidationLibrary.cs">
+      <id>e1b89bf5-9553-4f76-8534-c151b984c67e</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\WebLibrary.cs">
+      <id>3fe54d4d-7175-4436-b6d0-5493e31718d0</id>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

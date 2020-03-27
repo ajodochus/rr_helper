@@ -6,6 +6,8 @@ VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ranorex_playground", "project_2\ranorex_playground.csproj", "{124FA085-09FE-4788-8C54-CDCE778FB107}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{F3A667AE-F483-4E5F-A7A5-F07B64AD72F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -16,5 +18,9 @@ Global
 		{124FA085-09FE-4788-8C54-CDCE778FB107}.Debug|x86.ActiveCfg = Debug|x86
 		{124FA085-09FE-4788-8C54-CDCE778FB107}.Release|x86.Build.0 = Release|x86
 		{124FA085-09FE-4788-8C54-CDCE778FB107}.Release|x86.ActiveCfg = Release|x86
+		{F3A667AE-F483-4E5F-A7A5-F07B64AD72F2}.Debug|x86.Build.0 = Debug|x86
+		{F3A667AE-F483-4E5F-A7A5-F07B64AD72F2}.Debug|x86.ActiveCfg = Debug|x86
+		{F3A667AE-F483-4E5F-A7A5-F07B64AD72F2}.Release|x86.Build.0 = Release|x86
+		{F3A667AE-F483-4E5F-A7A5-F07B64AD72F2}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
