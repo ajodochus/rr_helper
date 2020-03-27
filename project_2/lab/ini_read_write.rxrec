@@ -23,6 +23,18 @@ mode="Global">
 	namespace="project_2.lab">
 	</codegen>
 	<variables>
+		<var
+		id="615be89d-b7a3-4af0-a7c0-ccaaff175d1d"
+		name="ini_file">
+		</var>
+		<var
+		id="41dafecc-e7fa-4630-bf9c-7aa97d72c684"
+		name="section">
+		</var>
+		<var
+		id="b9eb80b3-8982-4eb9-ac38-749def9ca2b1"
+		name="key">
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem

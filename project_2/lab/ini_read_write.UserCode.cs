@@ -41,18 +41,38 @@ namespace project_2.lab
 
 		public void read()
 		{
-
-
-			string appPath = Path.GetDirectoryName(Application.ExecutablePath);
-			Ranorex.Report.Info("exe path: " + appPath);	
-			string ini_file = Path.Combine(appPath, @"resources\server.ini");
-			var parser = new FileIniDataParser();
-			IniData data = parser.ReadFile(ini_file);
-			string str_5545 = data["Common"]["5545"];
-			Ranorex.Report.Info("5545: " + str_5545 );
 			
-			data["Common"]["5545"] = "hello";
-			parser.WriteFile(ini_file, data);
+			/*
+			 * erwartet wird eine Bezeichnung für eine ini File ohne extension .ini
+			 * möglich ist "Server" oder eine 32er String bestehend aus z.B. "0304A6B6C101406EA6CD7DB39C8EE6B6"
+			 * 
+			 */
+			
+			bool ini_file_is
+			
+			string rx = @"[A-Z|\d]{32}";			
+			Match match = Regex.Match(ini_file, rx);
+			
+			// check if ini file name has 32 chars containing A-Z|\d
+			if (match.Success) {
+				Ranorex.Report.Info("ini ist user ini");
+			}
+//
+//			string appPath = Path.GetDirectoryName(Application.ExecutablePath);
+//			Ranorex.Report.Info("exe path: " + appPath);	
+//			string ini = Path.Combine(appPath, @"resources\"+ini_file+".ini");
+//			var parser = new FileIniDataParser();
+//			
+//			// read file 
+//			IniData data = parser.ReadFile(ini);
+//			string value = data[section][key];
+//			Ranorex.Report.Info(key + ": " + value );
+//			
+//			// write file
+//			data[section][key] = "hello";
+//			parser.WriteFile(ini, data);
+//			
+//			Ranorex.Report.Info(key + ": " + data[section][key] );
 			
 		}
 

@@ -41,6 +41,9 @@ namespace project_2.lab
         /// </summary>
         public ini_read_write()
         {
+            ini_file = "";
+            section = "";
+            key = "";
         }
 
         /// <summary>
@@ -52,6 +55,42 @@ namespace project_2.lab
         }
 
 #region Variables
+
+        string _ini_file;
+
+        /// <summary>
+        /// Gets or sets the value of variable ini_file.
+        /// </summary>
+        [TestVariable("615be89d-b7a3-4af0-a7c0-ccaaff175d1d")]
+        public string ini_file
+        {
+            get { return _ini_file; }
+            set { _ini_file = value; }
+        }
+
+        string _section;
+
+        /// <summary>
+        /// Gets or sets the value of variable section.
+        /// </summary>
+        [TestVariable("41dafecc-e7fa-4630-bf9c-7aa97d72c684")]
+        public string section
+        {
+            get { return _section; }
+            set { _section = value; }
+        }
+
+        string _key;
+
+        /// <summary>
+        /// Gets or sets the value of variable key.
+        /// </summary>
+        [TestVariable("b9eb80b3-8982-4eb9-ac38-749def9ca2b1")]
+        public string key
+        {
+            get { return _key; }
+            set { _key = value; }
+        }
 
 #endregion
 

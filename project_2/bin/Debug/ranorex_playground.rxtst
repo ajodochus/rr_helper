@@ -26,6 +26,20 @@
 			<testcase
 			id="1e4d713f-129b-439f-bb56-5aeb203c9cf6"
 			name="ini_read_write">
+				<parameters>
+					<param
+					name="section"
+					value="Common">
+					</param>
+					<param
+					name="key"
+					value="5545">
+					</param>
+					<param
+					name="ini_file"
+					value="0304A6B6C101406EA6CD7DB39C8EE6B6">
+					</param>
+				</parameters>
 			</testcase>
 			<testcase
 			id="2d5b7540-9159-4b9b-8310-446b256c86ba"
@@ -42,6 +56,26 @@
 			name="ini_read_write"
 			ref="f8645906-f5d3-42da-8927-a4593c182542"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="section"
+					datasourceid="1e4d713f-129b-439f-bb56-5aeb203c9cf6"
+					variableid="41dafecc-e7fa-4630-bf9c-7aa97d72c684"
+					variablename="section">
+					</var>
+					<var
+					dataname="key"
+					datasourceid="1e4d713f-129b-439f-bb56-5aeb203c9cf6"
+					variableid="b9eb80b3-8982-4eb9-ac38-749def9ca2b1"
+					variablename="key">
+					</var>
+					<var
+					dataname="ini_file"
+					datasourceid="1e4d713f-129b-439f-bb56-5aeb203c9cf6"
+					variableid="615be89d-b7a3-4af0-a7c0-ccaaff175d1d"
+					variablename="ini_file">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			id="407d4004-e668-4ef4-9b37-3cacb70b3c06"

@@ -235,6 +235,21 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:project_2.lab.ini_read_write.ini_file">
+            <summary>
+            Gets or sets the value of variable ini_file.
+            </summary>
+        </member>
+        <member name="P:project_2.lab.ini_read_write.section">
+            <summary>
+            Gets or sets the value of variable section.
+            </summary>
+        </member>
+        <member name="P:project_2.lab.ini_read_write.key">
+            <summary>
+            Gets or sets the value of variable key.
+            </summary>
+        </member>
         <member name="T:project_2.codemodules.Powershell_handler">
             <summary>
             Description of Powershell_handler.
